@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🆕 Đăng Ký Khách Hàng Mới - Hệ Thống Gợi Ý Món Ăn</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #ff6b6b;
+            --secondary-color: #4ecdc4;
+            --accent-color: #45b7d1;
+            --success-color: #96ceb4;
+            --warning-color: #ffeaa7;
+            --danger-color: #ff7675;
+            --dark-color: #2d3436;
+            --light-color: #f8f9fa;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .registration-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header-section h1 {
+            color: var(--dark-color);
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .header-section .subtitle {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.05rem;
+        }
+
+        .form-label i {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+
+        .form-control,
+        .form-select {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 12px 15px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.25);
+        }
+
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .checkbox-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .checkbox-item:hover {
+            border-color: var(--primary-color);
+            background: rgba(255, 107, 107, 0.05);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Pulse effect for active checkboxes */
+        .checkbox-item.checked {
+            animation: pulse 0.3s ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.02);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .checkbox-item.checked {
+            border-color: var(--primary-color);
+            background: rgba(255, 107, 107, 0.1);
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.2);
+        }
+
+        .checkbox-item .form-check-input {
+            margin-right: 12px;
+            transform: scale(1.2);
+        }
+
+        .checkbox-item label {
+            margin: 0;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-register {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            border: none;
+            border-radius: 50px;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: white;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .btn-register:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+            color: white;
+        }
+
+        .btn-register:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-outline-secondary {
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-secondary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .error-message {
+            color: var(--danger-color);
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+            align-items: center;
+            gap: 5px;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        .success-message {
+            color: var(--success-color);
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+            align-items: center;
+            gap: 5px;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        .is-invalid {
+            border-color: var(--danger-color) !important;
+            box-shadow: 0 0 0 0.2rem rgba(255, 118, 117, 0.25) !important;
+        }
+
+        .is-valid {
+            border-color: var(--success-color) !important;
+            box-shadow: 0 0 0 0.2rem rgba(150, 206, 180, 0.25) !important;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .loading-spinner .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .loading-spinner p {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .progress-steps {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0 20px;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .step.active .step-number {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .step.completed .step-number {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .step-line {
+            width: 50px;
+            height: 2px;
+            background: #e9ecef;
+            margin: 0 10px;
+        }
+
+        .tooltip-info {
+            cursor: help;
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            .registration-container {
+                margin: 10px;
+                padding: 25px 20px;
+                border-radius: 15px;
+            }
+
+            .checkbox-group {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .checkbox-item {
+                padding: 14px;
+                font-size: 0.9rem;
+            }
+
+            .progress-steps {
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+            }
+
+            .step {
+                padding: 0;
+            }
+
+            .step-line {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+                margin: 20px 0 15px 0;
+            }
+
+            .form-label {
+                font-size: 1rem;
+            }
+
+            .btn-register {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .registration-container {
+                margin: 5px;
+                padding: 20px 15px;
+            }
+
+            .header-section h1 {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            .checkbox-item {
+                padding: 12px;
+            }
+
+            .checkbox-item label {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-section h1 {
+                font-size: 1.8rem;
+            }
+
+            .header-section .subtitle {
+                font-size: 1rem;
+            }
+
+            .checkbox-item label {
+                font-size: 0.85rem;
+            }
+
+            .alert {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Animation classes */
+        .fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .shake {
+            animation: shake 0.6s ease-in-out;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-8px);
+            }
+
+            75% {
+                transform: translateX(8px);
+            }
+        }
+
+        /* Custom alert styles */
+        .alert {
+            border-radius: 12px !important;
+            border: none !important;
+            font-weight: 500;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .alert-info {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            color: #0d47a1;
+            border-left: 4px solid #2196f3 !important;
+        }
+
+        .alert-success {
+            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+            color: #1b5e20;
+            border-left: 4px solid #4caf50 !important;
+        }
+
+        .alert-danger {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            color: #b71c1c;
+            border-left: 4px solid #f44336 !important;
+        }
+
+        /* Form validation states */
+        .form-step {
+            animation: fadeInUp 0.5s ease-out;
+        }
+
+        .form-step:not(.active) {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="registration-container fade-in">
+            <!-- Header -->
+            <div class="header-section">
+                <h1><i class="fas fa-user-plus"></i> Đăng Ký Khách Hàng Mới</h1>
+                <p class="subtitle">Tham gia cộng đồng ẩm thực và nhận gợi ý món ăn cá nhân hóa</p>
+            </div>
+
+            <!-- Progress Steps -->
+            <div class="progress-steps">
+                <div class="step active" id="step-1">
+                    <div class="step-number">1</div>
+                    <span>Thông tin cơ bản</span>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" id="step-2">
+                    <div class="step-number">2</div>
+                    <span>Sở thích ẩm thực</span>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" id="step-3">
+                    <div class="step-number">3</div>
+                    <span>Hoàn thành</span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <form id="registrationForm">
+                <!-- Step 1: Basic Information -->
+                <div class="form-step active" id="form-step-1">
+                    <h3 class="section-title">
+                        <i class="fas fa-user"></i>
+                        Thông Tin Cơ Bản
+                    </h3>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">
+                                    <i class="fas fa-signature"></i>
+                                    Họ và Tên <span class="text-danger">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="fullName" name="full_name"
+                                    placeholder="Nhập họ và tên đầy đủ" required>
+                                <div class="error-message" id="fullName-error"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email" class="form-label">
+                                    <i class="fas fa-envelope"></i>
+                                    Email <span class="text-danger">*</span>
+                                </label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="example@email.com" required>
+                                <div class="error-message" id="email-error"></div>
+                                <div class="success-message" id="email-success"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">
+                                    <i class="fas fa-phone"></i>
+                                    Số Điện Thoại <span class="text-danger">*</span>
+                                </label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="0987654321"
+                                    required>
+                                <div class="error-message" id="phone-error"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="age" class="form-label">
+                                    <i class="fas fa-birthday-cake"></i>
+                                    Tuổi <span class="text-danger">*</span>
+                                </label>
+                                <input type="number" class="form-control" id="age" name="age" min="13" max="120"
+                                    placeholder="25" required>
+                                <div class="error-message" id="age-error"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="gender" class="form-label">
+                                    <i class="fas fa-venus-mars"></i>
+                                    Giới Tính <span class="text-danger">*</span>
+                                </label>
+                                <select class="form-select" id="gender" name="gender" required>
+                                    <option value="">Chọn giới tính</option>
+                                    <option value="male">Nam</option>
+                                    <option value="female">Nữ</option>
+                                    <option value="other">Khác</option>
+                                </select>
+                                <div class="error-message" id="gender-error"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="location" class="form-label">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Địa Chỉ
+                                </label>
+                                <input type="text" class="form-control" id="location" name="location"
+                                    placeholder="Thành phố, Quận/Huyện">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="occupation" class="form-label">
+                                    <i class="fas fa-briefcase"></i>
+                                    Nghề Nghiệp
+                                </label>
+                                <input type="text" class="form-control" id="occupation" name="occupation"
+                                    placeholder="Sinh viên, Nhân viên văn phòng...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-register" onclick="nextStep(2)">
+                            Tiếp Theo <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Preferences -->
+                <div class="form-step" id="form-step-2" style="display: none;">
+                    <h3 class="section-title">
+                        <i class="fas fa-utensils"></i>
+                        Sở Thích Ẩm Thực
+                    </h3>
+
+                    <!-- Health Goals -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-heartbeat"></i>
+                            Mục Tiêu Sức Khỏe
+                            <i class="fas fa-info-circle tooltip-info" title="Chọn mục tiêu để nhận gợi ý phù hợp"></i>
+                        </label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="weight_loss"
+                                    id="goal_weight_loss" name="health_goals">
+                                <label for="goal_weight_loss">🏃‍♀️ Giảm cân</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="muscle_gain"
+                                    id="goal_muscle_gain" name="health_goals">
+                                <label for="goal_muscle_gain">💪 Tăng cơ</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="healthy_eating" id="goal_healthy"
+                                    name="health_goals">
+                                <label for="goal_healthy">🥗 Ăn uống lành mạnh</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="maintain_weight"
+                                    id="goal_maintain" name="health_goals">
+                                <label for="goal_maintain">⚖️ Duy trì cân nặng</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dietary Restrictions -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-ban"></i>
+                            Hạn Chế Ăn Uống & Sở Thích
+                            <i class="fas fa-info-circle tooltip-info"
+                                title="Chọn các hạn chế ăn uống để nhận gợi ý phù hợp"></i>
+                        </label>
+
+                        <!-- Vegetarian Options Info -->
+                        <div class="alert alert-info"
+                            style="font-size: 0.9rem; margin-bottom: 15px; border-radius: 12px; border-left: 4px solid #17a2b8;">
+                            <strong>📝 Phân biệt các loại chay:</strong><br>
+                            <small style="line-height: 1.6;">
+                                • <strong>Ăn chay:</strong> Không thịt, cá nhưng có thể ăn trứng, sữa, mật ong<br>
+                                • <strong>Thuần chay:</strong> 100% thực vật, không động vật và sản phẩm từ động vật<br>
+                                • <strong>Chay Phật giáo:</strong> Theo giới luật Phật, không hành tỏi, không rượu bia
+                            </small>
+                        </div>
+
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="vegetarian" id="diet_vegetarian"
+                                    name="dietary_restrictions">
+                                <label for="diet_vegetarian">🥬 Ăn chay (không thịt cá, có trứng/sữa)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="vegan" id="diet_vegan"
+                                    name="dietary_restrictions">
+                                <label for="diet_vegan">🌱 Thuần chay (100% thực vật, không trứng/sữa)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="buddhist_vegetarian"
+                                    id="diet_buddhist" name="dietary_restrictions">
+                                <label for="diet_buddhist">🧘‍♀️ Chay Phật giáo (không hành, tỏi, kiêng)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="no_seafood" id="diet_seafood"
+                                    name="dietary_restrictions">
+                                <label for="diet_seafood">🦐 Không hải sản</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="no_pork" id="diet_pork"
+                                    name="dietary_restrictions">
+                                <label for="diet_pork">🐷 Không thịt heo</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="no_beef" id="diet_beef"
+                                    name="dietary_restrictions">
+                                <label for="diet_beef">🐄 Không thịt bò</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="low_sodium" id="diet_sodium"
+                                    name="dietary_restrictions">
+                                <label for="diet_sodium">🧂 Ít muối/mặn</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="diabetic" id="diet_diabetic"
+                                    name="dietary_restrictions">
+                                <label for="diet_diabetic">🩺 Tiểu đường (ít đường)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="no_spicy" id="diet_spicy"
+                                    name="dietary_restrictions">
+                                <label for="diet_spicy">🌶️ Không ăn cay</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="light_meals" id="diet_light"
+                                    name="dietary_restrictions">
+                                <label for="diet_light">🥗 Thích món nhẹ</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Preferred Cuisines (Auto-selected Vietnamese) -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-globe-asia"></i>
+                            Món Ăn Yêu Thích
+                        </label>
+                        <!-- Auto-selected Vietnamese cuisine -->
+                        <input type="hidden" name="preferred_cuisines" value="vietnamese">
+                        <div class="alert alert-success" style="border-radius: 12px; border-left: 4px solid #28a745;">
+                            <i class="fas fa-check-circle"></i>
+                            <strong>Đã tự động chọn món ăn Việt Nam 🇻🇳</strong><br>
+                            <small>Hệ thống sẽ ưu tiên gợi ý các món ăn truyền thống Việt Nam phù hợp với sở thích của
+                                bạn.</small>
+                        </div>
+                    </div>
+
+                    <!-- Vietnamese Regional Preferences -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-map-marked-alt"></i>
+                            Sở Thích Vùng Miền 🇻🇳
+                            <i class="fas fa-info-circle tooltip-info"
+                                title="Chọn các vùng miền có món ăn bạn yêu thích"></i>
+                        </label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="northern" id="region_north"
+                                    name="regional_preferences">
+                                <label for="region_north">🏔️ Miền Bắc (Phở, Bún chả, Bánh cuốn)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="central" id="region_central"
+                                    name="regional_preferences">
+                                <label for="region_central">🏛️ Miền Trung (Bún bò Huế, Mì Quảng, Cao lầu)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="southern" id="region_south"
+                                    name="regional_preferences">
+                                <label for="region_south">🌴 Miền Nam (Bánh xèo, Hủ tiếu, Cơm tấm)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="all_regions" id="region_all"
+                                    name="regional_preferences">
+                                <label for="region_all">🇻🇳 Tất cả vùng miền</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Meal Times -->
+                    <div class="form-group">
+                        <label class="form-label">
+                            <i class="fas fa-clock"></i>
+                            Bữa Ăn Quan Tâm
+                        </label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="breakfast" id="meal_breakfast"
+                                    name="preferred_meal_times">
+                                <label for="meal_breakfast">🌅 Sáng</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="lunch" id="meal_lunch"
+                                    name="preferred_meal_times">
+                                <label for="meal_lunch">☀️ Trưa</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="dinner" id="meal_dinner"
+                                    name="preferred_meal_times">
+                                <label for="meal_dinner">🌙 Tối</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input class="form-check-input" type="checkbox" value="snack" id="meal_snack"
+                                    name="preferred_meal_times">
+                                <label for="meal_snack">🍪 Ăn vặt</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Preferences -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="cookingSkill" class="form-label">
+                                    <i class="fas fa-chef-hat"></i>
+                                    Trình Độ Nấu Ăn
+                                </label>
+                                <select class="form-select" id="cookingSkill" name="cooking_skill_level">
+                                    <option value="beginner">🌱 Mới bắt đầu</option>
+                                    <option value="intermediate">👩‍🍳 Trung bình</option>
+                                    <option value="advanced">👨‍🍳 Giỏi</option>
+                                    <option value="expert">🏆 Chuyên nghiệp</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="budgetRange" class="form-label">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    Ngân Sách
+                                </label>
+                                <select class="form-select" id="budgetRange" name="budget_range">
+                                    <option value="low">💰 Tiết kiệm (< 50k/bữa)</option>
+                                    <option value="medium" selected>💰💰 Trung bình (50k-100k/bữa)</option>
+                                    <option value="high">💰💰💰 Cao (> 100k/bữa)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-secondary" onclick="previousStep(1)">
+                            <i class="fas fa-arrow-left"></i> Quay Lại
+                        </button>
+                        <button type="submit" class="btn btn-register" id="submitBtn">
+                            <i class="fas fa-check"></i> Hoàn Thành Đăng Ký
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Loading Spinner -->
+            <div class="loading-spinner" id="loadingSpinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-3">Đang xử lý thông tin và tạo gợi ý cá nhân hóa...</p>
+            </div>
+
+            <!-- Success Message -->
+            <div class="alert alert-success" id="successMessage" style="display: none;">
+                <h5><i class="fas fa-check-circle"></i> Đăng ký thành công!</h5>
+                <p>Chúc mừng bạn đã trở thành thành viên của hệ thống. Bạn sẽ được chuyển hướng đến trang chào mừng với
+                    những gợi ý món ăn đầu tiên.</p>
+            </div>
+
+            <!-- Error Message -->
+            <div class="alert alert-danger" id="errorMessage" style="display: none;">
+                <h5><i class="fas fa-exclamation-circle"></i> Có lỗi xảy ra!</h5>
+                <p id="errorText"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Form validation and submission
+        let currentStep = 1;
+
+        // Initialize tooltips
+        document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[title]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+
+            // Add checkbox click handlers
+            setupCheckboxHandlers();
+
+            // Email validation
+            setupEmailValidation();
+        });
+
+        function setupCheckboxHandlers() {
+            const checkboxItems = document.querySelectorAll('.checkbox-item');
+            checkboxItems.forEach(item => {
+                const checkbox = item.querySelector('input[type="checkbox"]');
+
+                item.addEventListener('click', function (e) {
+                    if (e.target.type !== 'checkbox') {
+                        checkbox.checked = !checkbox.checked;
+                    }
+                    updateCheckboxItemStyle(item, checkbox.checked);
+
+                    // Handle vegetarian options mutual exclusion
+                    if (checkbox.checked) {
+                        handleVegetarianOptions(checkbox);
+                    }
+                });
+
+                checkbox.addEventListener('change', function () {
+                    updateCheckboxItemStyle(item, this.checked);
+
+                    // Handle vegetarian options mutual exclusion
+                    if (this.checked) {
+                        handleVegetarianOptions(this);
+                    }
+                });
+            });
+        }
+
+        function handleVegetarianOptions(selectedCheckbox) {
+            const vegetarianOptions = ['vegetarian', 'vegan', 'buddhist_vegetarian'];
+
+            if (vegetarianOptions.includes(selectedCheckbox.value)) {
+                // Uncheck other vegetarian options
+                vegetarianOptions.forEach(option => {
+                    if (option !== selectedCheckbox.value) {
+                        let otherId = '';
+                        switch (option) {
+                            case 'vegetarian':
+                                otherId = 'diet_vegetarian';
+                                break;
+                            case 'vegan':
+                                otherId = 'diet_vegan';
+                                break;
+                            case 'buddhist_vegetarian':
+                                otherId = 'diet_buddhist';
+                                break;
+                        }
+
+                        const otherCheckbox = document.getElementById(otherId);
+                        if (otherCheckbox && otherCheckbox !== selectedCheckbox) {
+                            otherCheckbox.checked = false;
+                            updateCheckboxItemStyle(otherCheckbox.closest('.checkbox-item'), false);
+                        }
+                    }
+                });
+
+                // Show info message about vegetarian choice
+                showVegetarianInfo(selectedCheckbox.value);
+            }
+        }
+
+        function showVegetarianInfo(type) {
+            // Remove existing info if any
+            const existingInfo = document.querySelector('.vegetarian-choice-info');
+            if (existingInfo) {
+                existingInfo.remove();
+            }
+
+            let message = '';
+            switch (type) {
+                case 'vegetarian':
+                    message = '✅ Bạn đã chọn "Ăn chay" - Hệ thống sẽ gợi ý món chay có thể dùng trứng, sữa';
+                    break;
+                case 'vegan':
+                    message = '✅ Bạn đã chọn "Thuần chay" - Hệ thống sẽ gợi ý món hoàn toàn từ thực vật';
+                    break;
+                case 'buddhist_vegetarian':
+                    message = '✅ Bạn đã chọn "Chay Phật giáo" - Hệ thống sẽ gợi ý món chay theo giới luật Phật';
+                    break;
+            }
+
+            const infoDiv = document.createElement('div');
+            infoDiv.className = 'alert alert-success vegetarian-choice-info';
+            infoDiv.style.fontSize = '0.9rem';
+            infoDiv.style.marginTop = '10px';
+            infoDiv.innerHTML = `<i class="fas fa-info-circle"></i> ${message}`;
+
+            const dietarySection = document.querySelector('input[name="dietary_restrictions"]').closest('.form-group');
+            dietarySection.appendChild(infoDiv);
+        }
+
+        function updateCheckboxItemStyle(item, checked) {
+            if (checked) {
+                item.classList.add('checked');
+            } else {
+                item.classList.remove('checked');
+            }
+        }
+
+        function setupEmailValidation() {
+            const emailInput = document.getElementById('email');
+            let emailTimeout;
+
+            emailInput.addEventListener('input', function () {
+                clearTimeout(emailTimeout);
+                const email = this.value.trim();
+
+                if (email && isValidEmail(email)) {
+                    emailTimeout = setTimeout(() => checkEmailExists(email), 500);
+                } else {
+                    clearEmailMessages();
+                }
+            });
+        }
+
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        async function checkEmailExists(email) {
+            try {
+                const response = await fetch('/api/check-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email: email })
+                });
+
+                const result = await response.json();
+
+                if (result.exists) {
+                    showEmailError('Email này đã được sử dụng');
+                } else {
+                    showEmailSuccess('Email hợp lệ');
+                }
+            } catch (error) {
+                console.error('Error checking email:', error);
+            }
+        }
+
+        function showEmailError(message) {
+            clearEmailMessages();
+            const errorDiv = document.getElementById('email-error');
+            errorDiv.innerHTML = `<i class="fas fa-times-circle"></i> ${message}`;
+            errorDiv.style.display = 'flex';
+        }
+
+        function showEmailSuccess(message) {
+            clearEmailMessages();
+            const successDiv = document.getElementById('email-success');
+            successDiv.innerHTML = `<i class="fas fa-check-circle"></i> ${message}`;
+            successDiv.style.display = 'flex';
+        }
+
+        function clearEmailMessages() {
+            document.getElementById('email-error').style.display = 'none';
+            document.getElementById('email-success').style.display = 'none';
+        }
+
+        function nextStep(step) {
+            if (validateStep(currentStep)) {
+                // Hide current step
+                document.getElementById(`form-step-${currentStep}`).style.display = 'none';
+                document.getElementById(`step-${currentStep}`).classList.remove('active');
+                document.getElementById(`step-${currentStep}`).classList.add('completed');
+
+                // Show next step
+                currentStep = step;
+                document.getElementById(`form-step-${currentStep}`).style.display = 'block';
+                document.getElementById(`step-${currentStep}`).classList.add('active');
+
+                // Scroll to top
+                document.querySelector('.registration-container').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function previousStep(step) {
+            // Hide current step
+            document.getElementById(`form-step-${currentStep}`).style.display = 'none';
+            document.getElementById(`step-${currentStep}`).classList.remove('active');
+
+            // Show previous step
+            currentStep = step;
+            document.getElementById(`form-step-${currentStep}`).style.display = 'block';
+            document.getElementById(`step-${currentStep}`).classList.remove('completed');
+            document.getElementById(`step-${currentStep}`).classList.add('active');
+
+            // Scroll to top
+            document.querySelector('.registration-container').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function validateStep(step) {
+            clearAllErrors();
+
+            if (step === 1) {
+                return validateBasicInfo();
+            }
+            return true;
+        }
+
+        function validateBasicInfo() {
+            let isValid = true;
+
+            // Full name validation
+            const fullName = document.getElementById('fullName').value.trim();
+            if (!fullName) {
+                showFieldError('fullName', 'Vui lòng nhập họ và tên');
+                isValid = false;
+            } else if (fullName.length < 2) {
+                showFieldError('fullName', 'Họ tên phải có ít nhất 2 ký tự');
+                isValid = false;
+            }
+
+            // Email validation
+            const email = document.getElementById('email').value.trim();
+            if (!email) {
+                showFieldError('email', 'Vui lòng nhập email');
+                isValid = false;
+            } else if (!isValidEmail(email)) {
+                showFieldError('email', 'Email không hợp lệ');
+                isValid = false;
+            }
+
+            // Phone validation
+            const phone = document.getElementById('phone').value.trim();
+            if (!phone) {
+                showFieldError('phone', 'Vui lòng nhập số điện thoại');
+                isValid = false;
+            } else if (!/^[0-9]{10,11}$/.test(phone)) {
+                showFieldError('phone', 'Số điện thoại phải có 10-11 chữ số');
+                isValid = false;
+            }
+
+            // Age validation
+            const age = document.getElementById('age').value;
+            if (!age) {
+                showFieldError('age', 'Vui lòng nhập tuổi');
+                isValid = false;
+            } else if (age < 13 || age > 120) {
+                showFieldError('age', 'Tuổi phải từ 13-120');
+                isValid = false;
+            }
+
+            // Gender validation
+            const gender = document.getElementById('gender').value;
+            if (!gender) {
+                showFieldError('gender', 'Vui lòng chọn giới tính');
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        function showFieldError(fieldId, message) {
+            const errorDiv = document.getElementById(`${fieldId}-error`);
+            errorDiv.innerHTML = `<i class="fas fa-exclamation-circle"></i> ${message}`;
+            errorDiv.style.display = 'flex';
+
+            const field = document.getElementById(fieldId);
+            field.classList.add('is-invalid');
+            field.parentElement.classList.add('shake');
+
+            setTimeout(() => {
+                field.parentElement.classList.remove('shake');
+            }, 500);
+        }
+
+        function clearAllErrors() {
+            const errorMessages = document.querySelectorAll('.error-message');
+            errorMessages.forEach(error => error.style.display = 'none');
+
+            const invalidFields = document.querySelectorAll('.is-invalid');
+            invalidFields.forEach(field => field.classList.remove('is-invalid'));
+        }
+
+        // Form submission
+        document.getElementById('registrationForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            if (!validateStep(currentStep)) {
+                return;
+            }
+
+            const submitBtn = document.getElementById('submitBtn');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+
+            // Show loading
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Đang xử lý...';
+            loadingSpinner.style.display = 'block';
+
+            try {
+                const formData = collectFormData();
+
+                const response = await fetch('/api/register-customer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    // Show success message
+                    document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('registrationForm').style.display = 'none';
+
+                    // Update progress
+                    document.getElementById('step-2').classList.remove('active');
+                    document.getElementById('step-2').classList.add('completed');
+                    document.getElementById('step-3').classList.add('active');
+                    document.getElementById('step-3').classList.add('completed');
+
+                    // Redirect after 3 seconds
+                    setTimeout(() => {
+                        window.location.href = `/customer-welcome/${result.customer_id}`;
+                    }, 3000);
+
+                } else {
+                    throw new Error(result.error || 'Đăng ký thất bại');
+                }
+
+            } catch (error) {
+                console.error('Registration error:', error);
+                document.getElementById('errorText').textContent = error.message;
+                document.getElementById('errorMessage').style.display = 'block';
+
+                // Reset button
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fas fa-check"></i> Hoàn Thành Đăng Ký';
+            } finally {
+                loadingSpinner.style.display = 'none';
+            }
+        });
+
+        function collectFormData() {
+            const formData = {};
+
+            // Basic info
+            formData.full_name = document.getElementById('fullName').value.trim();
+            formData.email = document.getElementById('email').value.trim();
+            formData.phone = document.getElementById('phone').value.trim();
+            formData.age = parseInt(document.getElementById('age').value);
+            formData.gender = document.getElementById('gender').value;
+            formData.location = document.getElementById('location').value.trim();
+            formData.occupation = document.getElementById('occupation').value.trim();
+
+            // Preferences
+            formData.health_goals = getCheckedValues('health_goals');
+            formData.dietary_restrictions = getCheckedValues('dietary_restrictions');
+            formData.preferred_cuisines = ['vietnamese']; // Auto-set to Vietnamese
+            formData.regional_preferences = getCheckedValues('regional_preferences');
+            formData.preferred_meal_times = getCheckedValues('preferred_meal_times');
+            formData.cooking_skill_level = document.getElementById('cookingSkill').value;
+            formData.budget_range = document.getElementById('budgetRange').value;
+
+            return formData;
+        }
+
+        function getCheckedValues(name) {
+            const checkboxes = document.querySelectorAll(`input[name="${name}"]:checked`);
+            return Array.from(checkboxes).map(cb => cb.value);
+        }
+    </script>
+</body>
+
+</html>

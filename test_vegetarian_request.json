@@ -1,0 +1,27 @@
+{
+    "full_name": "Lê Văn Thảo",
+    "email": "lêthảo833@email.com",
+    "phone": "956729234",
+    "age": 76,
+    "gender": "male",
+    "health_goals": [
+        "muscle_gain",
+        "healthy_eating"
+    ],
+    "dietary_restrictions": [
+        "no_seafood",
+        "vegetarian"
+    ],
+    "preferred_cuisines": [
+        "vietnamese"
+    ],
+    "preferred_meal_times": [
+        "snack",
+        "lunch",
+        "dinner"
+    ],
+    "cooking_skill_level": "advanced",
+    "budget_range": "high",
+    "generate_fresh": true,
+    "randomize": true
+}

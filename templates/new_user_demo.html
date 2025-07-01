@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Gợi Ý Cho Người Dùng Mới</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .user-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .user-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .new-user-badge {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+
+        .returning-user-badge {
+            background: linear-gradient(45deg, #51cf66, #40c057);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+
+        .recommendation-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+        }
+
+        .popular-badge {
+            background: #ffd93d;
+            color: #333;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .rating-stars {
+            color: #ffc107;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .info-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-section">
+        <div class="container">
+            <h1><i class="fas fa-utensils me-3"></i>Demo Gợi Ý Cho Người Dùng Mới</h1>
+            <p class="lead">Xem cách hệ thống xử lý gợi ý cho người dùng mới và người dùng cũ</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <!-- User Selection -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="user-card">
+                    <h3><i class="fas fa-user-plus me-2"></i>Người Dùng Mới
+                        <span class="new-user-badge">🆕 MỚI</span>
+                    </h3>
+                    <p class="text-muted">Thành viên mới chưa có lịch sử tương tác</p>
+                    <button class="btn btn-primary btn-lg" onclick="testNewUser()">
+                        <i class="fas fa-rocket me-2"></i>Xem Gợi Ý Cho Người Mới
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-card">
+                    <h3><i class="fas fa-user-check me-2"></i>Người Dùng Cũ
+                        <span class="returning-user-badge">✨ THÀNH VIÊN</span>
+                    </h3>
+                    <p class="text-muted">Thành viên có lịch sử tương tác</p>
+                    <button class="btn btn-success btn-lg" onclick="testReturningUser()">
+                        <i class="fas fa-history me-2"></i>Xem Gợi Ý Cá Nhân Hóa
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="mt-5" style="display: none;">
+            <div class="info-section">
+                <h2><i class="fas fa-info-circle me-2"></i>Thông Tin Người Dùng</h2>
+                <div id="userInfo"></div>
+            </div>
+
+            <div class="info-section">
+                <h2><i class="fas fa-list me-2"></i>Gợi Ý Món Ăn</h2>
+                <div id="recommendations"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        async function testNewUser() {
+            const newUserId = 'NEW_USER_' + Date.now();
+            await testUser(newUserId, 'Người Dùng Mới');
+        }
+
+        async function testReturningUser() {
+            const returningUserId = 'CUS00001'; // Existing user in database
+            await testUser(returningUserId, 'Người Dùng Cũ');
+        }
+
+        async function testUser(userId, userType) {
+            showLoading();
+
+            try {
+                // Get user info
+                const userInfoResponse = await fetch(`/api/user_info?user_id=${userId}`);
+                const userInfo = await userInfoResponse.json();
+
+                // Get recommendations
+                const recommendationsResponse = await fetch(`/api/upsell_combos?user_id=${userId}&item_id=1`);
+                const recommendations = await recommendationsResponse.json();
+
+                displayResults(userInfo, recommendations, userType);
+
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('resultsSection').innerHTML = `
+                    <div class="alert alert-danger">
+                        <h4>Lỗi</h4>
+                        <p>Có lỗi xảy ra: ${error.message}</p>
+                    </div>
+                `;
+                document.getElementById('resultsSection').style.display = 'block';
+            }
+        }
+
+        function showLoading() {
+            document.getElementById('resultsSection').innerHTML = `
+                <div class="loading">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Đang tải...</span>
+                    </div>
+                    <p class="mt-3">Đang phân tích và tạo gợi ý...</p>
+                </div>
+            `;
+            document.getElementById('resultsSection').style.display = 'block';
+        }
+
+        function displayResults(userInfo, recommendations, userType) {
+            const userInfoHtml = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>${userInfo.welcome_message}</h4>
+                        <p><strong>ID:</strong> ${userInfo.user_id}</p>
+                        <p><strong>Loại:</strong> ${userInfo.is_new_user ? 'Người dùng mới' : 'Người dùng cũ'}</p>
+                        <p><strong>Số lần tương tác:</strong> ${userInfo.interaction_count}</p>
+                        ${userInfo.avg_rating > 0 ? `<p><strong>Điểm trung bình:</strong> ${userInfo.avg_rating}/5.0</p>` : ''}
+                    </div>
+                    <div class="col-md-6">
+                        <div class="alert ${userInfo.is_new_user ? 'alert-info' : 'alert-success'}">
+                            <h5>${userInfo.is_new_user ? 'Người Dùng Mới' : 'Người Dùng Cũ'}</h5>
+                            <p class="mb-0">${userInfo.suggestion_message}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            let recommendationsHtml = '';
+            if (recommendations.combo_recommendations && recommendations.combo_recommendations.length > 0) {
+                recommendationsHtml = `
+                    <div class="alert ${recommendations.is_new_user ? 'alert-warning' : 'alert-primary'}">
+                        <h5><i class="fas fa-info-circle me-2"></i>Chiến Lược Gợi Ý</h5>
+                        <p>${recommendations.message}</p>
+                    </div>
+                `;
+
+                recommendations.combo_recommendations.forEach(rec => {
+                    recommendationsHtml += `
+                        <div class="recommendation-card">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h5>${rec.recipe_name}</h5>
+                                    <p class="text-muted mb-2">${rec.recommendation_reason}</p>
+                                    <div class="rating-stars">
+                                        ${generateStars(rec.predicted_rating)}
+                                        <span class="ms-2">${rec.predicted_rating.toFixed(1)}</span>
+                                    </div>
+                                    <p class="mt-2">
+                                        <span class="badge bg-success">${rec.combo_discount} giảm giá</span>
+                                        <span class="badge bg-primary ms-2">${rec.combo_price}</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    ${rec.is_popular_recommendation ? '<span class="popular-badge">PHỔ BIẾN</span>' : ''}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            } else {
+                recommendationsHtml = `
+                    <div class="alert alert-warning">
+                        <h5>Không có gợi ý</h5>
+                        <p>Không tìm thấy gợi ý phù hợp cho người dùng này.</p>
+                    </div>
+                `;
+            }
+
+            document.getElementById('userInfo').innerHTML = userInfoHtml;
+            document.getElementById('recommendations').innerHTML = recommendationsHtml;
+        }
+
+        function generateStars(rating) {
+            const fullStars = Math.floor(rating);
+            const hasHalfStar = rating % 1 >= 0.5;
+            let stars = '';
+
+            for (let i = 0; i < fullStars; i++) {
+                stars += '<i class="fas fa-star"></i>';
+            }
+
+            if (hasHalfStar) {
+                stars += '<i class="fas fa-star-half-alt"></i>';
+            }
+
+            const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+            for (let i = 0; i < emptyStars; i++) {
+                stars += '<i class="far fa-star"></i>';
+            }
+
+            return stars;
+        }
+    </script>
+</body>
+
+</html>

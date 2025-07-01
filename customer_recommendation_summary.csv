@@ -1,0 +1,1301 @@
+customer_id,full_name,age_group,region,favorite_meal_times,favorite_nutrition_category,avg_preferred_calories,favorite_difficulty,top_recipes,total_interactions,avg_rating
+CUS00001,Ngô Thị Giang,18-24,Đà Nẵng,"dinner, lunch",balanced,462.0,Dễ,"Mì Quảng, Cơm tấm sườn nướng, Bò cuộn ba rọi xông khói",34,3.11
+CUS00002,Trương Văn Linh,45-54,Vũng Tàu,"dinner, lunch",balanced,470.0,Dễ,"Gà nướng nồi đất, Sữa chua dâu tây, Bánh chuối nướng",33,3.0
+CUS00003,Ngô Thị Oanh,45-54,Hạ Long,"lunch, breakfast",balanced,461.0,Dễ,"Bắp hạt xào gà giòn Mayonnaise, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Món Xào",34,2.87
+CUS00004,Phan Thị Tuấn,65+,Vũng Tàu,"lunch, dinner",balanced,452.0,Dễ,"Các món ăn kèm, món phụ, Chương trìnhmón ngon mỗi ngày, Cá diêu hồng xiên que chiên lá chanh",34,3.03
+CUS00005,Hoàng Văn Xuân,65+,Huế,"lunch, dinner",balanced,446.0,Dễ,"Heo nướng bắp cải chua, Bánh chiên hải sản, Món ngon từ cá",33,3.05
+CUS00006,Lê Văn Thảo,65+,Nha Trang,"dinner, lunch",balanced,449.0,Dễ,"Bắp hạt chiên giòn, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, Cua rang sốt tắc",36,3.16
+CUS00007,Ngô Thị Linh,25-34,TP.HCM,"lunch, dinner",balanced,501.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Tôm kho tàu, Điều khoảnsử dụng",33,3.06
+CUS00008,Trần Thị Việt,18-24,Đà Lạt,"breakfast, lunch",balanced,432.0,Dễ,"Bánh chiên hải sản, Mì vịt tiềm chay, Cơm chiên cá mặn",34,2.54
+CUS00009,Đặng Thị Sơn,55-64,TP.HCM,"dinner, lunch",balanced,457.0,Dễ,"Cá cuộn Bacon hương thảo, Tôm nướng bánh hỏi, Cá kho chuối xanh",36,3.29
+CUS00010,Phạm Thị Quân,35-44,Vũng Tàu,"lunch, dinner",balanced,435.0,Dễ,"Bắp hạt chiên giòn, Canh chua cá lóc, Chương trìnhmón ngon mỗi ngày",35,3.14
+CUS00011,Lý Thị Linh,35-44,Đà Nẵng,"lunch, dinner",balanced,446.0,Dễ,"Cá kho chuối xanh, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Cơm tấm sườn nướng",36,3.37
+CUS00012,Ngô Thị Xuân,65+,Hà Nội,"lunch, breakfast",balanced,469.0,Dễ,"Bắp hạt xào gà giòn Mayonnaise, Cua rang sốt tắc, Gà chiên bắp phô mai",33,3.14
+CUS00013,Ngô Thị Oanh,35-44,Đà Lạt,"lunch, dinner",balanced,496.0,Dễ,"Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, Bánh chiên hải sản, Bánh flan caramel",33,3.09
+CUS00014,Huỳnh Thị Uyên,35-44,Hải Phòng,"lunch, dinner",balanced,449.0,Dễ,"Tôm hấp rau củ, Nem chua rán, Cơm tấm sườn cây",36,3.26
+CUS00015,Mai Thị Hương,35-44,Hà Nội,"lunch, dinner",balanced,455.0,Dễ,"Thịt kho, Tôm chiên cánh bướm, Cá xào cần tỏi",34,3.21
+CUS00016,Ngô Thị Hùng,35-44,Nha Trang,"lunch, dinner",balanced,454.0,Dễ,"Gà luộc xôi gấc, Cơm chiên cá mặn, Mực trộn khổ qua chua ngọt",34,3.19
+CUS00017,Đinh Văn Sơn,25-34,Huế,"lunch, breakfast",balanced,420.0,Dễ,"Bánh cuốn chay, Mì Quảng, Món ngon từ cá",36,3.13
+CUS00018,Dương Văn Linh,18-24,Huế,"lunch, dinner",balanced,485.0,Dễ,"Mực kho củ cải, Gà chiên bắp phô mai, Bánh da lợn",33,2.92
+CUS00019,Hoàng Văn Linh,35-44,Vũng Tàu,"lunch, dinner",balanced,439.0,Dễ,"Gà rim ngũ vị, Bắp hạt xào gà giòn Mayonnaise, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",35,3.0
+CUS00020,Phan Thị Phương,65+,Hà Nội,"lunch, dinner",balanced,446.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Các món ăn kèm, món phụ, Bánh nướng Halloween",34,2.72
+CUS00021,Phan Thị Cường,35-44,Cần Thơ,"lunch, dinner",balanced,451.0,Dễ,"Bánh flan caramel, Bánh chuối nướng, Cá hấp củ sen",35,3.1
+CUS00022,Bùi Văn Việt,65+,Buôn Ma Thuột,"lunch, dinner",balanced,449.0,Dễ,"Chè bưởi, Các món ăn kèm, món phụ, Cơm tấm sườn cây",36,3.12
+CUS00023,Nguyễn Văn Em,25-34,Hạ Long,"lunch, dinner",balanced,417.0,Dễ,"Cá xào cần tỏi, Món ngon từ cá, Bánh mì que",36,3.05
+CUS00024,Đặng Thị Hương,45-54,Buôn Ma Thuột,"lunch, dinner",balanced,486.0,Dễ,"Bò chiên một nắng, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, Bắp hạt chiên giòn",35,3.27
+CUS00025,Lê Văn Lan,18-24,Hải Phòng,"lunch, dinner",balanced,457.0,Dễ,"Bánh cuốn chay, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Chương trìnhmón ngon mỗi ngày",34,3.08
+CUS00026,Lê Văn Lan,65+,Buôn Ma Thuột,"lunch, dinner",balanced,446.0,Dễ,"Cá kho chuối xanh, Món Xào, Tôm trộn bông cải",33,3.05
+CUS00027,Huỳnh Thị Hùng,25-34,Cần Thơ,"lunch, breakfast",balanced,460.0,Dễ,"Bún bò Huế Chay, Kem chuối, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",34,3.13
+CUS00028,Dương Văn Oanh,65+,Nha Trang,"lunch, dinner",balanced,441.0,Dễ,"Mực kho củ cải, Lẩu nấm, Mì Quảng",33,3.1
+CUS00029,Phạm Thị Hùng,25-34,Đà Lạt,"dinner, lunch",balanced,472.0,Dễ,"Cá chiên bông điên điển, Gà kho chao Mayonnaise, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",35,2.97
+CUS00030,Lê Văn Lan,45-54,Nha Trang,"lunch, dinner",balanced,476.0,Dễ,"Bò cuộn ba rọi xông khói, Chính sách bảo vệdữ liệu cá nhân, Cá cuộn Bacon hương thảo",36,3.5
+CUS00031,Lý Thị Dung,18-24,Buôn Ma Thuột,"lunch, dinner",balanced,484.0,Dễ,"Cá cuộn Bacon hương thảo, Món ngon từ cá, Điều khoảnsử dụng",33,3.02
+CUS00032,Hoàng Văn Em,18-24,Nha Trang,"lunch, breakfast",balanced,435.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Chè bưởi, Bò cuộn ba rọi xông khói",33,3.19
+CUS00033,Lý Thị Việt,55-64,Hải Phòng,"lunch, dinner",balanced,434.0,Dễ,"Điều khoảnsử dụng, Danh mục thực đơn, Mực trộn khổ qua chua ngọt",36,2.95
+CUS00034,Mai Thị Linh,25-34,Vũng Tàu,"dinner, lunch",balanced,467.0,Dễ,"Bánh khọt lá cẩm nhân nấm hạt sen, Gỏi cuốn Mayonnaise, Gà luộc xôi gấc",34,2.82
+CUS00035,Phạm Thị Tuấn,45-54,Buôn Ma Thuột,"lunch, dinner",balanced,445.0,Dễ,"Heo kho tàu, Chè đậu xanh, Mì vịt tiềm chay",34,2.96
+CUS00036,Trương Văn Sơn,25-34,Huế,"lunch, dinner",weight-loss,456.0,Dễ,"Tôm chiên cánh bướm, Chè bưởi, Gà chiên bắp phô mai",35,3.25
+CUS00037,Đặng Thị Mai,35-44,Hà Nội,"lunch, dinner",balanced,466.0,Dễ,"Gà kho chao Mayonnaise, Bún riêu cua, Chương trìnhmón ngon mỗi ngày",36,2.93
+CUS00038,Phạm Thị Lan,25-34,Buôn Ma Thuột,"lunch, dinner",weight-loss,449.0,Dễ,"Danh mục thực đơn, Bắp hạt chiên giòn, Chương trìnhmón ngon mỗi ngày",33,2.52
+CUS00039,Nguyễn Văn Yến,45-54,Cần Thơ,"lunch, breakfast",balanced,468.0,Dễ,"Danh mục thực đơn, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản, Thịt nướng BBQ",33,3.01
+CUS00040,Huỳnh Thị Thảo,65+,Đà Nẵng,"lunch, dinner",balanced,448.0,Dễ,"Sữa chua dâu tây, Gà nướng nồi đất, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!",35,2.96
+CUS00041,Huỳnh Thị Hương,45-54,Đà Nẵng,"lunch, dinner",balanced,453.0,Dễ,"Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Chương trìnhmón ngon mỗi ngày, Gà trộn gừng chua ngọt",36,3.18
+CUS00042,Dương Văn Xuân,25-34,Đà Lạt,"lunch, dinner",balanced,469.0,Dễ,"Bánh trôi nước, Món ăn cho cha, Cá rim giấm mè",33,3.08
+CUS00043,Phạm Thị Uyên,18-24,Hà Nội,"lunch, dinner",balanced,463.0,Dễ,"Bánh khoái, Bún riêu cua, Cá rim giấm mè",35,3.05
+CUS00044,Mai Thị Xuân,18-24,Buôn Ma Thuột,"dinner, lunch",balanced,487.0,Dễ,"Gà nướng bưởi xốt giấm, Danh mục thực đơn, Heo kho tàu",34,3.04
+CUS00045,Dương Văn Em,55-64,Buôn Ma Thuột,"lunch, breakfast",balanced,467.0,Dễ,"Gỏi cuốn Mayonnaise, Bún bò Huế Chay, Tôm chiên cánh bướm",33,2.88
+CUS00046,Phan Thị Tuấn,65+,Đà Lạt,"lunch, dinner",balanced,476.0,Dễ,"Há cảo tam sắc, Bò cuộn ba rọi xông khói, Tôm rim thịt ba chỉ",33,3.08
+CUS00047,Đinh Văn Lan,35-44,Nha Trang,"lunch, dinner",balanced,487.0,Dễ,"Há cảo tam sắc, Bắp hạt xào gà giòn Mayonnaise, Cá xào cần tỏi",35,2.9
+CUS00048,Nguyễn Văn Nam,35-44,Buôn Ma Thuột,"lunch, breakfast",balanced,438.0,Dễ,"Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Cá cuộn Bacon hương thảo, Chả cá Lã Vọng",35,2.85
+CUS00049,Hồ Văn Xuân,55-64,Vũng Tàu,"dinner, lunch",balanced,491.0,Dễ,"Bò chiên một nắng, Nem chua rán, Danh mục thực đơn",33,3.17
+CUS00050,Trần Thị Minh,35-44,TP.HCM,"lunch, dinner",balanced,438.0,Dễ,"Sữa chua dâu tây, Chè bưởi, Gỏi cuốn Mayonnaise",35,3.08
+CUS00051,Dương Văn Mai,25-34,Cần Thơ,"lunch, breakfast",balanced,435.0,Dễ,"Món ngon từ cá, Cá xào cần tỏi, Cơm chiên cá mặn",36,3.15
+CUS00052,Võ Văn Việt,55-64,Cần Thơ,"lunch, dinner",balanced,442.0,Dễ,"Chả giò bắc thảo (L1), Bò cuộn ba rọi xông khói, Bắp Bò Nhúng Mắm Ruốc",34,2.83
+CUS00053,Đinh Văn Việt,25-34,Đà Nẵng,"lunch, dinner",balanced,473.0,Dễ,"Cua rang sốt tắc, Cá xào cần tỏi, Mực kho củ cải",36,3.15
+CUS00054,Ngô Thị Lan,55-64,Đà Lạt,"lunch, dinner",balanced,467.0,Dễ,"Bò chiên một nắng, Sữa chua dâu tây, Gà om bia",33,2.91
+CUS00055,Hồ Văn Phương,25-34,TP.HCM,"lunch, breakfast",balanced,446.0,Dễ,"Bánh mì que, Lẩu nấm, Bánh xèo Nhật Bản",36,2.91
+CUS00056,Nguyễn Văn Phương,35-44,Đà Nẵng,"lunch, dinner",balanced,465.0,Dễ,"Gà nướng nồi đất, Lẩu nấm, Nghêu xào mayonnaise hung quế",33,2.98
+CUS00057,Võ Văn Cường,55-64,Hạ Long,"lunch, breakfast",balanced,444.0,Dễ,"Há cảo tam sắc, Bún bò Huế Chay, Bắp Bò Nhúng Mắm Ruốc",34,3.1
+CUS00058,Mai Thị Việt,45-54,Hạ Long,"lunch, breakfast",balanced,460.0,Dễ,"Bánh canh cua, Gà rim ngũ vị, Mực xào chua cay",36,3.21
+CUS00059,Mai Thị Khánh,25-34,Buôn Ma Thuột,"lunch, dinner",balanced,473.0,Dễ,"Chè đậu xanh, Gà nướng bưởi xốt giấm, Miến gà trộn",33,2.59
+CUS00060,Bùi Văn Linh,55-64,Hải Phòng,"dinner, lunch",balanced,481.0,Dễ,"Bò chiên một nắng, Chương trìnhmón ngon mỗi ngày, Canh chua cá lóc",34,3.16
+CUS00061,Đinh Văn Nam,25-34,Đà Lạt,"lunch, dinner",balanced,465.0,Dễ,"Bánh mì thịt bò xốt tương (L3), Cá hấp củ sen, Chương trìnhmón ngon mỗi ngày",35,3.17
+CUS00062,Phạm Thị Quân,65+,Vũng Tàu,"lunch, dinner",balanced,481.0,Dễ,"Gà nướng bưởi xốt giấm, Bánh nướng Halloween, Chính sách bảo vệdữ liệu cá nhân",35,3.15
+CUS00063,Hồ Văn Cường,55-64,TP.HCM,"lunch, dinner",balanced,444.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Cá kho chuối xanh, Xôi gà đậu xanh",34,2.87
+CUS00064,Ngô Thị Dung,45-54,Cần Thơ,"lunch, dinner",balanced,460.0,Dễ,"Bắp hạt chiên giòn, Thịt nướng BBQ, Xôi gà đậu xanh",34,3.27
+CUS00065,Dương Văn Khánh,18-24,Đà Nẵng,"lunch, breakfast",balanced,427.0,Dễ,"Món ngon từ cá, Bánh da lợn, Gà luộc xôi gấc",36,3.29
+CUS00066,Trương Văn Uyên,25-34,Đà Lạt,"lunch, dinner",balanced,471.0,Dễ,"Gỏi cuốn Mayonnaise, Chính sách bảo vệdữ liệu cá nhân, Chương trìnhmón ngon mỗi ngày",34,3.06
+CUS00067,Trần Thị Nam,25-34,Đà Nẵng,"lunch, dinner",balanced,438.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Tôm xào bông cải, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",36,3.16
+CUS00068,Hoàng Văn Quân,45-54,Đà Nẵng,"lunch, dinner",balanced,446.0,Dễ,"Gà trộn gừng chua ngọt, Bánh mì que, Mực trộn khổ qua chua ngọt",35,2.64
+CUS00069,Bùi Văn Phương,35-44,Đà Lạt,"lunch, dinner",balanced,448.0,Dễ,"Thịt nướng BBQ, Chính sách bảo vệdữ liệu cá nhân, Heo nướng bắp cải chua",35,3.35
+CUS00070,Đỗ Thị Mai,45-54,Vũng Tàu,"lunch, dinner",balanced,427.0,Dễ,"Gà nướng bưởi xốt giấm, Chả cá Lã Vọng, Bánh khọt lá cẩm nhân nấm hạt sen",36,3.09
+CUS00071,Nguyễn Văn Phúc,35-44,Hà Nội,"dinner, lunch",balanced,475.0,Dễ,"Cá kho chuối xanh, Cá diêu hồng xiên que chiên lá chanh, Bánh canh cua",33,3.27
+CUS00072,Huỳnh Thị Phương,25-34,Buôn Ma Thuột,"lunch, dinner",balanced,491.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Gà rim ngũ vị, Mực xào chua cay",33,3.13
+CUS00073,Hoàng Văn Uyên,35-44,Đà Lạt,"dinner, lunch",weight-loss,433.0,Dễ,"Bánh da lợn, Bánh chuối nướng, Lẩu nấm",35,3.17
+CUS00074,Trần Thị Dung,35-44,Huế,"lunch, dinner",balanced,438.0,Dễ,"Bánh khoái, Các món ăn kèm, món phụ, Chả cá Lã Vọng",36,3.31
+CUS00075,Hồ Văn Sơn,45-54,Cần Thơ,"lunch, dinner",balanced,430.0,Dễ,"Danh mục thực đơn, Tôm trộn bông cải, Chè bưởi",36,2.9
+CUS00076,Ngô Thị Em,25-34,Vũng Tàu,"lunch, dinner",balanced,446.0,Dễ,"Gà trộn gừng chua ngọt, Món Chiên, Cơm tấm sườn nướng",36,2.94
+CUS00077,Hoàng Văn Hùng,55-64,Đà Lạt,"lunch, dinner",balanced,428.0,Dễ,"Bánh mì que, Bò xào cà ri tam sắc (L1), Bánh khọt",36,2.91
+CUS00078,Mai Thị Tuấn,35-44,Nha Trang,"lunch, dinner",balanced,458.0,Dễ,"Danh mục thực đơn, Há cảo tam sắc, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",34,2.89
+CUS00079,Nguyễn Văn Cường,45-54,Vũng Tàu,"lunch, breakfast",balanced,455.0,Dễ,"Cá xào cần tỏi, Chính sách bảo vệdữ liệu cá nhân, Lẩu nấm",35,3.03
+CUS00080,Nguyễn Văn Thảo,55-64,Hải Phòng,"lunch, breakfast",weight-loss,406.0,Dễ,"Sữa chua dâu tây, Cua rang sốt tắc, Các món ăn kèm, món phụ",33,2.92
+CUS00081,Dương Văn Tuấn,55-64,Vũng Tàu,"lunch, dinner",balanced,449.0,Dễ,"Salad rau củ, Gỏi cuốn Mayonnaise, Mì Quảng",35,2.87
+CUS00082,Đỗ Thị Dung,25-34,Vũng Tàu,"lunch, dinner",balanced,441.0,Dễ,"Bánh khoái, Chương trìnhmón ngon mỗi ngày, Gà om bia",33,3.08
+CUS00083,Lê Văn Phương,25-34,Hạ Long,"dinner, lunch",balanced,459.0,Dễ,"Bánh mì que, Bánh nướng Halloween, Kem chuối",34,2.99
+CUS00084,Đặng Thị Yến,45-54,Vũng Tàu,"lunch, dinner",balanced,437.0,Dễ,"Danh mục thực đơn, Nem chua rán, Lẩu nấm",36,2.96
+CUS00085,Mai Thị Mai,35-44,TP.HCM,"dinner, breakfast",balanced,426.0,Dễ,"Bánh mì que, Bánh chiên hải sản, Mực trộn khổ qua chua ngọt",36,2.87
+CUS00086,Trần Thị Uyên,25-34,Hà Nội,"dinner, lunch",balanced,443.0,Dễ,"Gà rim ngũ vị, Xôi gà đậu xanh, Bánh mì thịt bò xốt tương (L3)",35,3.09
+CUS00087,Dương Văn Phúc,25-34,Huế,"lunch, dinner",balanced,454.0,Dễ,"Danh mục thực đơn, Bò chiên một nắng, Gà nướng nồi đất",35,2.81
+CUS00088,Hoàng Văn Dương,65+,Buôn Ma Thuột,"lunch, breakfast",balanced,453.0,Dễ,"Điều khoảnsử dụng, Bắp hạt chiên giòn, Chính sách bảo vệdữ liệu cá nhân",35,2.97
+CUS00089,Mai Thị Minh,25-34,Nha Trang,"lunch, breakfast",balanced,483.0,Dễ,"Món Xào, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Món Chiên",34,3.06
+CUS00090,Đỗ Thị Cường,65+,Buôn Ma Thuột,"dinner, lunch",balanced,466.0,Dễ,"Gà trộn gừng chua ngọt, Lẩu nấm, Bún riêu cua",33,2.93
+CUS00091,Hoàng Văn Xuân,65+,Vũng Tàu,"lunch, breakfast",balanced,453.0,Dễ,"Gà nướng nồi đất, Há cảo tam sắc, Xôi gà đậu xanh",33,3.03
+CUS00092,Hoàng Văn Việt,55-64,TP.HCM,"lunch, breakfast",balanced,453.0,Dễ,"Bắp Bò Nhúng Mắm Ruốc, Bánh khoái, Cơm tấm sườn cây",36,3.01
+CUS00093,Bùi Văn Hùng,18-24,Huế,"lunch, dinner",balanced,463.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Mì vịt tiềm chay, Thịt kho",35,2.85
+CUS00094,Đinh Văn Quân,65+,Hạ Long,"lunch, dinner",balanced,448.0,Dễ,"Gỏi cuốn Mayonnaise, Danh mục thực đơn, Gỏi cuốn tôm thịt (L1)",34,3.19
+CUS00095,Lý Thị Khánh,55-64,Đà Nẵng,"lunch, dinner",balanced,487.0,Dễ,"Thịt nướng BBQ, Bánh mì thịt bò xốt tương (L3), Bò chiên một nắng",33,3.03
+CUS00096,Phan Thị Giang,45-54,Đà Nẵng,"lunch, dinner",balanced,451.0,Dễ,"Danh mục thực đơn, Mực trộn khổ qua chua ngọt, Nghêu xào mayonnaise hung quế",34,3.11
+CUS00097,Ngô Thị Oanh,65+,Đà Nẵng,"dinner, lunch",balanced,486.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Thịt nướng BBQ, Chả cá Lã Vọng",35,3.11
+CUS00098,Phan Thị Linh,55-64,Hải Phòng,"lunch, dinner",balanced,455.0,Dễ,"Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Bắp hạt chiên giòn, Cá chiên bông điên điển",35,3.46
+CUS00099,Huỳnh Thị Phương,65+,Hà Nội,"lunch, dinner",balanced,455.0,Dễ,"Chả cá Lã Vọng, Cá diêu hồng xiên que chiên lá chanh, Bánh chiên hải sản",36,2.89
+CUS00100,Nguyễn Văn Quân,25-34,Vũng Tàu,"lunch, dinner",balanced,448.0,Dễ,"Bánh khọt lá cẩm nhân nấm hạt sen, Gà nướng nồi đất, Há cảo tam sắc",36,3.31
+CUS00101,Đỗ Thị Nam,25-34,Hà Nội,"lunch, breakfast",balanced,476.0,Dễ,"Bắp hạt chiên giòn, Bò xào cà ri tam sắc (L1), Canh chua cá lóc",33,3.42
+CUS00102,Trần Thị Giang,65+,Buôn Ma Thuột,"dinner, breakfast",balanced,412.0,Dễ,"Thịt kho, Bánh khọt, Bánh da lợn",35,3.19
+CUS00103,Ngô Thị Nam,18-24,Cần Thơ,"lunch, dinner",balanced,459.0,Dễ,"Cá rim giấm mè, Gà nướng bưởi xốt giấm, Tôm nướng bánh hỏi",34,3.24
+CUS00104,Võ Văn Hùng,55-64,Hạ Long,"dinner, lunch",balanced,481.0,Dễ,"Bánh khọt lá cẩm nhân nấm hạt sen, Chính sách bảo vệdữ liệu cá nhân, Tôm hấp rau củ",33,3.03
+CUS00105,Dương Văn Uyên,55-64,Vũng Tàu,"lunch, dinner",weight-loss,462.0,Dễ,"Há cảo tam sắc, Chè bưởi, Tôm trộn bông cải",33,2.91
+CUS00106,Phan Thị Oanh,55-64,TP.HCM,"lunch, breakfast",balanced,453.0,Dễ,"Chè đậu xanh, Danh mục thực đơn, Tôm nướng bánh hỏi",33,3.21
+CUS00107,Ngô Thị Hương,65+,Cần Thơ,"lunch, dinner",balanced,442.0,Dễ,"Bánh khọt lá cẩm nhân nấm hạt sen, Cơm tấm sườn cây, Bánh xèo Nhật Bản",34,2.9
+CUS00108,Lê Văn Quân,18-24,Hạ Long,"lunch, dinner",balanced,447.0,Dễ,"Há cảo tam sắc, Gà chiên bắp phô mai, Bánh khọt",35,2.94
+CUS00109,Hồ Văn Cường,18-24,Huế,"lunch, breakfast",balanced,462.0,Dễ,"Bún riêu cua, Món Chiên, Sữa chua dâu tây",34,3.07
+CUS00110,Phan Thị Mai,45-54,Đà Lạt,"lunch, dinner",balanced,442.0,Dễ,"Bò cuộn ba rọi xông khói, Mực xào chua cay, Xôi gà đậu xanh",33,3.1
+CUS00111,Hoàng Văn Hùng,65+,Hà Nội,"dinner, lunch",balanced,438.0,Dễ,"Món Chiên, Chính sách bảo vệdữ liệu cá nhân, Chả giò bắc thảo (L1)",36,3.03
+CUS00112,Hoàng Văn Phương,35-44,TP.HCM,"lunch, breakfast",balanced,437.0,Dễ,"Bánh canh cua, Bún bò Huế Chay, Danh mục thực đơn",36,3.29
+CUS00113,Trương Văn Yến,18-24,Huế,"lunch, breakfast",balanced,432.0,Dễ,"Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Chả giò bắc thảo (L1), Heo kho tàu",35,3.2
+CUS00114,Đặng Thị Linh,35-44,TP.HCM,"lunch, dinner",balanced,488.0,Dễ,"Món ăn cho cha, Mực nướng sa tế, Tôm nướng bánh hỏi",34,3.07
+CUS00115,Mai Thị Giang,65+,Vũng Tàu,"dinner, breakfast",balanced,465.0,Dễ,"Bánh khoái, Thịt chiên xốt nước tương, Bánh nướng Halloween",33,3.19
+CUS00116,Đặng Thị Phúc,45-54,Huế,"lunch, dinner",balanced,430.0,Dễ,"Sữa chua dâu tây, Chính sách bảo vệdữ liệu cá nhân, Gà rim ngũ vị",34,3.0
+CUS00117,Hoàng Văn Linh,55-64,Huế,"lunch, dinner",balanced,466.0,Dễ,"Điều khoảnsử dụng, Bánh cuốn chay, Bánh mì thịt bò xốt tương (L3)",34,3.28
+CUS00118,Trương Văn Em,35-44,Đà Lạt,"dinner, lunch",balanced,474.0,Dễ,"Há cảo tam sắc, Tôm trộn bông cải, Xôi gà đậu xanh",33,2.95
+CUS00119,Lê Văn Thảo,65+,Hà Nội,"lunch, dinner",balanced,468.0,Dễ,"Mực xào chua cay, Tôm nướng bánh hỏi, Gà chiên bắp phô mai",33,3.15
+CUS00120,Đinh Văn Hương,55-64,Cần Thơ,"lunch, dinner",balanced,456.0,Dễ,"Gà nướng nồi đất, Lẩu nấm, Bánh nướng Halloween",33,3.39
+CUS00121,Võ Văn Giang,65+,Nha Trang,"dinner, lunch",balanced,428.0,Dễ,"Món Xào, Nghêu xào mayonnaise hung quế, Danh mục thực đơn",33,2.23
+CUS00122,Hồ Văn Khánh,25-34,Cần Thơ,"lunch, breakfast",balanced,459.0,Dễ,"Bún riêu cua, Bò chiên một nắng, Bò cuộn ba rọi xông khói",36,3.11
+CUS00123,Ngô Thị Oanh,55-64,Buôn Ma Thuột,"lunch, dinner",balanced,450.0,Dễ,"Cơm chiên cá mặn, Mực nướng sa tế, Bánh khọt lá cẩm nhân nấm hạt sen",33,2.96
+CUS00124,Trương Văn Oanh,25-34,Huế,"lunch, dinner",balanced,466.0,Dễ,"Bò xào cà ri tam sắc (L1), Danh mục thực đơn, Món ăn cho cha",33,2.98
+CUS00125,Hoàng Văn Phúc,35-44,Đà Lạt,"lunch, dinner",balanced,454.0,Dễ,"Bánh canh cua, Bánh mì thịt bò xốt tương (L3), Danh mục thực đơn",34,3.21
+CUS00126,Trần Thị Hương,65+,Hà Nội,"lunch, dinner",balanced,452.0,Dễ,"Bò xào cà ri tam sắc (L1), Món Xào, Canh chua cá lóc",34,3.1
+CUS00127,Lê Văn Dung,25-34,Huế,"dinner, breakfast",balanced,455.0,Dễ,"Gà om bia, Bún riêu cua, Gà chiên bắp phô mai",34,3.05
+CUS00128,Phạm Thị Việt,18-24,Hạ Long,"lunch, dinner",balanced,456.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Bánh canh cua, Tôm trộn bông cải",33,2.89
+CUS00129,Đinh Văn Yến,65+,Đà Nẵng,"lunch, dinner",balanced,505.0,Dễ,"Bánh da lợn, Canh chua cá lóc, Thịt chiên xốt nước tương",33,3.01
+CUS00130,Phan Thị Yến,45-54,Cần Thơ,"lunch, dinner",balanced,458.0,Dễ,"Mì Quảng, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc, Điều khoảnsử dụng",34,3.12
+CUS00131,Phan Thị Phúc,35-44,Nha Trang,"dinner, lunch",balanced,474.0,Dễ,"Bánh nướng Halloween, Gỏi cuốn tôm thịt (L1), Món ngon từ cá",34,3.38
+CUS00132,Lý Thị Em,55-64,Đà Lạt,"dinner, lunch",balanced,462.0,Dễ,"Bánh mì thịt bò xốt tương (L3), Cá kho chuối xanh, Mực nướng sa tế",34,3.33
+CUS00133,Ngô Thị Cường,55-64,Vũng Tàu,"lunch, dinner",balanced,440.0,Dễ,"Gà nướng bưởi xốt giấm, Món Chiên, Sữa chua dâu tây",36,3.21
+CUS00134,Huỳnh Thị Quân,35-44,Cần Thơ,"breakfast, lunch",balanced,435.0,Dễ,"Bánh khoái, Mực nướng sa tế, Gà kho chao Mayonnaise",34,3.1
+CUS00135,Đỗ Thị Dung,25-34,Buôn Ma Thuột,"lunch, breakfast",balanced,451.0,Dễ,"Chả giò bắc thảo (L1), Cá hấp củ sen, Tôm kho tàu",34,3.29
+CUS00136,Nguyễn Văn Minh,65+,Hà Nội,"lunch, breakfast",balanced,506.0,Dễ,"Bắp hạt xào gà giòn Mayonnaise, Bún bò Huế Chay, Cua rang sốt tắc",33,2.94
+CUS00137,Lý Thị Oanh,25-34,Đà Lạt,"lunch, dinner",balanced,484.0,Dễ,"Miến gà trộn, Điều khoảnsử dụng, Chả giò bắc thảo (L1)",33,2.98
+CUS00138,Huỳnh Thị Tuấn,25-34,Đà Nẵng,"dinner, lunch",balanced,445.0,Dễ,"Canh chua cá lóc, Món ngon từ cá, Danh mục thực đơn",36,2.92
+CUS00139,Trần Thị Uyên,25-34,Buôn Ma Thuột,"lunch, breakfast",balanced,458.0,Dễ,"Danh mục thực đơn, Nem chua rán, Mực xào chua cay",33,3.38
+CUS00140,Nguyễn Văn Phương,65+,Đà Lạt,"lunch, dinner",balanced,434.0,Dễ,"Gà chiên bắp phô mai, Miến gà trộn, Thịt chiên xốt nước tương",35,3.15
+CUS00141,Bùi Văn Phương,45-54,Hạ Long,"lunch, dinner",balanced,448.0,Dễ,"Heo nướng bắp cải chua, Cá xào cần tỏi, Cơm chiên cá mặn",36,2.96
+CUS00142,Hoàng Văn Uyên,25-34,Đà Lạt,"dinner, lunch",balanced,479.0,Dễ,"Miến trộn bò bằm, Mực xào chua cay, Tôm rim thịt ba chỉ",33,3.04
+CUS00143,Lê Văn Tuấn,18-24,Hà Nội,"lunch, dinner",balanced,450.0,Dễ,"Bánh canh cua, Mực nướng sa tế, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",36,3.23
+CUS00144,Trương Văn Oanh,25-34,Cần Thơ,"lunch, dinner",balanced,443.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Bánh chiên hải sản, Bò cuộn ba rọi xông khói",36,2.78
+CUS00145,Ngô Thị Yến,25-34,Hạ Long,"lunch, dinner",balanced,446.0,Dễ,"Bánh mì que, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Cá diêu hồng xiên que chiên lá chanh",33,3.12
+CUS00146,Hoàng Văn Dương,45-54,Đà Nẵng,"lunch, breakfast",balanced,452.0,Dễ,"Tôm nướng bánh hỏi, Thịt chiên xốt nước tương, Các món ăn kèm, món phụ",33,2.99
+CUS00147,Phạm Thị Dung,25-34,TP.HCM,"lunch, dinner",balanced,469.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Mực nướng sa tế, Cơm chiên cá mặn",35,2.99
+CUS00148,Bùi Văn Oanh,35-44,Đà Nẵng,"lunch, dinner",balanced,489.0,Dễ,"Cá diêu hồng xiên que chiên lá chanh, Cá kho chuối xanh, Tôm rim thịt ba chỉ",33,3.16
+CUS00149,Bùi Văn Uyên,65+,Đà Nẵng,"lunch, breakfast",balanced,433.0,Dễ,"Xôi gà đậu xanh, Cá xào cần tỏi, Mì vịt tiềm chay",36,3.29
+CUS00150,Dương Văn Dương,25-34,Buôn Ma Thuột,"lunch, dinner",balanced,435.0,Dễ,"Món Chiên, Gà luộc xôi gấc, Tôm xào bông cải",36,2.77
+CUS00151,Huỳnh Thị Dương,55-64,Nha Trang,"lunch, dinner",balanced,452.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Há cảo tam sắc, Gà luộc xôi gấc",36,2.77
+CUS00152,Lê Văn Hùng,65+,Vũng Tàu,"lunch, breakfast",balanced,430.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Cơm chiên cá mặn, Món ngon từ cá",36,3.16
+CUS00153,Phan Thị Minh,25-34,Hải Phòng,"lunch, dinner",balanced,438.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Món Chiên, Món Xào",35,3.11
+CUS00154,Võ Văn Uyên,18-24,Đà Nẵng,"dinner, lunch",balanced,474.0,Dễ,"Gà luộc xôi gấc, Món ăn cho cha, Mực trộn khổ qua chua ngọt",35,2.93
+CUS00155,Hồ Văn Xuân,55-64,Cần Thơ,"lunch, dinner",balanced,488.0,Dễ,"Cơm tấm sườn nướng, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc, Bò cuộn ba rọi xông khói",35,3.28
+CUS00156,Đinh Văn Xuân,18-24,Hạ Long,"lunch, dinner",balanced,459.0,Dễ,"Gà nướng bưởi xốt giấm, Thịt chiên xốt nước tương, Gỏi cuốn Mayonnaise",36,3.49
+CUS00157,Phan Thị Dương,25-34,Buôn Ma Thuột,"lunch, dinner",balanced,455.0,Dễ,"Món ăn cho cha, Mực xào chua cay, Cơm tấm sườn nướng",35,3.19
+CUS00158,Hoàng Văn Dung,55-64,Hạ Long,"lunch, dinner",balanced,430.0,Dễ,"Bò chiên một nắng, Canh chua cá lóc, Tôm trộn bông cải",33,3.28
+CUS00159,Hoàng Văn Khánh,65+,Đà Nẵng,"lunch, breakfast",balanced,433.0,Dễ,"Mực kho củ cải, Mực xào chua cay, Chè bưởi",36,3.03
+CUS00160,Phạm Thị Cường,45-54,Hạ Long,"lunch, dinner",balanced,471.0,Dễ,"Cá rim giấm mè, Mực xào chua cay, Thịt kho",33,2.96
+CUS00161,Trần Thị Dương,65+,Hà Nội,"lunch, breakfast",balanced,455.0,Dễ,"Bánh chuối nướng, Bánh da lợn, Cua rang sốt tắc",35,3.2
+CUS00162,Dương Văn Phương,35-44,Nha Trang,"lunch, breakfast",balanced,461.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Chả cá Lã Vọng, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",34,2.79
+CUS00163,Hoàng Văn Uyên,45-54,Nha Trang,"dinner, lunch",balanced,473.0,Dễ,"Mực nướng sa tế, Bò xào cà ri tam sắc (L1), Bắp hạt chiên giòn",36,2.85
+CUS00164,Trần Thị Dương,65+,Vũng Tàu,"lunch, dinner",balanced,457.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Gỏi cuốn tôm thịt (L1), Lẩu nấm",36,3.38
+CUS00165,Nguyễn Văn Dương,65+,Cần Thơ,"lunch, dinner",balanced,436.0,Dễ,"Chè đậu xanh, Bánh xèo Nhật Bản, Bò chiên một nắng",34,2.83
+CUS00166,Võ Văn Phúc,65+,Hà Nội,"lunch, dinner",balanced,463.0,Dễ,"Bún riêu cua, Cơm tấm sườn cây, Danh mục thực đơn",36,3.08
+CUS00167,Lý Thị Quân,45-54,Hạ Long,"lunch, dinner",balanced,469.0,Dễ,"Cơm tấm sườn cây, Danh mục thực đơn, Tôm hấp rau củ",34,3.02
+CUS00168,Đặng Thị Phúc,25-34,Hà Nội,"lunch, breakfast",balanced,423.0,Dễ,"Mì Quảng, Mì vịt tiềm chay, Bắp hạt xào gà giòn Mayonnaise",36,2.84
+CUS00169,Hoàng Văn Mai,18-24,Đà Nẵng,"lunch, breakfast",balanced,477.0,Dễ,"Gà nướng nồi đất, Chả cá Lã Vọng, Gà chiên bắp phô mai",34,3.15
+CUS00170,Võ Văn Hùng,45-54,Huế,"lunch, dinner",balanced,454.0,Dễ,"Bò xào cà ri tam sắc (L1), Gà nướng bưởi xốt giấm, Mì Quảng",33,3.2
+CUS00171,Lý Thị Lan,55-64,Đà Nẵng,"lunch, breakfast",balanced,447.0,Dễ,"Điều khoảnsử dụng, Bánh xèo Nhật Bản, Tôm trộn bông cải",36,3.12
+CUS00172,Dương Văn Thảo,65+,Cần Thơ,"lunch, dinner",balanced,433.0,Dễ,"Món ăn cho cha, Mực nướng sa tế, Điều khoảnsử dụng",34,2.74
+CUS00173,Lê Văn Xuân,35-44,TP.HCM,"lunch, dinner",balanced,452.0,Dễ,"Bún riêu cua, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Gà rim ngũ vị",34,2.98
+CUS00174,Trương Văn Giang,45-54,Cần Thơ,"lunch, dinner",balanced,456.0,Dễ,"Bắp hạt chiên giòn, Mì Quảng, Tôm rim thịt ba chỉ",36,3.03
+CUS00175,Huỳnh Thị Bình,45-54,Đà Lạt,"lunch, breakfast",balanced,430.0,Dễ,"Cá cuộn Bacon hương thảo, Gà kho chao Mayonnaise, Gỏi cuốn Mayonnaise",34,3.28
+CUS00176,Phạm Thị Oanh,35-44,Vũng Tàu,"lunch, breakfast",balanced,437.0,Dễ,"Mực kho củ cải, Bánh khọt, Cá kho chuối xanh",33,3.16
+CUS00177,Bùi Văn Oanh,45-54,Nha Trang,"lunch, dinner",balanced,440.0,Dễ,"Kem chuối, Bánh trôi nước, Bún riêu cua",36,3.37
+CUS00178,Phan Thị Thảo,35-44,TP.HCM,"lunch, breakfast",balanced,441.0,Dễ,"Mì Quảng, Sữa chua dâu tây, Chính sách bảo vệdữ liệu cá nhân",35,3.0
+CUS00179,Phan Thị An,55-64,Đà Nẵng,"lunch, dinner",balanced,468.0,Dễ,"Gà nướng bưởi xốt giấm, Cá kho chuối xanh, Mực kho củ cải",35,2.91
+CUS00180,Đinh Văn Xuân,18-24,Đà Lạt,"lunch, dinner",balanced,454.0,Dễ,"Bánh nướng Halloween, Tôm chiên cánh bướm, Cơm tấm sườn nướng",36,3.24
+CUS00181,Hoàng Văn Em,25-34,Vũng Tàu,"lunch, dinner",balanced,468.0,Dễ,"Mì Quảng, Chả cá Lã Vọng, Gà luộc xôi gấc",35,3.09
+CUS00182,Trần Thị Quân,35-44,Đà Nẵng,"lunch, dinner",balanced,452.0,Dễ,"Bánh xèo Nhật Bản, Bò chiên một nắng, Bún riêu cua",36,3.16
+CUS00183,Đinh Văn Linh,55-64,Huế,"lunch, breakfast",balanced,463.0,Dễ,"Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Bắp hạt xào gà giòn Mayonnaise, Há cảo tam sắc",35,3.5
+CUS00184,Phan Thị Linh,45-54,Đà Lạt,"dinner, lunch",weight-loss,441.0,Dễ,"Tôm chiên cánh bướm, Chả cá Lã Vọng, Bò cuộn ba rọi xông khói",34,3.29
+CUS00185,Bùi Văn Sơn,55-64,Buôn Ma Thuột,"lunch, dinner",balanced,437.0,Dễ,"Gà trộn gừng chua ngọt, Gỏi cuốn tôm thịt (L1), Bánh khoái",36,3.29
+CUS00186,Bùi Văn Xuân,65+,Hải Phòng,"lunch, breakfast",balanced,435.0,Dễ,"Cá hấp củ sen, Nem chua rán, Gà nướng nồi đất",36,3.17
+CUS00187,Nguyễn Văn Xuân,45-54,Hải Phòng,"dinner, lunch",balanced,443.0,Dễ,"Cá rim giấm mè, Gà om bia, Kem chuối",35,2.92
+CUS00188,Đỗ Thị Em,35-44,Nha Trang,"lunch, dinner",balanced,443.0,Dễ,"Chè đậu xanh, Danh mục thực đơn, Gà luộc xôi gấc",36,3.03
+CUS00189,Đinh Văn Xuân,35-44,Hải Phòng,"lunch, breakfast",balanced,453.0,Dễ,"Bò cuộn ba rọi xông khói, Chính sách bảo vệdữ liệu cá nhân, Cơm chiên cá mặn",34,2.94
+CUS00190,Dương Văn Dương,65+,Hạ Long,"lunch, dinner",balanced,450.0,Dễ,"Tôm rim thịt ba chỉ, Bánh trôi nước, Gà om bia",35,3.4
+CUS00191,Lê Văn Oanh,35-44,Hải Phòng,"dinner, lunch",balanced,455.0,Dễ,"Cá hấp củ sen, Chính sách bảo vệdữ liệu cá nhân, Mực trộn khổ qua chua ngọt",33,3.02
+CUS00192,Ngô Thị Em,18-24,Huế,"lunch, dinner",balanced,467.0,Dễ,"Bánh da lợn, Bánh nướng Halloween, Bò xào cà ri tam sắc (L1)",34,3.15
+CUS00193,Hồ Văn Dương,65+,Buôn Ma Thuột,"lunch, dinner",balanced,435.0,Dễ,"Mực trộn khổ qua chua ngọt, Bún bò Huế Chay, Điều khoảnsử dụng",35,3.21
+CUS00194,Lê Văn Hương,18-24,Hạ Long,"lunch, dinner",balanced,465.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Bắp Bò Nhúng Mắm Ruốc, Bánh khọt",36,2.93
+CUS00195,Hoàng Văn Phúc,35-44,Vũng Tàu,"lunch, dinner",balanced,477.0,Dễ,"Cá chiên bông điên điển, Thịt chiên xốt nước tương, Chương trìnhmón ngon mỗi ngày",33,3.31
+CUS00196,Dương Văn Quân,55-64,Buôn Ma Thuột,"lunch, dinner",balanced,502.0,Dễ,"Bò xào cà ri tam sắc (L1), Bò chiên một nắng, Bún riêu cua",34,2.97
+CUS00197,Nguyễn Văn Hùng,55-64,Hạ Long,"lunch, dinner",balanced,471.0,Dễ,"Bún bò Huế Chay, Danh mục thực đơn, Bánh cuốn chay",33,3.34
+CUS00198,Phạm Thị Em,65+,Huế,"lunch, breakfast",balanced,438.0,Dễ,"Cơm tấm sườn cây, Nem chua rán, Chả cá Lã Vọng",36,2.96
+CUS00199,Phan Thị Cường,35-44,Đà Lạt,"dinner, lunch",balanced,486.0,Dễ,"Điều khoảnsử dụng, Bánh khọt lá cẩm nhân nấm hạt sen, Gà rim ngũ vị",36,3.11
+CUS00200,Trương Văn Nam,55-64,Đà Lạt,"lunch, dinner",balanced,491.0,Dễ,"Món Chiên, Nghêu xào mayonnaise hung quế, Tôm chiên cánh bướm",33,3.29
+CUS00201,Dương Văn Oanh,45-54,Hạ Long,"lunch, dinner",balanced,447.0,Dễ,"Bò chiên một nắng, Bánh khoái, Chính sách bảo vệdữ liệu cá nhân",35,2.65
+CUS00202,Đinh Văn Yến,35-44,Hà Nội,"lunch, breakfast",balanced,448.0,Dễ,"Miến gà trộn, Nem chua rán, Salad rau củ",36,3.09
+CUS00203,Đỗ Thị Mai,35-44,Hạ Long,"lunch, breakfast",balanced,410.0,Dễ,"Mì Quảng, Bánh nướng Halloween, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",36,3.06
+CUS00204,Bùi Văn Dương,55-64,Đà Lạt,"lunch, dinner",balanced,459.0,Dễ,"Cơm chiên cá mặn, Tôm kho tàu, Tôm nướng bánh hỏi",35,3.27
+CUS00205,Đỗ Thị Yến,25-34,Hải Phòng,"lunch, dinner",balanced,435.0,Dễ,"Mì Quảng, Há cảo tam sắc, Thịt nướng BBQ",36,3.42
+CUS00206,Huỳnh Thị Mai,45-54,Hà Nội,"lunch, dinner",balanced,431.0,Dễ,"Miến gà trộn, Mì Quảng, Món Chiên",35,2.87
+CUS00207,Dương Văn Giang,65+,Vũng Tàu,"lunch, dinner",balanced,449.0,Dễ,"Gà nướng bưởi xốt giấm, Bánh da lợn, Chè bưởi",36,3.08
+CUS00208,Đặng Thị Bình,65+,Vũng Tàu,"lunch, dinner",balanced,475.0,Dễ,"Cá xào cần tỏi, Bắp Bò Nhúng Mắm Ruốc, Mì Quảng",35,3.3
+CUS00209,Bùi Văn Yến,45-54,Đà Lạt,"dinner, lunch",balanced,438.0,Dễ,"Gà nướng nồi đất, Lẩu nấm, Cơm tấm sườn cây",36,2.91
+CUS00210,Nguyễn Văn Sơn,35-44,Huế,"lunch, breakfast",balanced,430.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Chả giò bắc thảo (L1), Cá xào cần tỏi",34,2.95
+CUS00211,Lý Thị Mai,35-44,Buôn Ma Thuột,"lunch, dinner",balanced,462.0,Dễ,"Cơm tấm sườn nướng, Gà luộc xôi gấc, Gà nướng bưởi xốt giấm",36,3.1
+CUS00212,Lý Thị Hương,18-24,Hạ Long,"lunch, dinner",balanced,466.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Chương trìnhmón ngon mỗi ngày, Cua rang sốt tắc",33,3.29
+CUS00213,Hồ Văn Phúc,45-54,Đà Nẵng,"lunch, dinner",balanced,464.0,Dễ,"Cá kho chuối xanh, Cá cuộn Bacon hương thảo, Điều khoảnsử dụng",34,3.05
+CUS00214,Phạm Thị Phúc,18-24,Huế,"lunch, breakfast",balanced,441.0,Dễ,"Bánh khọt lá cẩm nhân nấm hạt sen, Gà nướng bưởi xốt giấm, Tôm rim thịt ba chỉ",35,3.22
+CUS00215,Trần Thị Phúc,18-24,Đà Lạt,"lunch, dinner",balanced,449.0,Dễ,"Điều khoảnsử dụng, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Bánh chuối nướng",36,3.09
+CUS00216,Đinh Văn Phương,18-24,Buôn Ma Thuột,"lunch, dinner",balanced,462.0,Dễ,"Bún riêu cua, Bánh cuốn chay, Bánh mì thịt bò xốt tương (L3)",33,2.99
+CUS00217,Phạm Thị Linh,25-34,Buôn Ma Thuột,"lunch, dinner",balanced,458.0,Dễ,"Cơm tấm sườn nướng, Há cảo tam sắc, Chính sách bảo vệdữ liệu cá nhân",34,3.04
+CUS00218,Ngô Thị Dương,25-34,Huế,"lunch, dinner",balanced,459.0,Dễ,"Gà luộc xôi gấc, Bánh trôi nước, Miến trộn bò bằm",36,3.04
+CUS00219,Mai Thị Quân,65+,Buôn Ma Thuột,"lunch, dinner",balanced,491.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Gà kho chao Mayonnaise, Món Xào",33,3.2
+CUS00220,Hoàng Văn Bình,18-24,Hải Phòng,"lunch, dinner",balanced,473.0,Dễ,"Mì vịt tiềm chay, Bò xào cà ri tam sắc (L1), Há cảo tam sắc",35,3.03
+CUS00221,Phan Thị Nam,55-64,Cần Thơ,"lunch, dinner",balanced,492.0,Dễ,"Cua rang sốt tắc, Há cảo tam sắc, Bánh xèo Nhật Bản",33,3.0
+CUS00222,Trần Thị Việt,55-64,Hà Nội,"lunch, breakfast",balanced,454.0,Dễ,"Món ngon từ cá, Mực nướng sa tế, Bắp hạt xào gà giòn Mayonnaise",33,2.88
+CUS00223,Dương Văn Sơn,35-44,TP.HCM,"lunch, dinner",balanced,478.0,Dễ,"Các món ăn kèm, món phụ, Danh mục thực đơn, Chả giò bắc thảo (L1)",35,2.88
+CUS00224,Lê Văn Linh,65+,Huế,"lunch, dinner",balanced,465.0,Dễ,"Miến gà trộn, Gà trộn gừng chua ngọt, Tôm nướng bánh hỏi",34,3.01
+CUS00225,Dương Văn Uyên,25-34,Nha Trang,"lunch, dinner",balanced,473.0,Dễ,"Tôm chiên cánh bướm, Thịt nướng BBQ, Gà om bia",35,3.01
+CUS00226,Trần Thị Nam,55-64,TP.HCM,"lunch, dinner",weight-loss,444.0,Dễ,"Heo nướng bắp cải chua, Nghêu xào mayonnaise hung quế, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",34,3.1
+CUS00227,Ngô Thị Hương,45-54,Hạ Long,"lunch, dinner",balanced,486.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Bánh cuốn chay, Gà rim ngũ vị",33,2.96
+CUS00228,Mai Thị An,18-24,Hải Phòng,"lunch, breakfast",balanced,457.0,Dễ,"Mực xào chua cay, Bắp hạt xào gà giòn Mayonnaise, Gà nướng bưởi xốt giấm",35,3.54
+CUS00229,Bùi Văn Giang,18-24,Đà Nẵng,"lunch, breakfast",balanced,451.0,Dễ,"Bánh khoái, Cá rim giấm mè, Cơm chiên cá mặn",34,2.85
+CUS00230,Dương Văn Giang,25-34,Đà Lạt,"dinner, lunch",balanced,475.0,Dễ,"Gà nướng nồi đất, Món ăn cho cha, Nem chua rán",33,3.36
+CUS00231,Trần Thị Lan,18-24,Hà Nội,"dinner, lunch",balanced,469.0,Dễ,"Bắp Bò Nhúng Mắm Ruốc, Thịt kho, Chè bưởi",34,3.4
+CUS00232,Phạm Thị Thảo,18-24,Nha Trang,"lunch, dinner",balanced,487.0,Dễ,"Chả giò bắc thảo (L1), Mực trộn khổ qua chua ngọt, Bò cuộn ba rọi xông khói",34,3.06
+CUS00233,Nguyễn Văn Mai,55-64,Đà Nẵng,"lunch, dinner",balanced,463.0,Dễ,"Cá diêu hồng xiên que chiên lá chanh, Há cảo tam sắc, Bắp hạt xào gà giòn Mayonnaise",35,3.1
+CUS00234,Hoàng Văn Em,65+,Huế,"lunch, dinner",balanced,458.0,Dễ,"Nghêu xào mayonnaise hung quế, Chính sách bảo vệdữ liệu cá nhân, Bánh trôi nước",36,3.07
+CUS00235,Dương Văn Xuân,25-34,Đà Lạt,"breakfast, lunch",balanced,428.0,Dễ,"Cơm chiên cá mặn, Tôm rim thịt ba chỉ, Cá diêu hồng xiên que chiên lá chanh",33,3.15
+CUS00236,Ngô Thị Bình,25-34,Đà Lạt,"lunch, dinner",balanced,497.0,Dễ,"Gà nướng nồi đất, Gà trộn gừng chua ngọt, Há cảo tam sắc",33,2.91
+CUS00237,Đặng Thị Cường,65+,Hạ Long,"lunch, breakfast",balanced,450.0,Dễ,"Mì vịt tiềm chay, Thịt nướng BBQ, Bánh trôi nước",36,3.15
+CUS00238,Nguyễn Văn Việt,35-44,Đà Lạt,"lunch, breakfast",balanced,438.0,Dễ,"Gà rim ngũ vị, Thịt chiên xốt nước tương, Kem chuối",36,3.44
+CUS00239,Huỳnh Thị Hùng,45-54,Huế,"lunch, dinner",balanced,467.0,Dễ,"Há cảo tam sắc, Mì vịt tiềm chay, Heo nướng bắp cải chua",35,3.01
+CUS00240,Huỳnh Thị An,55-64,TP.HCM,"lunch, dinner",weight-loss,459.0,Dễ,"Bánh chuối nướng, Cá kho chuối xanh, Gà nướng nồi đất",34,3.08
+CUS00241,Phạm Thị Linh,45-54,Huế,"lunch, dinner",balanced,471.0,Dễ,"Bánh mì thịt bò xốt tương (L3), Sữa chua dâu tây, Bún bò Huế Chay",35,3.13
+CUS00242,Phan Thị Sơn,55-64,Nha Trang,"lunch, dinner",balanced,481.0,Dễ,"Nem chua rán, Chả giò bắc thảo (L1), Miến trộn bò bằm",33,3.29
+CUS00243,Bùi Văn Em,35-44,Hạ Long,"lunch, dinner",balanced,453.0,Dễ,"Bắp Bò Nhúng Mắm Ruốc, Điều khoảnsử dụng, Món ngon từ cá",34,2.91
+CUS00244,Đỗ Thị Lan,18-24,Hải Phòng,"lunch, dinner",balanced,416.0,Dễ,"Bánh mì que, Bắp hạt chiên giòn, Há cảo tam sắc",36,3.1
+CUS00245,Trương Văn Minh,35-44,Vũng Tàu,"dinner, lunch",balanced,461.0,Dễ,"Bánh cuốn chay, Bánh mì thịt bò xốt tương (L3), Bún riêu cua",34,2.9
+CUS00246,Ngô Thị Hùng,25-34,Hải Phòng,"lunch, breakfast",balanced,440.0,Dễ,"Tôm trộn bông cải, Mì Quảng, Bánh cuốn chay",33,2.79
+CUS00247,Ngô Thị Thảo,45-54,Đà Lạt,"lunch, dinner",balanced,468.0,Dễ,"Món ăn cho cha, Chính sách bảo vệdữ liệu cá nhân, Cá xào cần tỏi",34,3.29
+CUS00248,Bùi Văn Tuấn,65+,Huế,"lunch, dinner",balanced,474.0,Dễ,"Heo nướng bắp cải chua, Chả giò bắc thảo (L1), Bánh canh cua",35,3.17
+CUS00249,Đinh Văn Phúc,55-64,Buôn Ma Thuột,"lunch, dinner",balanced,487.0,Dễ,"Mực trộn khổ qua chua ngọt, Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!, Cơm chiên cá mặn",35,2.92
+CUS00250,Hoàng Văn Em,65+,Buôn Ma Thuột,"dinner, lunch",balanced,484.0,Dễ,"Món Chiên, Bánh xèo Nhật Bản, Chính sách bảo vệdữ liệu cá nhân",35,2.91
+CUS00251,Đỗ Thị Bình,35-44,Huế,"dinner, breakfast",balanced,427.0,Dễ,"Tôm nướng bánh hỏi, Bánh mì que, Nghêu xào mayonnaise hung quế",34,3.19
+CUS00252,Trương Văn Thảo,18-24,Đà Nẵng,"lunch, dinner",balanced,467.0,Dễ,"Món ăn cho cha, Bánh chuối nướng, Cá chiên bông điên điển",33,3.25
+CUS00253,Trần Thị Minh,35-44,TP.HCM,"lunch, dinner",balanced,465.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Tôm trộn bông cải, Bánh khoái",33,3.09
+CUS00254,Huỳnh Thị Dương,55-64,Cần Thơ,"lunch, dinner",balanced,474.0,Dễ,"Bắp Bò Nhúng Mắm Ruốc, Chả cá Lã Vọng, Lẩu nấm",33,2.98
+CUS00255,Trương Văn Dương,65+,Hà Nội,"lunch, dinner",balanced,443.0,Dễ,"Bánh xèo Nhật Bản, Gỏi cuốn Mayonnaise, Chè đậu xanh",36,2.92
+CUS00256,Huỳnh Thị Dung,55-64,Hải Phòng,"lunch, dinner",balanced,492.0,Dễ,"Chương trìnhmón ngon mỗi ngày, Bánh khọt lá cẩm nhân nấm hạt sen, Cá hấp củ sen",34,3.3
+CUS00257,Dương Văn Quân,55-64,Hạ Long,"lunch, breakfast",balanced,470.0,Dễ,"Heo kho tàu, Tôm rim thịt ba chỉ, Bún bò Huế Chay",34,2.94
+CUS00258,Dương Văn Cường,35-44,Cần Thơ,"dinner, lunch",balanced,465.0,Dễ,"Há cảo tam sắc, Bánh chiên hải sản, Điều khoảnsử dụng",36,3.1
+CUS00259,Huỳnh Thị Yến,18-24,Đà Lạt,"lunch, breakfast",balanced,439.0,Dễ,"Bánh trôi nước, Gà chiên bắp phô mai, Gỏi cuốn Mayonnaise",36,2.89
+CUS00260,Đinh Văn Bình,45-54,Vũng Tàu,"lunch, dinner",balanced,476.0,Dễ,"Cá kho chuối xanh, Bún riêu cua, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",33,3.1
+CUS00261,Dương Văn Sơn,55-64,Hải Phòng,"lunch, dinner",balanced,471.0,Dễ,"Danh mục thực đơn, Mì vịt tiềm chay, Món ăn cho cha",34,3.03
+CUS00262,Đỗ Thị Mai,35-44,Đà Nẵng,"lunch, dinner",balanced,453.0,Dễ,"Gà om bia, Bò cuộn ba rọi xông khói, Gà luộc xôi gấc",35,3.12
+CUS00263,Võ Văn Khánh,25-34,Nha Trang,"lunch, dinner",balanced,458.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Gà nướng bưởi xốt giấm, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",34,3.3
+CUS00264,Đặng Thị Xuân,35-44,Huế,"lunch, dinner",balanced,472.0,Dễ,"Bánh canh cua, Gà nướng bưởi xốt giấm, Gỏi cuốn tôm thịt (L1)",35,3.04
+CUS00265,Mai Thị Thảo,55-64,Nha Trang,"lunch, dinner",balanced,473.0,Dễ,"Bánh mì thịt bò xốt tương (L3), Danh mục thực đơn, Bún riêu cua",35,3.04
+CUS00266,Nguyễn Văn Tuấn,65+,TP.HCM,"lunch, dinner",balanced,435.0,Dễ,"Gỏi cuốn Mayonnaise, Chính sách bảo vệdữ liệu cá nhân, Cá diêu hồng xiên que chiên lá chanh",33,2.84
+CUS00267,Phạm Thị Mai,25-34,Hà Nội,"lunch, dinner",balanced,462.0,Dễ,"Gỏi cuốn tôm thịt (L1), Bánh khọt lá cẩm nhân nấm hạt sen, Canh chua cá lóc",36,2.98
+CUS00268,Phan Thị Lan,35-44,Hà Nội,"lunch, dinner",balanced,420.0,Dễ,"Thịt chiên xốt nước tương, Danh mục thực đơn, Miến trộn bò bằm",36,3.26
+CUS00269,Đinh Văn Quân,55-64,Buôn Ma Thuột,"breakfast, lunch",balanced,443.0,Dễ,"Bún bò Huế Chay, Bắp hạt xào gà giòn Mayonnaise, Danh mục thực đơn",33,2.98
+CUS00270,Mai Thị Giang,18-24,Đà Nẵng,"lunch, breakfast",balanced,459.0,Dễ,"Cơm chiên cá mặn, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn, Cá xào cần tỏi",36,2.88
+CUS00271,Dương Văn Uyên,65+,Hải Phòng,"dinner, lunch",balanced,500.0,Dễ,"Bánh xèo Nhật Bản, Bánh khọt lá cẩm nhân nấm hạt sen, Bắp hạt xào gà giòn Mayonnaise",34,3.18
+CUS00272,Hoàng Văn Phúc,25-34,Hạ Long,"lunch, dinner",balanced,446.0,Dễ,"Bắp Bò Nhúng Mắm Ruốc, Cá rim giấm mè, Cá cuộn Bacon hương thảo",35,3.29
+CUS00273,Huỳnh Thị Uyên,18-24,Hải Phòng,"lunch, dinner",balanced,445.0,Dễ,"Bánh da lợn, Các món ăn kèm, món phụ, Gà chiên bắp phô mai",34,2.53
+CUS00274,Lý Thị Uyên,35-44,Đà Lạt,"dinner, lunch",balanced,462.0,Dễ,"Heo nướng bắp cải chua, Mì Quảng, Món ăn cho cha",33,2.98
+CUS00275,Phạm Thị Sơn,35-44,Cần Thơ,"lunch, dinner",balanced,443.0,Dễ,"Bò xào cà ri tam sắc (L1), Danh mục thực đơn, Bò chiên một nắng",34,3.29
+CUS00276,Phạm Thị Em,18-24,Đà Nẵng,"dinner, breakfast",balanced,457.0,Dễ,"Mực nướng sa tế, Thịt nướng BBQ, Tôm kho tàu",33,2.86
+CUS00277,Hoàng Văn Dung,25-34,Hải Phòng,"dinner, lunch",balanced,439.0,Dễ,"Chả cá Lã Vọng, Nem chua rán, Bánh cuốn chay",35,2.93
+CUS00278,Đinh Văn Minh,65+,TP.HCM,"dinner, lunch",balanced,444.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Gà chiên bắp phô mai, Bánh khọt lá cẩm nhân nấm hạt sen",34,3.09
+CUS00279,Võ Văn Quân,18-24,Vũng Tàu,"lunch, dinner",balanced,434.0,Dễ,"Salad rau củ, Chính sách bảo vệdữ liệu cá nhân, Tôm nướng bánh hỏi",33,3.29
+CUS00280,Đặng Thị Xuân,45-54,Nha Trang,"lunch, dinner",balanced,462.0,Dễ,"Sữa chua dâu tây, Nghêu xào mayonnaise hung quế, Xôi gà đậu xanh",33,3.09
+CUS00281,Hồ Văn Xuân,55-64,Hải Phòng,"lunch, dinner",balanced,459.0,Dễ,"Cá cuộn Bacon hương thảo, Bắp hạt xào gà giòn Mayonnaise, Bánh cuốn chay",36,2.87
+CUS00282,Nguyễn Văn Lan,65+,Nha Trang,"lunch, dinner",balanced,424.0,Dễ,"Bò cuộn ba rọi xông khói, Bánh xèo Nhật Bản, Cua rang sốt tắc",35,3.2
+CUS00283,Ngô Thị Xuân,35-44,Hạ Long,"lunch, dinner",balanced,468.0,Dễ,"Tôm kho tàu, Bánh canh cua, Chả giò bắc thảo (L1)",34,3.03
+CUS00284,Dương Văn Linh,18-24,Hạ Long,"lunch, breakfast",balanced,466.0,Dễ,"Cá xào cần tỏi, Thịt kho, Gà nướng bưởi xốt giấm",33,3.01
+CUS00285,Ngô Thị Hương,35-44,Huế,"lunch, dinner",balanced,463.0,Dễ,"Gà nướng bưởi xốt giấm, Bún riêu cua, Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",35,2.88
+CUS00286,Hoàng Văn Bình,65+,Đà Lạt,"lunch, dinner",balanced,457.0,Dễ,"Bò xào cà ri tam sắc (L1), Canh chua cá lóc, Cua rang sốt tắc",35,2.97
+CUS00287,Lý Thị Quân,25-34,Cần Thơ,"lunch, dinner",balanced,452.0,Dễ,"Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc, Bánh khọt, Gà luộc xôi gấc",36,3.15
+CUS00288,Phan Thị Phúc,35-44,TP.HCM,"lunch, dinner",balanced,480.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Gà trộn gừng chua ngọt, Bánh canh cua",33,3.12
+CUS00289,Mai Thị Phương,55-64,Đà Lạt,"lunch, dinner",balanced,444.0,Dễ,"Bánh chuối nướng, Gà om bia, Thịt nướng BBQ",34,3.04
+CUS00290,Ngô Thị Dương,25-34,Vũng Tàu,"lunch, breakfast",balanced,479.0,Dễ,"Cá chiên bông điên điển, Bò chiên một nắng, Mực trộn khổ qua chua ngọt",35,3.45
+CUS00291,Đỗ Thị Tuấn,35-44,Buôn Ma Thuột,"lunch, dinner",balanced,435.0,Dễ,"Gà trộn gừng chua ngọt, Bánh mì que, Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",36,2.87
+CUS00292,Huỳnh Thị Uyên,65+,Hải Phòng,"lunch, dinner",balanced,493.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Cá kho chuối xanh, Gà nướng bưởi xốt giấm",33,2.81
+CUS00293,Huỳnh Thị Nam,25-34,Hải Phòng,"lunch, breakfast",balanced,423.0,Dễ,"Mực nướng sa tế, Danh mục thực đơn, Gỏi cuốn Mayonnaise",33,3.11
+CUS00294,Trương Văn Yến,45-54,Vũng Tàu,"lunch, breakfast",balanced,442.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Cá xào cần tỏi, Chương trìnhmón ngon mỗi ngày",33,3.14
+CUS00295,Võ Văn Phương,35-44,TP.HCM,"lunch, breakfast",balanced,477.0,Dễ,"Cua rang sốt tắc, Bắp Bò Nhúng Mắm Ruốc, Canh chua cá lóc",33,3.07
+CUS00296,Phạm Thị Dương,35-44,Buôn Ma Thuột,"lunch, dinner",balanced,444.0,Dễ,"Chính sách bảo vệdữ liệu cá nhân, Bò xào cà ri tam sắc (L1), Tôm hấp rau củ",33,3.06
+CUS00297,Ngô Thị Dương,18-24,TP.HCM,"lunch, dinner",balanced,491.0,Dễ,"Bánh canh cua, Các món ăn kèm, món phụ, Gà om bia",33,2.85
+CUS00298,Đặng Thị Lan,65+,Nha Trang,"dinner, lunch",balanced,466.0,Dễ,"Cá chiên bông điên điển, Tôm hấp rau củ, Heo nướng bắp cải chua",36,3.16
+CUS00299,Hồ Văn Phương,45-54,Hạ Long,"lunch, breakfast",balanced,447.0,Dễ,"Bún bò Huế Chay, Cá rim giấm mè, Salad rau củ",35,3.25
+CUS00300,Đỗ Thị Bình,35-44,Vũng Tàu,"lunch, dinner",balanced,441.0,Dễ,"Bánh chiên hải sản, Mực trộn khổ qua chua ngọt, Tôm nướng bánh hỏi",34,2.94
+CUS00301,Võ Minh Toàn,18-24,Nha Trang,"lunch, breakfast",balanced,373.0,Dễ,"Bánh flan caramel, Điều khoảnsử dụng",9,3.02
+CUS00302,Nguyễn Trọng Cường,65+,Vũng Tàu,"breakfast, dessert",balanced,413.0,Dễ,"Tôm rang me, Tôm nướng bánh hỏi, Nem chua rán",11,3.64
+CUS00303,Hồ Cẩm Trang,18-24,Đà Lạt,"dinner, breakfast",brain-boost,447.0,Trung bình,Kem chuối,9,3.27
+CUS00304,Bùi Minh Sơn,55-64,Huế,"lunch, dessert",balanced,350.0,Dễ,"Cơm tấm sườn nướng, Bánh trôi nước",9,3.07
+CUS00305,Hoàng Thị Hương,45-54,Nha Trang,"lunch, dinner",brain-boost,305.0,Trung bình,"Bò cuộn ba rọi xông khói, Chả cá Lã Vọng",8,2.33
+CUS00306,Võ Minh Hùng,25-34,Đà Nẵng,"dinner, dessert",balanced,469.0,Dễ,"Bánh flan caramel, Bắp hạt chiên giòn, Cơm tấm sườn cây",7,3.46
+CUS00307,Đặng Quang Cường,18-24,Đà Lạt,"dessert, breakfast",weight-loss,284.0,Dễ,"Kem chuối, Bánh mì thịt bò xốt tương (L3), Sữa chua dâu tây",8,3.99
+CUS00308,Võ Quang Phát,35-44,Vũng Tàu,"dessert, lunch",balanced,438.0,Dễ,"Cá hấp củ sen, Tôm chiên cánh bướm, Bánh da lợn",12,3.41
+CUS00309,Ngô Quang Thịnh,45-54,Hà Nội,"dinner, lunch",weight-loss,438.0,Trung bình,"Smoothie xanh detox, Bánh flan caramel, Điều khoảnsử dụng",10,3.23
+CUS00310,Huỳnh Ngọc Dung,35-44,Huế,"dessert, breakfast",balanced,302.0,Trung bình,"Bánh trôi nước, Danh mục thực đơn, Bánh mì sandwich healthy",9,2.98
+CUS00311,Bùi Thuỳ Trang,65+,Buôn Ma Thuột,"lunch, snack",balanced,284.0,Dễ,"Kem chuối, Salad rau củ, Canh chua cá bông lau",11,2.88
+CUS00312,Dương Thanh Vinh,55-64,Hà Nội,"dinner, dessert",weight-loss,359.0,Khó,"Canh chua cá bông lau, Cá hồi nướng bơ tỏi, Thịt bò xào súp lơ",7,3.83
+CUS00313,Dương Thị Hương,25-34,Buôn Ma Thuột,"dessert, lunch",balanced,429.0,Khó,"Chả cá Lã Vọng, Bánh xèo Nhật Bản, Bò cuộn ba rọi xông khói",11,2.63
+CUS00314,Lê Trọng Hải,55-64,Hà Nội,"dinner, lunch",balanced,418.0,Khó,"Mực trộn khổ qua chua ngọt, Bánh khọt, Canh chua cá bông lau",11,2.78
+CUS00315,Dương Xuân Bình,35-44,Hà Nội,"lunch, breakfast",balanced,454.0,Khó,"Cá hồi nướng bơ tỏi, Salad rau củ quả, Bánh mì que",13,3.18
+CUS00316,Lê Cẩm Hương,55-64,Huế,"dinner, lunch",balanced,351.0,Trung bình,"Bò chiên một nắng, Chả cá Lã Vọng, Thịt bò xào súp lơ",9,2.92
+CUS00317,Hồ Diệu Bích,55-64,Đà Nẵng,"lunch, breakfast",balanced,334.0,Dễ,"Canh rau dền nấu tôm, Bánh cuốn chay, Cơm tấm sườn nướng",14,3.18
+CUS00318,Phan Diệu Bích,65+,Buôn Ma Thuột,"dinner, breakfast",weight-loss,420.0,Dễ,"Bánh chiên hải sản, Kem chuối, Nem chua rán",10,3.64
+CUS00319,Lê Hồng Anh,18-24,TP.HCM,"dessert, lunch",balanced,347.0,Trung bình,"Chả cá Lã Vọng, Bánh trôi nước, Mì Quảng",8,2.85
+CUS00320,Vũ Thuỳ Quỳnh,25-34,Huế,"lunch, dessert",balanced,316.0,Dễ,"Miến trộn bò bằm, Lẩu nấm, Bánh mì que",9,3.02
+CUS00321,Lê Thanh Anh,65+,Buôn Ma Thuột,"dessert, breakfast",balanced,345.0,Trung bình,"Tôm nướng bánh hỏi, Bánh trôi nước, Bánh da lợn",8,3.41
+CUS00322,Đỗ Thanh Chi,35-44,Cần Thơ,"lunch, breakfast",balanced,386.0,Trung bình,"Món Chiên, Bánh da lợn, Canh chua cá bông lau",9,3.03
+CUS00323,Huỳnh Văn Nam,18-24,Huế,"breakfast, dinner",weight-loss,387.0,Dễ,"Tôm rang me, Salad rau củ quả, Salad rau củ",9,3.27
+CUS00324,Bùi Xuân Hải,25-34,Hải Phòng,"lunch, dinner",weight-loss,422.0,Dễ,"Canh chua cá bông lau, Cá diêu hồng xiên que chiên lá chanh, Chả cá Lã Vọng",9,3.37
+CUS00325,Lý Tuấn Toàn,18-24,Hạ Long,"dinner, dessert",balanced,470.0,Dễ,"Bánh da lợn, Canh rau dền nấu tôm",7,3.4
+CUS00326,Dương Cẩm Dung,55-64,Buôn Ma Thuột,"breakfast, dessert",brain-boost,551.0,Trung bình,"Bánh trôi nước, Cá hồi nướng bơ tỏi, Bánh mì sandwich healthy",10,3.11
+CUS00327,Phạm Minh Kiên,65+,TP.HCM,"lunch, dinner",balanced,309.0,Dễ,"Kem chuối, Các món ăn kèm, món phụ, Bắp Bò Nhúng Mắm Ruốc",10,3.27
+CUS00328,Đỗ Thanh Hạnh,65+,Đà Nẵng,"lunch, dinner",balanced,394.0,Dễ,"Gà nướng bưởi xốt giấm, Lẩu nấm, Bánh mì que",13,3.12
+CUS00329,Nguyễn Xuân Thịnh,45-54,Hạ Long,"lunch, dessert",weight-loss,315.0,Dễ,"Sữa chua dâu tây, Salad rau củ",8,2.74
+CUS00330,Dương Thị Phương,55-64,Vũng Tàu,"lunch, dessert",balanced,285.0,Khó,"Bánh da lợn, Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",8,2.71
+CUS00331,Nguyễn Cẩm Anh,65+,Cần Thơ,"dessert, dinner",balanced,327.0,Khó,"Bánh da lợn, Salad rau củ",3,3.23
+CUS00332,Phan Gia Bình,25-34,Đà Nẵng,"lunch, dessert",brain-boost,212.0,Dễ,Salad rau củ,5,3.12
+CUS00333,Lê Mai Trang,45-54,Đà Lạt,"lunch, dessert",brain-boost,215.0,Dễ,"Chả cá Lã Vọng, Bánh chuối nướng",4,3.58
+CUS00334,Phan Đức Thịnh,45-54,Nha Trang,"dessert, snack",balanced,220.0,Dễ,"Kem chuối, Bánh mì que, Chả cá Lã Vọng",6,2.42
+CUS00335,Lý Gia Hải,45-54,Vũng Tàu,"lunch, dessert",weight-loss,227.0,Dễ,Chè đậu xanh,3,1.8
+CUS00336,Hồ Thị Anh,65+,Nha Trang,"dessert, snack",balanced,164.0,Dễ,"Bánh da lợn, Bánh trôi nước, Chè bưởi",5,2.76
+CUS00337,Vũ Hồng Lan,35-44,Cần Thơ,dessert,balanced,196.0,Dễ,"Bánh chuối nướng, Kem chuối",5,3.3
+CUS00338,Ngô Mai Nhung,25-34,Đà Lạt,"dessert, lunch",weight-loss,160.0,Dễ,,4,3.08
+CUS00339,Huỳnh Minh Hùng,25-34,Vũng Tàu,"dessert, lunch",weight-loss,162.0,Dễ,"Chè bưởi, Salad rau củ",4,3.65
+CUS00340,Huỳnh Phương Yến,45-54,Hạ Long,"lunch, dinner",brain-boost,342.0,Dễ,"Chả cá Lã Vọng, Salad rau củ",4,2.82
+CUS00341,Lê Mai Trang,65+,Hà Nội,"dessert, lunch",balanced,262.0,Khó,"Bánh trôi nước, Bánh khọt",5,2.6
+CUS00342,Đặng Gia Vinh,45-54,Đà Nẵng,"dessert, snack",weight-loss,162.0,Dễ,,5,3.1
+CUS00343,Bùi Diệu Thảo,18-24,Hải Phòng,"snack, dessert",balanced,208.0,Dễ,"Nem chua rán, Chả cá Lã Vọng, Bánh mì que",5,2.78
+CUS00344,Trần Đức Sơn,55-64,Đà Lạt,"lunch, dessert",brain-boost,228.0,Dễ,"Salad rau củ, Chả cá Lã Vọng, Bánh mì que",5,3.02
+CUS00345,Dương Thanh Dũng,55-64,Đà Nẵng,"dessert, lunch",weight-loss,207.0,Dễ,,6,3.3
+CUS00346,Lê Thanh Dung,25-34,Huế,"dessert, lunch",brain-boost,306.0,Dễ,"Cơm tấm sườn nướng, Bánh chuối nướng",5,2.0
+CUS00347,Huỳnh Xuân Long,35-44,Nha Trang,"dessert, lunch",brain-boost,144.0,Dễ,"Bánh chuối nướng, Salad rau củ",5,3.52
+CUS00348,Hồ Cẩm Trang,45-54,Đà Nẵng,"snack, lunch",balanced,225.0,Dễ,"Chả cá Lã Vọng, Bánh mì que, Nem chua rán",4,2.17
+CUS00349,Đỗ Diệu Trang,65+,Cần Thơ,"lunch, dessert",weight-loss,210.0,Dễ,Bánh khọt,4,3.48
+CUS00350,Võ Gia Thắng,35-44,Cần Thơ,"dessert, snack",brain-boost,190.0,Dễ,"Bánh khọt, Sữa chua dâu tây",6,2.65
+CUS00351,Võ Mai Nhung,35-44,Buôn Ma Thuột,"dessert, lunch",balanced,257.0,Dễ,"Kem chuối, Sữa chua dâu tây",6,3.17
+CUS00352,Nguyễn Hồng Quỳnh,65+,Hạ Long,"dessert, lunch",balanced,263.0,Khó,Bánh da lợn,3,3.3
+CUS00353,Huỳnh Thanh Hải,45-54,TP.HCM,"dessert, lunch",weight-loss,216.0,Dễ,"Bánh da lợn, Chè bưởi",5,3.76
+CUS00354,Lý Thanh Nhung,65+,Hải Phòng,"dessert, snack",balanced,250.0,Trung bình,,3,2.8
+CUS00355,Phạm Cẩm Hương,18-24,Huế,dessert,weight-loss,177.0,Dễ,"Chè đậu xanh, Bánh trôi nước",3,2.13
+CUS00356,Ngô Phương Anh,65+,Đà Lạt,"dessert, lunch",brain-boost,240.0,Trung bình,Bánh trôi nước,4,3.18
+CUS00357,Huỳnh Cẩm Trang,65+,Vũng Tàu,"snack, dinner",balanced,266.0,Trung bình,,5,3.7
+CUS00358,Đỗ Phương Hà,35-44,Hạ Long,dessert,balanced,243.0,Trung bình,Bánh da lợn,3,2.43
+CUS00359,Vũ Trọng Bình,45-54,Huế,"dessert, lunch",weight-loss,186.0,Dễ,"Salad rau củ, Chè bưởi",5,3.72
+CUS00360,Đỗ Minh Thịnh,35-44,Vũng Tàu,"dessert, snack",weight-loss,150.0,Dễ,,3,3.83
+CUS00361,Huỳnh Thanh Thảo,55-64,Hà Nội,dessert,brain-boost,220.0,Dễ,,3,1.7
+CUS00362,Nguyễn Bích Thảo,35-44,Đà Lạt,"dessert, snack",brain-boost,228.0,Dễ,"Chả cá Lã Vọng, Bánh khọt, Chè bưởi",6,3.2
+CUS00363,Hồ Đức Anh,45-54,Nha Trang,"dessert, lunch",weight-loss,140.0,Dễ,,3,3.07
+CUS00364,Ngô Tuấn Cường,25-34,Huế,"lunch, dinner",weight-loss,383.0,Dễ,"Chả cá Lã Vọng, Salad rau củ",3,3.67
+CUS00365,Võ Minh Hùng,65+,Đà Nẵng,"dessert, lunch",weight-loss,150.0,Dễ,Bánh chuối nướng,3,3.07
+CUS00366,Phạm Hồng Thủy,25-34,Đà Nẵng,"dessert, snack",balanced,223.0,Trung bình,"Bánh trôi nước, Bánh mì que",6,3.88
+CUS00367,Ngô Phương Dung,18-24,Vũng Tàu,"dessert, snack",balanced,262.0,Dễ,"Kem chuối, Chè bưởi",6,3.17
+CUS00368,Đặng Đức Kiên,45-54,Cần Thơ,"dessert, lunch",balanced,180.0,Trung bình,Bánh flan caramel,3,3.2
+CUS00369,Phạm Ngọc Thủy,25-34,Đà Nẵng,"dessert, lunch",balanced,252.0,Trung bình,"Bánh trôi nước, Chè bưởi",6,2.87
+CUS00370,Dương Bích Hoa,18-24,TP.HCM,"dessert, lunch",brain-boost,243.0,Dễ,"Chè bưởi, Kem chuối",3,2.77
+CUS00371,Vũ Thị Mai,18-24,Đà Lạt,"dessert, snack",balanced,186.0,Dễ,"Bánh khọt, Kem chuối",5,1.84
+CUS00372,Hoàng Thanh Anh,45-54,Huế,"snack, dessert",balanced,175.0,Dễ,"Salad rau củ, Bánh khọt, Bánh flan caramel",6,3.7
+CUS00373,Huỳnh Thanh Phương,35-44,Đà Nẵng,"dessert, lunch",weight-loss,160.0,Dễ,,3,2.33
+CUS00374,Lý Gia Khánh,18-24,Hà Nội,"dessert, snack",balanced,200.0,Dễ,"Bánh chuối nướng, Chè bưởi",4,2.3
+CUS00375,Phan Văn Sơn,25-34,TP.HCM,"dessert, lunch",balanced,218.0,Trung bình,"Chè bưởi, Salad rau củ, Nem chua rán",6,3.15
+CUS00376,Lý Thanh Hạnh,55-64,Cần Thơ,"dessert, snack",balanced,278.0,Trung bình,"Cơm tấm sườn nướng, Bánh chuối nướng",6,2.87
+CUS00377,Phan Minh Thắng,45-54,Đà Lạt,"dessert, snack",balanced,208.0,Trung bình,Kem chuối,4,2.52
+CUS00378,Ngô Xuân Nam,45-54,Đà Nẵng,"snack, lunch",balanced,203.0,Dễ,Salad rau củ,6,3.75
+CUS00379,Ngô Xuân Long,65+,Hạ Long,"dessert, snack",balanced,180.0,Dễ,"Bánh da lợn, Chè bưởi, Sữa chua dâu tây",6,3.32
+CUS00380,Phan Hồng Phương,65+,Vũng Tàu,"dessert, snack",brain-boost,228.0,Dễ,"Chả cá Lã Vọng, Bánh khọt, Bánh chuối nướng",5,2.42
+CUS00381,Võ Đức Cường,35-44,Huế,"snack, dessert",balanced,156.0,Dễ,"Salad rau củ, Bánh mì que, Kem chuối",5,3.82
+CUS00382,Võ Ngọc Hạnh,45-54,Vũng Tàu,"dessert, lunch",balanced,242.0,Trung bình,"Bánh da lợn, Bánh flan caramel, Salad rau củ",6,3.57
+CUS00383,Huỳnh Diệu Mai,55-64,Nha Trang,"dessert, dinner",balanced,350.0,Trung bình,"Bánh da lợn, Cơm tấm sườn nướng, Bánh khọt",4,3.5
+CUS00384,Nguyễn Cẩm Quỳnh,35-44,TP.HCM,"dessert, snack",weight-loss,150.0,Dễ,Bánh mì que,3,1.9
+CUS00385,Đỗ Thanh Dung,65+,Huế,"snack, dinner",balanced,292.0,Trung bình,Cơm tấm sườn nướng,4,1.82
+CUS00386,Đỗ Phương Lan,55-64,Buôn Ma Thuột,"dessert, lunch",weight-loss,150.0,Dễ,,3,2.43
+CUS00387,Võ Bích Hà,25-34,Buôn Ma Thuột,"dessert, lunch",balanced,243.0,Dễ,Bánh trôi nước,6,2.78
+CUS00388,Dương Hồng Quỳnh,65+,Buôn Ma Thuột,"dessert, lunch",weight-loss,120.0,Dễ,Sữa chua dâu tây,3,3.53
+CUS00389,Đặng Hữu Hải,35-44,Nha Trang,"dessert, lunch",balanced,282.0,Khó,Bánh flan caramel,4,3.38
+CUS00390,Lý Tuấn Anh,25-34,Đà Nẵng,"dessert, dinner",balanced,348.0,Trung bình,"Chả cá Lã Vọng, Bánh da lợn",5,3.16
+CUS00391,Vũ Mai Linh,65+,Hải Phòng,"dessert, snack",balanced,213.0,Trung bình,,3,3.63
+CUS00392,Vũ Diệu Hoa,65+,Huế,"dessert, lunch",brain-boost,216.0,Dễ,"Sữa chua dâu tây, Bánh mì que, Chè đậu xanh",5,2.82
+CUS00393,Phan Mai Thủy,55-64,Buôn Ma Thuột,dessert,weight-loss,192.0,Dễ,"Kem chuối, Chè bưởi",4,3.18
+CUS00394,Trần Quang Thắng,45-54,Hạ Long,dessert,weight-loss,187.0,Dễ,Chè bưởi,3,2.77
+CUS00395,Hồ Thanh Hạnh,25-34,Hạ Long,"dessert, dinner",balanced,347.0,Khó,"Bánh da lợn, Bánh mì que",3,3.23
+CUS00396,Hồ Phương Thủy,55-64,Hạ Long,"dessert, snack",weight-loss,210.0,Dễ,"Bánh chuối nướng, Chả cá Lã Vọng, Sữa chua dâu tây",5,2.46
+CUS00397,Nguyễn Xuân Cường,25-34,Huế,"dessert, snack",balanced,277.0,Dễ,Kem chuối,6,2.98
+CUS00398,Phạm Ngọc Thảo,35-44,Đà Lạt,"dessert, dinner",balanced,247.0,Trung bình,"Bánh chuối nướng, Nem chua rán",6,3.48
+CUS00399,Bùi Ngọc Hoa,18-24,Vũng Tàu,dessert,brain-boost,190.0,Dễ,,4,2.12
+CUS00400,Trần Ngọc Mai,25-34,TP.HCM,"snack, dessert",balanced,312.0,Trung bình,"Cơm tấm sườn nướng, Bánh trôi nước",6,2.08
+CUS00401,Ngô Phương Quỳnh,35-44,Đà Lạt,"dessert, snack",weight-loss,158.0,Dễ,"Bánh chuối nướng, Salad rau củ",6,2.38
+CUS00402,Nguyễn Gia Sơn,35-44,Hạ Long,"snack, dinner",balanced,315.0,Trung bình,,4,3.32
+CUS00403,Dương Tuấn Dũng,55-64,Nha Trang,"dessert, snack",balanced,227.0,Dễ,"Bánh flan caramel, Bánh mì que, Chả cá Lã Vọng",6,2.28
+CUS00404,Ngô Phương Hoa,18-24,Cần Thơ,"dessert, snack",balanced,300.0,Trung bình,"Chè bưởi, Chè đậu xanh",4,3.22
+CUS00405,Phan Bích Nhung,45-54,Buôn Ma Thuột,dessert,weight-loss,183.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",3,4.03
+CUS00406,Vũ Diệu Thủy,55-64,Hải Phòng,"dessert, snack",balanced,165.0,Dễ,"Bánh mì que, Sữa chua dâu tây",4,3.55
+CUS00407,Đặng Bích Lan,65+,Vũng Tàu,"dessert, dinner",balanced,295.0,Trung bình,"Bánh trôi nước, Cơm tấm sườn nướng",4,2.58
+CUS00408,Phan Minh Hải,65+,Vũng Tàu,"dessert, lunch",weight-loss,153.0,Dễ,"Bánh trôi nước, Salad rau củ",3,2.7
+CUS00409,Võ Thanh Toàn,65+,Cần Thơ,"dessert, lunch",balanced,272.0,Khó,Chả cá Lã Vọng,4,2.45
+CUS00410,Lê Hữu Dũng,65+,Đà Lạt,"dessert, snack",brain-boost,170.0,Dễ,Bánh mì que,5,3.12
+CUS00411,Vũ Diệu Anh,25-34,Cần Thơ,"lunch, dessert",brain-boost,235.0,Dễ,Chả cá Lã Vọng,4,2.68
+CUS00412,Ngô Bích Mai,45-54,Đà Nẵng,"dessert, lunch",weight-loss,246.0,Dễ,"Bánh trôi nước, Chè đậu xanh, Chè bưởi",5,3.16
+CUS00413,Đỗ Gia Kiên,35-44,Hải Phòng,"dessert, dinner",brain-boost,257.0,Dễ,"Kem chuối, Chè bưởi",6,3.68
+CUS00414,Đặng Văn Vinh,35-44,Đà Nẵng,"dessert, snack",balanced,242.0,Khó,Bánh da lợn,5,2.72
+CUS00415,Đặng Tuấn Thắng,65+,Đà Lạt,"lunch, dinner",brain-boost,430.0,Khó,"Chả cá Lã Vọng, Cơm tấm sườn nướng, Bánh chuối nướng",3,1.9
+CUS00416,Bùi Quang Khánh,25-34,Đà Lạt,"snack, dinner",balanced,258.0,Trung bình,Cơm tấm sườn nướng,4,2.1
+CUS00417,Dương Mai Ngọc,65+,Đà Lạt,"lunch, dinner",balanced,332.0,Trung bình,"Nem chua rán, Salad rau củ, Chả cá Lã Vọng",4,3.08
+CUS00418,Vũ Hữu Hùng,65+,Hạ Long,"dessert, lunch",balanced,288.0,Khó,"Bánh da lợn, Chả cá Lã Vọng",4,2.82
+CUS00419,Nguyễn Hồng Linh,55-64,Đà Lạt,dessert,weight-loss,193.0,Dễ,,3,2.77
+CUS00420,Phan Thuỳ Anh,65+,Vũng Tàu,"dessert, lunch",balanced,228.0,Dễ,"Chả cá Lã Vọng, Bánh chuối nướng, Bánh da lợn",6,1.93
+CUS00421,Dương Thanh Dũng,25-34,Vũng Tàu,"dessert, snack",brain-boost,255.0,Dễ,,4,3.45
+CUS00422,Trần Minh Bình,65+,Hà Nội,"dessert, lunch",balanced,252.0,Dễ,Bánh flan caramel,5,3.2
+CUS00423,Lê Ngọc Nhung,25-34,Hải Phòng,"dessert, snack",balanced,172.0,Dễ,"Nem chua rán, Sữa chua dâu tây",5,2.98
+CUS00424,Võ Xuân Thắng,35-44,Đà Nẵng,"dessert, lunch",balanced,267.0,Dễ,"Kem chuối, Chè đậu xanh",6,2.77
+CUS00425,Dương Trọng Tú,18-24,Vũng Tàu,"dessert, lunch",weight-loss,236.0,Khó,Chả cá Lã Vọng,5,3.28
+CUS00426,Võ Trọng Quân,45-54,Hải Phòng,dessert,weight-loss,185.0,Dễ,"Kem chuối, Chè đậu xanh, Chè bưởi",4,2.88
+CUS00427,Lý Mai Dung,45-54,Đà Lạt,"dessert, dinner",balanced,312.0,Trung bình,"Bánh da lợn, Chè bưởi",4,3.18
+CUS00428,Bùi Minh Vinh,65+,Buôn Ma Thuột,"dessert, lunch",brain-boost,317.0,Dễ,,3,4.0
+CUS00429,Nguyễn Thị Thủy,18-24,Hạ Long,"dessert, lunch",weight-loss,172.0,Dễ,"Chè đậu xanh, Sữa chua dâu tây, Salad rau củ",5,3.44
+CUS00430,Ngô Phương Trang,45-54,Hà Nội,"dessert, lunch",weight-loss,162.0,Dễ,Sữa chua dâu tây,6,3.02
+CUS00431,Đỗ Bích Quỳnh,35-44,Cần Thơ,dessert,weight-loss,183.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",3,2.97
+CUS00432,Hồ Cẩm Hà,25-34,Cần Thơ,"dessert, lunch",brain-boost,213.0,Dễ,"Bánh da lợn, Chè bưởi, Bánh chuối nướng",6,2.93
+CUS00433,Vũ Văn Dũng,45-54,Hạ Long,"dessert, snack",balanced,298.0,Trung bình,"Nem chua rán, Sữa chua dâu tây, Bánh khọt",6,3.1
+CUS00434,Phan Thanh Kiên,18-24,Hạ Long,dessert,balanced,205.0,Dễ,Bánh da lợn,4,3.55
+CUS00435,Đặng Văn Tú,35-44,Vũng Tàu,"dessert, lunch",balanced,190.0,Dễ,"Salad rau củ, Bánh chuối nướng",4,3.2
+CUS00436,Ngô Gia Vinh,18-24,Vũng Tàu,"snack, dinner",balanced,282.0,Trung bình,"Bánh mì que, Cơm tấm sườn nướng",4,2.88
+CUS00437,Trần Đức Phát,25-34,Hải Phòng,"lunch, snack",balanced,307.0,Trung bình,Bánh khọt,3,2.37
+CUS00438,Bùi Thanh Thắng,65+,Cần Thơ,"dessert, snack",balanced,168.0,Trung bình,Bánh trôi nước,4,2.7
+CUS00439,Dương Trọng Cường,45-54,TP.HCM,"dessert, snack",balanced,208.0,Dễ,Bánh khọt,6,3.27
+CUS00440,Trần Tuấn Dũng,65+,Đà Lạt,"dessert, snack",balanced,198.0,Dễ,"Bánh chuối nướng, Bánh mì que",4,3.5
+CUS00441,Ngô Mai Hoa,65+,TP.HCM,dessert,weight-loss,173.0,Dễ,,3,2.9
+CUS00442,Bùi Tuấn Cường,18-24,Vũng Tàu,"dessert, snack",balanced,197.0,Dễ,"Bánh khọt, Sữa chua dâu tây, Chè đậu xanh",6,2.13
+CUS00443,Hồ Gia Thịnh,25-34,Vũng Tàu,"dessert, snack",balanced,270.0,Dễ,"Bánh da lợn, Chè bưởi",5,2.96
+CUS00444,Lê Thanh Nam,35-44,Đà Lạt,"dessert, snack",balanced,248.0,Dễ,,6,3.42
+CUS00445,Dương Mai Thủy,35-44,Huế,dessert,balanced,200.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng, Bánh flan caramel",5,2.74
+CUS00446,Vũ Thị Phương,65+,Đà Lạt,"dessert, snack",balanced,176.0,Trung bình,"Bánh khọt, Sữa chua dâu tây, Kem chuối",5,3.54
+CUS00447,Hồ Trọng Hải,25-34,Đà Lạt,"dessert, lunch",balanced,238.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng",6,3.35
+CUS00448,Hoàng Đức Hải,65+,Vũng Tàu,"dessert, snack",balanced,312.0,Trung bình,Bánh flan caramel,4,3.82
+CUS00449,Dương Xuân Hùng,25-34,Cần Thơ,"dessert, snack",weight-loss,235.0,Dễ,"Chè đậu xanh, Salad rau củ",6,3.25
+CUS00450,Dương Thanh Hùng,65+,Buôn Ma Thuột,"dessert, snack",balanced,210.0,Trung bình,Bánh flan caramel,4,3.62
+CUS00451,Hoàng Xuân Khánh,35-44,TP.HCM,"dessert, snack",balanced,328.0,Trung bình,,4,3.3
+CUS00452,Nguyễn Thị Yến,35-44,Vũng Tàu,"snack, dessert",balanced,262.0,Trung bình,"Bánh mì que, Cơm tấm sườn nướng, Sữa chua dâu tây",5,2.22
+CUS00453,Hoàng Trọng Thắng,35-44,Cần Thơ,"dessert, snack",balanced,175.0,Trung bình,"Kem chuối, Salad rau củ, Nem chua rán",4,1.95
+CUS00454,Trần Hồng Chi,55-64,Nha Trang,"dessert, dinner",balanced,282.0,Trung bình,"Bánh flan caramel, Salad rau củ",4,2.95
+CUS00455,Phạm Diệu Thảo,35-44,Đà Nẵng,"dessert, snack",brain-boost,170.0,Dễ,"Chè bưởi, Bánh chuối nướng",5,3.0
+CUS00456,Bùi Hữu Hải,55-64,Buôn Ma Thuột,"dessert, snack",weight-loss,163.0,Dễ,Kem chuối,3,1.7
+CUS00457,Huỳnh Phương Vân,55-64,Huế,"dessert, snack",balanced,180.0,Dễ,"Chè đậu xanh, Bánh mì que, Bánh trôi nước",6,3.73
+CUS00458,Phạm Diệu Trang,35-44,Huế,dessert,weight-loss,193.0,Dễ,,3,3.3
+CUS00459,Nguyễn Bích Hà,25-34,Nha Trang,"dessert, snack",balanced,280.0,Trung bình,Bánh da lợn,5,2.48
+CUS00460,Đặng Phương Thủy,18-24,Hải Phòng,"dessert, snack",balanced,226.0,Trung bình,Bánh trôi nước,5,3.52
+CUS00461,Lê Trọng Hải,35-44,Nha Trang,dessert,balanced,205.0,Dễ,Bánh da lợn,4,2.6
+CUS00462,Đặng Đức Toàn,65+,Hà Nội,"snack, dinner",balanced,357.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng",3,3.07
+CUS00463,Nguyễn Diệu Ngọc,65+,Cần Thơ,"snack, dessert",balanced,173.0,Trung bình,,3,3.3
+CUS00464,Nguyễn Thuỳ Hà,45-54,Đà Lạt,"dessert, lunch",balanced,195.0,Dễ,"Salad rau củ, Bánh flan caramel",4,4.0
+CUS00465,Lý Thanh Vân,18-24,Hạ Long,dessert,weight-loss,195.0,Dễ,,4,2.95
+CUS00466,Phạm Trọng Anh,25-34,Hà Nội,"dessert, lunch",balanced,283.0,Khó,"Chả cá Lã Vọng, Nem chua rán",6,2.63
+CUS00467,Lý Thuỳ Vân,35-44,Hạ Long,dessert,balanced,223.0,Khó,,3,3.73
+CUS00468,Trần Trọng Dũng,65+,Huế,"lunch, snack",balanced,307.0,Trung bình,"Bánh flan caramel, Chả cá Lã Vọng",3,3.23
+CUS00469,Trần Thị Bích,65+,Vũng Tàu,"dessert, lunch",balanced,240.0,Trung bình,Bánh flan caramel,5,2.3
+CUS00470,Bùi Thị Linh,65+,Vũng Tàu,"dessert, lunch",balanced,153.0,Dễ,"Sữa chua dâu tây, Kem chuối, Bánh mì que",6,3.08
+CUS00471,Phạm Quang Long,55-64,Đà Nẵng,"dessert, lunch",weight-loss,168.0,Dễ,"Sữa chua dâu tây, Bánh da lợn",4,2.75
+CUS00472,Lý Đức Hải,25-34,Hải Phòng,"dessert, snack",balanced,210.0,Trung bình,Nem chua rán,3,3.57
+CUS00473,Huỳnh Mai Ngọc,18-24,Cần Thơ,"dessert, snack",balanced,218.0,Dễ,"Bánh da lợn, Bánh trôi nước, Bánh mì que",5,3.42
+CUS00474,Huỳnh Phương Trang,35-44,Cần Thơ,"dessert, lunch",balanced,242.0,Trung bình,"Chả cá Lã Vọng, Salad rau củ, Bánh khọt",6,2.65
+CUS00475,Huỳnh Thuỳ Phương,55-64,Huế,"dessert, dinner",weight-loss,264.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",5,3.58
+CUS00476,Đỗ Hữu Dũng,18-24,Buôn Ma Thuột,"snack, dessert",balanced,187.0,Trung bình,,3,3.53
+CUS00477,Đặng Văn Tuấn,55-64,Đà Lạt,"dessert, snack",balanced,185.0,Trung bình,"Bánh flan caramel, Chè bưởi, Bánh mì que",6,2.63
+CUS00478,Nguyễn Diệu Mai,55-64,Buôn Ma Thuột,"dinner, snack",balanced,373.0,Trung bình,Bánh khọt,3,3.4
+CUS00479,Võ Diệu Thủy,45-54,Nha Trang,"dessert, snack",balanced,187.0,Dễ,Sữa chua dâu tây,6,3.65
+CUS00480,Phạm Diệu Hương,25-34,Đà Nẵng,"dessert, snack",balanced,210.0,Trung bình,"Bánh khọt, Bánh flan caramel, Kem chuối",4,2.7
+CUS00481,Bùi Đức Bình,35-44,TP.HCM,"dessert, lunch",weight-loss,197.0,Dễ,"Bánh trôi nước, Nem chua rán, Sữa chua dâu tây",6,2.82
+CUS00482,Dương Ngọc Vân,45-54,Đà Nẵng,"dessert, snack",brain-boost,232.0,Dễ,"Chả cá Lã Vọng, Bánh khọt, Nem chua rán",5,4.04
+CUS00483,Phạm Trọng Long,55-64,Huế,"dessert, lunch",brain-boost,222.0,Khó,,5,1.98
+CUS00484,Nguyễn Thuỳ Quỳnh,45-54,Hải Phòng,"dessert, dinner",balanced,360.0,Trung bình,"Bánh trôi nước, Cơm tấm sườn nướng, Bánh flan caramel",5,3.58
+CUS00485,Vũ Hồng Linh,18-24,Cần Thơ,dessert,brain-boost,167.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng, Kem chuối",3,3.23
+CUS00486,Dương Thuỳ Quỳnh,35-44,Vũng Tàu,"dessert, lunch",brain-boost,238.0,Dễ,"Nem chua rán, Chả cá Lã Vọng",5,2.58
+CUS00487,Phạm Ngọc Ngọc,35-44,Buôn Ma Thuột,"dessert, lunch",brain-boost,370.0,Khó,,4,4.2
+CUS00488,Đặng Minh Phát,18-24,Buôn Ma Thuột,"dessert, snack",balanced,166.0,Dễ,"Kem chuối, Bánh khọt, Bánh da lợn",5,2.94
+CUS00489,Lý Ngọc Hương,65+,Huế,"dessert, lunch",balanced,315.0,Trung bình,"Sữa chua dâu tây, Cơm tấm sườn nướng",6,3.48
+CUS00490,Phan Hữu Long,55-64,TP.HCM,"dessert, lunch",brain-boost,190.0,Dễ,"Kem chuối, Sữa chua dâu tây, Bánh chuối nướng",6,2.93
+CUS00491,Lý Hữu Nam,18-24,Đà Lạt,"dessert, snack",balanced,232.0,Trung bình,,4,3.78
+CUS00492,Trần Trọng Khánh,18-24,Đà Nẵng,"dessert, snack",balanced,165.0,Trung bình,"Sữa chua dâu tây, Nem chua rán",4,3.8
+CUS00493,Vũ Quang Thắng,18-24,Hạ Long,"dessert, lunch",brain-boost,127.0,Dễ,"Kem chuối, Salad rau củ, Bánh mì que",3,2.93
+CUS00494,Huỳnh Minh Nam,55-64,Hạ Long,"dessert, snack",balanced,245.0,Dễ,"Bánh mì que, Bánh chuối nướng, Kem chuối",6,2.5
+CUS00495,Phạm Ngọc Ngọc,55-64,Hải Phòng,"dessert, snack",weight-loss,178.0,Dễ,"Bánh khọt, Bánh chuối nướng, Bánh mì que",6,2.97
+CUS00496,Phạm Quang Thịnh,65+,Hải Phòng,"dessert, snack",weight-loss,152.0,Dễ,"Kem chuối, Nem chua rán, Sữa chua dâu tây",6,3.12
+CUS00497,Ngô Tuấn Nam,25-34,Đà Nẵng,"dessert, dinner",balanced,263.0,Dễ,"Bánh chuối nướng, Kem chuối",6,2.72
+CUS00498,Dương Mai Dung,35-44,TP.HCM,"snack, dessert",balanced,160.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",5,2.9
+CUS00499,Nguyễn Trọng Thịnh,35-44,Hải Phòng,"snack, dessert",balanced,188.0,Dễ,Salad rau củ,5,3.28
+CUS00500,Đặng Tuấn Toàn,35-44,Hà Nội,dessert,weight-loss,173.0,Dễ,Bánh chuối nướng,3,2.77
+CUS00501,Hồ Thuỳ Hạnh,35-44,Đà Nẵng,"dessert, snack",balanced,230.0,Trung bình,"Nem chua rán, Sữa chua dâu tây",6,3.22
+CUS00502,Phan Minh Dũng,45-54,Buôn Ma Thuột,"dessert, snack",balanced,187.0,Dễ,"Bánh khọt, Bánh flan caramel",6,2.8
+CUS00503,Hồ Ngọc Trang,65+,Hải Phòng,"dessert, snack",balanced,186.0,Dễ,"Nem chua rán, Chè bưởi, Bánh mì que",5,3.28
+CUS00504,Dương Mai Mai,55-64,Hải Phòng,"snack, dessert",balanced,187.0,Trung bình,Nem chua rán,3,2.67
+CUS00505,Dương Hữu Nam,45-54,Nha Trang,"dessert, snack",balanced,150.0,Dễ,Salad rau củ,5,2.92
+CUS00506,Lê Văn Hùng,18-24,Huế,"dessert, snack",weight-loss,153.0,Dễ,"Kem chuối, Sữa chua dâu tây",3,3.9
+CUS00507,Võ Văn Khánh,35-44,Hải Phòng,"dessert, dinner",balanced,316.0,Dễ,Bánh mì que,5,3.84
+CUS00508,Huỳnh Trọng Quân,65+,Huế,"dessert, lunch",balanced,368.0,Khó,"Chả cá Lã Vọng, Chè bưởi",4,2.92
+CUS00509,Dương Thị Linh,45-54,Nha Trang,"dessert, snack",balanced,168.0,Dễ,"Sữa chua dâu tây, Bánh khọt, Bánh da lợn",4,3.12
+CUS00510,Trần Đức Vinh,18-24,Vũng Tàu,"dessert, snack",balanced,178.0,Trung bình,"Bánh khọt, Bánh trôi nước, Bánh mì que",4,2.9
+CUS00511,Ngô Văn Cường,18-24,Nha Trang,"snack, lunch",balanced,285.0,Trung bình,"Bánh trôi nước, Salad rau củ, Chả cá Lã Vọng",6,2.18
+CUS00512,Dương Tuấn Kiên,25-34,Đà Nẵng,dessert,weight-loss,163.0,Dễ,"Bánh chuối nướng, Chè bưởi",3,2.53
+CUS00513,Nguyễn Gia Quân,18-24,Đà Nẵng,"dessert, lunch",brain-boost,208.0,Dễ,Kem chuối,6,3.6
+CUS00514,Võ Thuỳ Lan,18-24,Hải Phòng,"dessert, lunch",balanced,230.0,Dễ,"Chả cá Lã Vọng, Bánh da lợn, Chè bưởi",6,3.18
+CUS00515,Dương Hồng Dung,65+,Vũng Tàu,"snack, dessert",balanced,316.0,Trung bình,Bánh khọt,5,2.18
+CUS00516,Đỗ Phương Anh,45-54,TP.HCM,"dessert, snack",brain-boost,235.0,Dễ,Bánh chuối nướng,4,2.62
+CUS00517,Huỳnh Thị Ngọc,65+,Huế,"dessert, lunch",balanced,302.0,Dễ,"Bánh mì que, Chả cá Lã Vọng, Bánh trôi nước",6,2.53
+CUS00518,Phan Văn Cường,35-44,Hà Nội,"dessert, lunch",brain-boost,267.0,Dễ,,3,3.43
+CUS00519,Lý Hồng Hạnh,25-34,Hải Phòng,"lunch, dessert",balanced,332.0,Dễ,"Chả cá Lã Vọng, Sữa chua dâu tây",4,3.3
+CUS00520,Phạm Cẩm Hà,55-64,Cần Thơ,"dessert, lunch",brain-boost,265.0,Trung bình,Bánh trôi nước,4,2.48
+CUS00521,Ngô Cẩm Vân,25-34,Hà Nội,"dessert, lunch",balanced,270.0,Trung bình,Bánh flan caramel,4,2.18
+CUS00522,Nguyễn Thanh Kiên,65+,Hà Nội,"dessert, dinner",balanced,290.0,Dễ,Bánh chuối nướng,5,2.12
+CUS00523,Hồ Hồng Hương,25-34,Hạ Long,"dessert, snack",balanced,168.0,Dễ,"Bánh mì que, Kem chuối",4,3.58
+CUS00524,Nguyễn Đức Phát,18-24,Nha Trang,"dessert, snack",brain-boost,150.0,Dễ,Bánh mì que,5,2.16
+CUS00525,Ngô Tuấn Vinh,35-44,Đà Lạt,"lunch, dinner",weight-loss,303.0,Dễ,Chè đậu xanh,3,2.93
+CUS00526,Đỗ Minh Bình,25-34,Vũng Tàu,"dessert, snack",balanced,207.0,Trung bình,Bánh flan caramel,3,2.57
+CUS00527,Võ Văn Tuấn,55-64,Nha Trang,"dessert, snack",balanced,187.0,Dễ,"Bánh khọt, Bánh mì que, Chè bưởi",6,3.25
+CUS00528,Đặng Văn Toàn,18-24,TP.HCM,"dessert, dinner",balanced,290.0,Dễ,"Bánh flan caramel, Chè bưởi, Sữa chua dâu tây",5,3.1
+CUS00529,Phạm Bích Yến,55-64,Hải Phòng,"dessert, snack",balanced,275.0,Dễ,"Cơm tấm sườn nướng, Kem chuối",6,3.58
+CUS00530,Ngô Ngọc Dung,65+,Vũng Tàu,"snack, dinner",balanced,238.0,Trung bình,"Nem chua rán, Bánh mì que, Salad rau củ",6,3.43
+CUS00531,Huỳnh Quang Sơn,65+,Cần Thơ,"dessert, lunch",balanced,283.0,Trung bình,"Salad rau củ, Bánh flan caramel",6,2.23
+CUS00532,Nguyễn Hồng Linh,25-34,Vũng Tàu,"dessert, dinner",weight-loss,260.0,Dễ,Cơm tấm sườn nướng,4,3.4
+CUS00533,Võ Hồng Bích,65+,Đà Nẵng,"snack, lunch",balanced,210.0,Dễ,"Nem chua rán, Bánh mì que",6,3.2
+CUS00534,Hoàng Trọng Thắng,35-44,Buôn Ma Thuột,"snack, lunch",balanced,210.0,Trung bình,Bánh khọt,5,2.48
+CUS00535,Hoàng Diệu Linh,35-44,Hạ Long,"dessert, lunch",balanced,254.0,Trung bình,Chè bưởi,5,3.7
+CUS00536,Phạm Gia Anh,45-54,Đà Nẵng,dessert,weight-loss,192.0,Dễ,"Chè đậu xanh, Sữa chua dâu tây, Bánh chuối nướng",4,3.1
+CUS00537,Nguyễn Thanh Kiên,55-64,TP.HCM,"dinner, snack",balanced,350.0,Trung bình,,3,1.8
+CUS00538,Hồ Cẩm Thủy,18-24,Hải Phòng,"dessert, dinner",weight-loss,264.0,Dễ,"Bánh chuối nướng, Nem chua rán, Chè bưởi",5,2.82
+CUS00539,Huỳnh Thuỳ Quỳnh,45-54,Nha Trang,"dinner, dessert",balanced,383.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng",3,3.17
+CUS00540,Vũ Trọng Minh,25-34,Cần Thơ,"lunch, snack",balanced,227.0,Trung bình,,3,2.4
+CUS00541,Bùi Thanh Mai,25-34,Đà Nẵng,"dessert, lunch",weight-loss,178.0,Dễ,"Bánh flan caramel, Bánh khọt",5,3.42
+CUS00542,Vũ Diệu Thảo,35-44,Cần Thơ,dessert,weight-loss,173.0,Dễ,Chè bưởi,3,3.13
+CUS00543,Phạm Văn Bình,65+,Nha Trang,"snack, dessert",balanced,210.0,Dễ,Sữa chua dâu tây,5,3.04
+CUS00544,Trần Phương Bích,18-24,Buôn Ma Thuột,"dessert, lunch",weight-loss,210.0,Dễ,Salad rau củ,5,2.28
+CUS00545,Lý Quang Thịnh,55-64,Đà Lạt,"dessert, lunch",weight-loss,165.0,Dễ,"Salad rau củ, Chè đậu xanh",4,3.28
+CUS00546,Phan Thuỳ Hà,35-44,Buôn Ma Thuột,"dessert, lunch",weight-loss,228.0,Dễ,"Bánh khọt, Bánh chuối nướng",6,1.68
+CUS00547,Phan Phương Mai,18-24,Đà Nẵng,"snack, dessert",balanced,202.0,Trung bình,"Bánh chuối nướng, Nem chua rán",5,3.26
+CUS00548,Phan Đức Thắng,35-44,Nha Trang,"dessert, lunch",brain-boost,245.0,Dễ,,4,4.3
+CUS00549,Vũ Thanh Tú,35-44,Đà Lạt,"snack, dessert",balanced,194.0,Dễ,"Chè đậu xanh, Bánh mì que, Bánh da lợn",5,3.1
+CUS00550,Dương Tuấn Bình,65+,Cần Thơ,"dessert, snack",balanced,272.0,Trung bình,"Bánh khọt, Bánh da lợn, Cơm tấm sườn nướng",6,3.87
+CUS00551,Huỳnh Minh Long,35-44,Buôn Ma Thuột,"dessert, snack",balanced,232.0,Trung bình,"Sữa chua dâu tây, Bánh chuối nướng, Bánh trôi nước",6,3.3
+CUS00552,Đỗ Phương Hương,35-44,Đà Nẵng,"dessert, snack",weight-loss,250.0,Dễ,Cơm tấm sườn nướng,6,2.43
+CUS00553,Dương Diệu Ngọc,55-64,Huế,"snack, lunch",balanced,235.0,Dễ,Chả cá Lã Vọng,4,4.12
+CUS00554,Vũ Hữu Tú,25-34,Hải Phòng,"dessert, snack",balanced,163.0,Dễ,"Chè đậu xanh, Kem chuối, Bánh trôi nước",6,2.77
+CUS00555,Võ Bích Hạnh,18-24,Huế,"dessert, lunch",balanced,205.0,Dễ,"Nem chua rán, Bánh da lợn, Kem chuối",6,3.07
+CUS00556,Lê Xuân Vinh,25-34,Nha Trang,"dessert, dinner",balanced,308.0,Trung bình,"Cơm tấm sườn nướng, Nem chua rán",4,3.22
+CUS00557,Vũ Bích Hạnh,25-34,Buôn Ma Thuột,"dessert, snack",weight-loss,192.0,Dễ,"Sữa chua dâu tây, Bánh khọt, Bánh da lợn",5,2.74
+CUS00558,Phạm Mai Quỳnh,55-64,TP.HCM,"dessert, snack",weight-loss,158.0,Dễ,"Chè đậu xanh, Nem chua rán",4,3.15
+CUS00559,Hoàng Trọng Quân,35-44,Vũng Tàu,"dessert, snack",balanced,312.0,Trung bình,Cơm tấm sườn nướng,4,2.42
+CUS00560,Phạm Xuân Bình,18-24,Hạ Long,"dessert, snack",weight-loss,142.0,Dễ,Sữa chua dâu tây,6,2.7
+CUS00561,Phạm Thị Quỳnh,55-64,TP.HCM,"dessert, snack",balanced,205.0,Dễ,"Nem chua rán, Chè đậu xanh, Bánh khọt",6,3.5
+CUS00562,Đặng Quang Vinh,35-44,Đà Nẵng,"dessert, snack",balanced,182.0,Dễ,Bánh chuối nướng,5,3.16
+CUS00563,Huỳnh Văn Tuấn,65+,Nha Trang,"dessert, lunch",weight-loss,208.0,Dễ,"Bánh mì que, Chả cá Lã Vọng",4,2.92
+CUS00564,Trần Ngọc Hà,18-24,Hải Phòng,"lunch, snack",brain-boost,263.0,Khó,Bánh khọt,3,1.57
+CUS00565,Trần Đức Sơn,65+,Đà Lạt,"dessert, snack",balanced,187.0,Trung bình,"Chè đậu xanh, Kem chuối, Bánh flan caramel",6,2.8
+CUS00566,Trần Hữu Hùng,35-44,Đà Lạt,"dessert, dinner",brain-boost,350.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",3,3.77
+CUS00567,Võ Ngọc Ngọc,35-44,Đà Lạt,"dessert, snack",balanced,178.0,Trung bình,"Chè bưởi, Bánh mì que",4,3.62
+CUS00568,Huỳnh Ngọc Yến,45-54,Đà Lạt,"dessert, snack",balanced,205.0,Trung bình,Sữa chua dâu tây,4,3.28
+CUS00569,Hồ Ngọc Hà,55-64,TP.HCM,"dessert, lunch",weight-loss,127.0,Dễ,Chè đậu xanh,3,3.3
+CUS00570,Hồ Hữu Kiên,65+,Hạ Long,"dessert, lunch",balanced,267.0,Trung bình,"Bánh da lợn, Nem chua rán, Kem chuối",6,2.65
+CUS00571,Ngô Xuân Vinh,65+,Hải Phòng,dessert,balanced,188.0,Dễ,Sữa chua dâu tây,5,2.68
+CUS00572,Phạm Quang Toàn,18-24,Buôn Ma Thuột,"snack, dinner",balanced,342.0,Dễ,Kem chuối,4,2.7
+CUS00573,Vũ Đức Cường,55-64,Vũng Tàu,"dessert, dinner",balanced,310.0,Trung bình,"Chè đậu xanh, Cơm tấm sườn nướng, Sữa chua dâu tây",5,2.94
+CUS00574,Huỳnh Ngọc Hạnh,35-44,Hà Nội,"snack, dessert",weight-loss,160.0,Dễ,,3,2.1
+CUS00575,Hồ Diệu Thủy,45-54,Nha Trang,"snack, lunch",balanced,293.0,Trung bình,Chả cá Lã Vọng,3,2.77
+CUS00576,Lê Trọng Sơn,18-24,TP.HCM,"snack, dessert",balanced,240.0,Trung bình,Nem chua rán,3,2.47
+CUS00577,Lê Thị Ngọc,18-24,Nha Trang,"snack, dessert",balanced,342.0,Trung bình,"Chả cá Lã Vọng, Bánh khọt, Cơm tấm sườn nướng",5,3.22
+CUS00578,Lý Quang Bình,35-44,Hà Nội,"lunch, dessert",weight-loss,140.0,Dễ,Sữa chua dâu tây,3,2.4
+CUS00579,Lê Xuân Phát,18-24,Buôn Ma Thuột,"dessert, lunch",balanced,246.0,Trung bình,"Bánh trôi nước, Chả cá Lã Vọng",5,2.78
+CUS00580,Dương Diệu Trang,35-44,Buôn Ma Thuột,"snack, dessert",balanced,180.0,Dễ,,3,4.2
+CUS00581,Phan Cẩm Ngọc,55-64,Hạ Long,"dessert, snack",balanced,244.0,Trung bình,Chả cá Lã Vọng,5,3.12
+CUS00582,Huỳnh Cẩm Thủy,18-24,Vũng Tàu,"dessert, lunch",weight-loss,250.0,Dễ,Chả cá Lã Vọng,3,3.0
+CUS00583,Nguyễn Mai Thủy,55-64,Hạ Long,"snack, dessert",balanced,160.0,Trung bình,Bánh khọt,5,2.68
+CUS00584,Hoàng Trọng Nam,25-34,Hà Nội,"dessert, snack",brain-boost,225.0,Dễ,"Nem chua rán, Bánh da lợn, Bánh chuối nướng",6,2.83
+CUS00585,Huỳnh Đức Toàn,25-34,TP.HCM,"dessert, snack",weight-loss,148.0,Dễ,Chè bưởi,4,3.72
+CUS00586,Vũ Cẩm Dung,35-44,Hà Nội,"snack, dessert",balanced,184.0,Trung bình,"Nem chua rán, Bánh trôi nước",5,3.04
+CUS00587,Vũ Thuỳ Mai,35-44,Đà Lạt,"dessert, lunch",brain-boost,253.0,Dễ,"Kem chuối, Chè đậu xanh",3,2.8
+CUS00588,Võ Quang Long,45-54,Huế,"snack, dessert",balanced,192.0,Dễ,"Bánh khọt, Kem chuối, Bánh mì que",4,3.7
+CUS00589,Vũ Văn Nam,65+,Vũng Tàu,"dessert, snack",balanced,248.0,Dễ,,6,2.58
+CUS00590,Lê Xuân Tú,18-24,Huế,"dinner, snack",balanced,357.0,Trung bình,Bánh khọt,3,2.67
+CUS00591,Hồ Xuân Nam,45-54,Hà Nội,"dessert, snack",balanced,338.0,Trung bình,"Chả cá Lã Vọng, Chè bưởi",5,3.64
+CUS00592,Dương Tuấn Minh,55-64,Vũng Tàu,"dessert, lunch",weight-loss,172.0,Dễ,Salad rau củ,6,3.37
+CUS00593,Phan Thuỳ Nhung,25-34,Hạ Long,"dessert, snack",balanced,265.0,Trung bình,"Bánh chuối nướng, Cơm tấm sườn nướng",6,3.38
+CUS00594,Võ Gia Dũng,25-34,Đà Lạt,dessert,weight-loss,163.0,Dễ,"Chè bưởi, Kem chuối, Chè đậu xanh",3,3.03
+CUS00595,Lý Xuân Cường,25-34,Buôn Ma Thuột,"dessert, dinner",balanced,308.0,Trung bình,Chả cá Lã Vọng,6,1.97
+CUS00596,Phạm Hữu Tuấn,55-64,TP.HCM,"dessert, snack",balanced,250.0,Khó,"Bánh khọt, Bánh trôi nước",5,3.18
+CUS00597,Phạm Gia Phát,25-34,Hải Phòng,"snack, dessert",balanced,232.0,Dễ,"Chè đậu xanh, Bánh mì que, Nem chua rán",6,3.43
+CUS00598,Trần Đức Sơn,18-24,TP.HCM,"dessert, dinner",weight-loss,270.0,Dễ,Cơm tấm sườn nướng,5,2.94
+CUS00599,Bùi Tuấn Sơn,65+,Đà Nẵng,"dessert, lunch",weight-loss,158.0,Dễ,"Sữa chua dâu tây, Chè bưởi, Bánh flan caramel",4,2.38
+CUS00600,Bùi Thanh Nam,25-34,Hà Nội,"dessert, dinner",brain-boost,253.0,Dễ,"Bánh chuối nướng, Sữa chua dâu tây, Chè bưởi",6,2.83
+CUS00601,Vũ Quang Thịnh,45-54,Đà Lạt,"dessert, dinner",balanced,310.0,Dễ,"Cơm tấm sườn nướng, Sữa chua dâu tây",4,3.6
+CUS00602,Vũ Văn Thịnh,18-24,Đà Lạt,"dessert, snack",weight-loss,172.0,Dễ,"Chè đậu xanh, Sữa chua dâu tây",6,2.4
+CUS00603,Võ Văn Tú,55-64,Nha Trang,"dessert, dinner",balanced,317.0,Trung bình,Cơm tấm sườn nướng,3,4.07
+CUS00604,Hoàng Xuân Khánh,35-44,TP.HCM,"lunch, dinner",balanced,310.0,Trung bình,Salad rau củ,3,2.7
+CUS00605,Đỗ Gia Nam,25-34,Buôn Ma Thuột,"dessert, dinner",balanced,317.0,Dễ,"Chè bưởi, Cơm tấm sườn nướng, Chè đậu xanh",6,3.72
+CUS00606,Huỳnh Bích Hà,18-24,Hà Nội,"dessert, snack",balanced,268.0,Khó,Bánh khọt,4,3.3
+CUS00607,Lý Ngọc Hà,45-54,Hạ Long,"dessert, snack",weight-loss,197.0,Dễ,,3,2.73
+CUS00608,Nguyễn Thanh Anh,35-44,Huế,"dessert, snack",weight-loss,182.0,Dễ,,4,2.28
+CUS00609,Đỗ Thanh Yến,45-54,Hà Nội,"dessert, snack",weight-loss,158.0,Dễ,"Bánh chuối nướng, Chè bưởi, Salad rau củ",4,2.33
+CUS00610,Hồ Ngọc Quỳnh,25-34,Hạ Long,"dessert, snack",balanced,192.0,Dễ,Chè đậu xanh,6,2.47
+CUS00611,Phan Thị Chi,18-24,Đà Lạt,"dessert, snack",balanced,268.0,Trung bình,"Bánh trôi nước, Kem chuối",6,2.32
+CUS00612,Lê Phương Ngọc,18-24,Đà Nẵng,"lunch, dessert",brain-boost,306.0,Dễ,"Kem chuối, Salad rau củ, Chả cá Lã Vọng",5,3.8
+CUS00613,Võ Thuỳ Trang,18-24,Nha Trang,"dessert, lunch",brain-boost,240.0,Dễ,Bánh flan caramel,5,3.14
+CUS00614,Phạm Gia Kiên,55-64,Hải Phòng,"dessert, snack",weight-loss,157.0,Dễ,,3,4.0
+CUS00615,Phan Tuấn Sơn,35-44,Vũng Tàu,"dessert, lunch",brain-boost,198.0,Dễ,"Bánh chuối nướng, Bánh da lợn",5,3.24
+CUS00616,Bùi Cẩm Dung,35-44,Hạ Long,"dessert, snack",balanced,208.0,Trung bình,"Bánh chuối nướng, Nem chua rán, Bánh flan caramel",4,3.72
+CUS00617,Vũ Thuỳ Bích,55-64,Hà Nội,"dessert, snack",balanced,180.0,Dễ,"Bánh mì que, Chè bưởi",3,2.53
+CUS00618,Trần Thuỳ Trang,25-34,Hà Nội,"dessert, snack",balanced,178.0,Dễ,,4,3.28
+CUS00619,Hồ Thanh Thịnh,65+,Huế,"dessert, lunch",brain-boost,273.0,Dễ,Chè đậu xanh,3,2.6
+CUS00620,Đặng Phương Hà,25-34,Buôn Ma Thuột,"dessert, dinner",balanced,344.0,Trung bình,"Chả cá Lã Vọng, Cơm tấm sườn nướng, Chè bưởi",5,3.72
+CUS00621,Đặng Thuỳ Chi,18-24,Đà Nẵng,"dessert, snack",balanced,183.0,Dễ,"Bánh khọt, Bánh trôi nước, Kem chuối",6,2.72
+CUS00622,Phan Thị Hương,45-54,Hạ Long,"dessert, lunch",brain-boost,160.0,Dễ,"Kem chuối, Salad rau củ",4,3.0
+CUS00623,Phan Cẩm Linh,55-64,Vũng Tàu,"dessert, snack",balanced,262.0,Trung bình,"Bánh trôi nước, Bánh chuối nướng, Cơm tấm sườn nướng",6,2.4
+CUS00624,Huỳnh Gia Vinh,55-64,Hạ Long,"dessert, lunch",balanced,237.0,Trung bình,Sữa chua dâu tây,6,2.25
+CUS00625,Huỳnh Hồng Hoa,35-44,Hải Phòng,"dessert, snack",balanced,288.0,Trung bình,"Bánh flan caramel, Chè bưởi, Bánh khọt",5,3.2
+CUS00626,Võ Tuấn Cường,35-44,Đà Lạt,"dessert, lunch",brain-boost,245.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",4,2.65
+CUS00627,Võ Hồng Thảo,55-64,Nha Trang,"snack, dessert",balanced,173.0,Trung bình,"Bánh mì que, Salad rau củ",6,3.38
+CUS00628,Võ Bích Vân,25-34,Hải Phòng,"snack, dessert",balanced,190.0,Trung bình,,3,3.4
+CUS00629,Hồ Diệu Dung,35-44,Cần Thơ,"dessert, lunch",weight-loss,222.0,Dễ,"Kem chuối, Chả cá Lã Vọng, Bánh da lợn",6,2.75
+CUS00630,Hồ Mai Dung,25-34,Đà Lạt,"dessert, lunch",balanced,323.0,Trung bình,Chè bưởi,6,3.67
+CUS00631,Hồ Gia Hải,55-64,Đà Nẵng,"dessert, snack",balanced,182.0,Trung bình,"Chè bưởi, Bánh trôi nước",5,3.02
+CUS00632,Vũ Bích Anh,25-34,Vũng Tàu,"snack, dessert",balanced,313.0,Dễ,"Bánh mì que, Chè bưởi",3,2.4
+CUS00633,Võ Bích Hoa,65+,Cần Thơ,"dessert, snack",balanced,233.0,Trung bình,Bánh khọt,3,2.77
+CUS00634,Lý Văn Cường,45-54,Nha Trang,"dessert, lunch",weight-loss,276.0,Dễ,"Salad rau củ, Cơm tấm sườn nướng, Bánh chuối nướng",5,2.92
+CUS00635,Lê Tuấn Anh,65+,Đà Lạt,"dessert, snack",balanced,196.0,Trung bình,Chè bưởi,5,2.54
+CUS00636,Lý Thị Vân,65+,Buôn Ma Thuột,"snack, dinner",balanced,337.0,Trung bình,"Cơm tấm sườn nướng, Chè đậu xanh",3,2.67
+CUS00637,Dương Gia Hùng,18-24,Cần Thơ,dessert,brain-boost,167.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng, Kem chuối",3,2.9
+CUS00638,Võ Ngọc Chi,65+,Đà Lạt,dessert,brain-boost,202.0,Dễ,,4,3.38
+CUS00639,Phạm Gia Thắng,55-64,Hạ Long,"dessert, dinner",balanced,322.0,Trung bình,"Kem chuối, Cơm tấm sườn nướng",4,2.68
+CUS00640,Võ Gia Vinh,45-54,TP.HCM,"dessert, snack",brain-boost,187.0,Dễ,Kem chuối,3,2.53
+CUS00641,Nguyễn Trọng Nam,55-64,Hải Phòng,"dessert, dinner",balanced,282.0,Trung bình,"Bánh trôi nước, Cơm tấm sườn nướng, Kem chuối",4,3.37
+CUS00642,Dương Thanh Tuấn,55-64,Hà Nội,"dessert, snack",brain-boost,207.0,Dễ,Chả cá Lã Vọng,6,3.37
+CUS00643,Trần Phương Hương,25-34,Cần Thơ,"dessert, lunch",balanced,232.0,Dễ,"Bánh da lợn, Bánh trôi nước",5,2.44
+CUS00644,Trần Hồng Phương,45-54,Hải Phòng,dessert,brain-boost,177.0,Dễ,Kem chuối,3,3.87
+CUS00645,Bùi Đức Minh,55-64,Hà Nội,"dessert, lunch",weight-loss,290.0,Dễ,,5,2.82
+CUS00646,Bùi Quang Minh,45-54,Hà Nội,"dessert, lunch",balanced,283.0,Khó,"Chả cá Lã Vọng, Bánh da lợn",3,3.0
+CUS00647,Hoàng Thuỳ Yến,35-44,Buôn Ma Thuột,"dessert, dinner",brain-boost,318.0,Dễ,"Sữa chua dâu tây, Chả cá Lã Vọng, Bánh chuối nướng",5,3.18
+CUS00648,Hoàng Hữu Hải,45-54,Vũng Tàu,"dessert, snack",balanced,316.0,Trung bình,Chả cá Lã Vọng,5,2.9
+CUS00649,Đỗ Minh Khánh,18-24,Đà Lạt,"dessert, lunch",balanced,248.0,Dễ,"Chè bưởi, Bánh da lợn, Bánh trôi nước",6,2.78
+CUS00650,Đỗ Gia Anh,35-44,Cần Thơ,"dessert, snack",balanced,253.0,Dễ,"Chè bưởi, Salad rau củ",6,2.45
+CUS00651,Ngô Trọng Sơn,25-34,Hạ Long,"dessert, dinner",balanced,290.0,Dễ,,4,3.35
+CUS00652,Đỗ Hữu Thịnh,25-34,TP.HCM,"dessert, dinner",balanced,320.0,Trung bình,,4,2.95
+CUS00653,Lý Mai Thảo,18-24,Vũng Tàu,"dessert, lunch",weight-loss,230.0,Dễ,,3,2.5
+CUS00654,Nguyễn Quang Tuấn,25-34,Hà Nội,dessert,weight-loss,200.0,Dễ,"Bánh chuối nướng, Bánh da lợn",4,3.18
+CUS00655,Phan Hữu Hùng,65+,Hạ Long,"dessert, snack",balanced,230.0,Trung bình,Bánh trôi nước,4,3.12
+CUS00656,Võ Ngọc Bích,55-64,Buôn Ma Thuột,"dessert, snack",balanced,272.0,Trung bình,"Bánh chuối nướng, Bánh trôi nước, Nem chua rán",6,3.07
+CUS00657,Lê Thanh Hương,65+,Hải Phòng,"snack, lunch",balanced,197.0,Dễ,"Salad rau củ, Chả cá Lã Vọng, Sữa chua dâu tây",6,2.75
+CUS00658,Hồ Diệu Vân,45-54,Đà Nẵng,"dessert, snack",weight-loss,150.0,Dễ,"Nem chua rán, Sữa chua dâu tây, Salad rau củ",5,2.84
+CUS00659,Phan Trọng Long,18-24,Hà Nội,"dessert, snack",balanced,280.0,Trung bình,"Bánh mì que, Cơm tấm sườn nướng, Bánh trôi nước",6,3.6
+CUS00660,Đặng Ngọc Mai,55-64,TP.HCM,"dessert, dinner",balanced,343.0,Trung bình,Cơm tấm sườn nướng,3,4.0
+CUS00661,Hoàng Hồng Trang,55-64,Hải Phòng,"dinner, snack",balanced,327.0,Trung bình,,3,3.73
+CUS00662,Phan Mai Thảo,25-34,Huế,"dessert, snack",balanced,166.0,Dễ,"Salad rau củ, Nem chua rán",5,2.94
+CUS00663,Nguyễn Trọng Vinh,25-34,Huế,"dessert, snack",weight-loss,158.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng, Salad rau củ",6,2.83
+CUS00664,Dương Xuân Cường,45-54,Hạ Long,"dessert, snack",balanced,243.0,Trung bình,"Kem chuối, Bánh trôi nước, Bánh flan caramel",6,2.73
+CUS00665,Nguyễn Thanh Bích,55-64,Đà Nẵng,"dessert, dinner",balanced,367.0,Trung bình,Cơm tấm sườn nướng,3,2.47
+CUS00666,Vũ Tuấn Hải,45-54,Buôn Ma Thuột,"snack, dessert",balanced,138.0,Dễ,Bánh mì que,4,2.62
+CUS00667,Huỳnh Mai Yến,65+,Đà Lạt,"dessert, lunch",weight-loss,247.0,Dễ,Chả cá Lã Vọng,3,3.57
+CUS00668,Trần Minh Cường,45-54,Cần Thơ,"dessert, dinner",balanced,287.0,Trung bình,"Bánh chuối nướng, Bánh trôi nước, Bánh khọt",6,3.25
+CUS00669,Lê Minh Long,35-44,Hạ Long,"dessert, dinner",balanced,333.0,Trung bình,"Chè bưởi, Cơm tấm sườn nướng",3,2.4
+CUS00670,Hoàng Cẩm Hương,65+,Hà Nội,dessert,brain-boost,160.0,Dễ,Sữa chua dâu tây,3,2.73
+CUS00671,Phan Hồng Thảo,35-44,Buôn Ma Thuột,dessert,weight-loss,217.0,Dễ,"Chè bưởi, Bánh flan caramel",3,3.9
+CUS00672,Đỗ Xuân Hải,18-24,Vũng Tàu,"dessert, snack",brain-boost,200.0,Dễ,"Bánh chuối nướng, Sữa chua dâu tây, Bánh flan caramel",5,3.4
+CUS00673,Phan Gia Vinh,25-34,Hải Phòng,"snack, dessert",balanced,182.0,Trung bình,Chè đậu xanh,4,3.0
+CUS00674,Lý Văn Nam,65+,Đà Nẵng,"dessert, lunch",brain-boost,246.0,Khó,Bánh chuối nướng,5,2.62
+CUS00675,Nguyễn Bích Chi,25-34,Cần Thơ,"snack, dessert",balanced,154.0,Dễ,"Bánh da lợn, Sữa chua dâu tây, Salad rau củ",5,2.98
+CUS00676,Hoàng Gia Hải,55-64,Hạ Long,"dessert, snack",balanced,256.0,Dễ,"Chè bưởi, Sữa chua dâu tây",5,3.32
+CUS00677,Hồ Ngọc Thảo,65+,Huế,"dessert, snack",balanced,258.0,Trung bình,"Bánh flan caramel, Bánh trôi nước",6,3.97
+CUS00678,Ngô Cẩm Thảo,65+,Đà Nẵng,"dessert, snack",balanced,190.0,Dễ,"Bánh da lợn, Bánh mì que",5,1.92
+CUS00679,Dương Ngọc Hương,65+,Huế,"dessert, lunch",balanced,173.0,Dễ,Nem chua rán,6,3.1
+CUS00680,Đặng Xuân Sơn,18-24,Huế,"dessert, snack",balanced,202.0,Dễ,"Bánh chuối nướng, Bánh khọt, Bánh da lợn",6,3.52
+CUS00681,Đặng Hồng Mai,35-44,Hạ Long,"dessert, snack",balanced,227.0,Dễ,"Bánh mì que, Chả cá Lã Vọng",6,3.0
+CUS00682,Hồ Bích Anh,25-34,Nha Trang,dessert,weight-loss,163.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng",3,3.03
+CUS00683,Vũ Thuỳ Lan,25-34,Huế,"dessert, snack",balanced,175.0,Dễ,"Bánh mì que, Chè đậu xanh",4,3.3
+CUS00684,Bùi Tuấn Dũng,25-34,Vũng Tàu,"dessert, lunch",brain-boost,224.0,Dễ,"Salad rau củ, Chả cá Lã Vọng",5,3.62
+CUS00685,Hồ Cẩm Hạnh,18-24,Cần Thơ,dessert,weight-loss,182.0,Dễ,Bánh flan caramel,6,2.37
+CUS00686,Lý Tuấn Cường,55-64,Hải Phòng,"dessert, snack",balanced,242.0,Trung bình,"Kem chuối, Cơm tấm sườn nướng, Nem chua rán",6,3.48
+CUS00687,Hoàng Bích Bích,18-24,Nha Trang,"dessert, lunch",brain-boost,362.0,Trung bình,"Cơm tấm sườn nướng, Kem chuối, Chả cá Lã Vọng",4,3.53
+CUS00688,Đỗ Trọng Phát,35-44,Huế,"dessert, snack",balanced,185.0,Dễ,"Bánh trôi nước, Sữa chua dâu tây",4,3.12
+CUS00689,Trần Hữu Toàn,18-24,Đà Nẵng,"snack, dessert",balanced,218.0,Trung bình,,4,2.82
+CUS00690,Hồ Diệu Hạnh,35-44,Hạ Long,"dessert, snack",balanced,255.0,Dễ,Bánh da lợn,6,2.43
+CUS00691,Đỗ Hữu Tuấn,25-34,Nha Trang,"dessert, snack",weight-loss,172.0,Dễ,Bánh da lợn,4,3.2
+CUS00692,Huỳnh Tuấn Cường,35-44,Đà Nẵng,"dessert, snack",balanced,207.0,Dễ,"Chè đậu xanh, Bánh khọt",3,3.2
+CUS00693,Huỳnh Quang Kiên,55-64,Hải Phòng,"dessert, snack",balanced,262.0,Khó,,4,2.55
+CUS00694,Dương Thanh Long,35-44,Buôn Ma Thuột,"dessert, snack",balanced,214.0,Trung bình,"Bánh da lợn, Bánh flan caramel",5,3.32
+CUS00695,Lý Bích Chi,65+,Hải Phòng,"dessert, snack",balanced,175.0,Trung bình,"Bánh khọt, Nem chua rán, Kem chuối",6,2.8
+CUS00696,Nguyễn Xuân Vinh,55-64,TP.HCM,"snack, dessert",balanced,166.0,Dễ,"Chè đậu xanh, Nem chua rán, Bánh mì que",5,3.66
+CUS00697,Trần Gia Quân,18-24,Hải Phòng,"dessert, lunch",balanced,180.0,Trung bình,Kem chuối,4,3.55
+CUS00698,Phan Xuân Thịnh,35-44,Vũng Tàu,"lunch, dessert",brain-boost,235.0,Dễ,"Bánh flan caramel, Kem chuối",4,3.3
+CUS00699,Bùi Mai Vân,65+,Hải Phòng,"dessert, lunch",weight-loss,250.0,Dễ,Chả cá Lã Vọng,4,2.72
+CUS00700,Hồ Xuân Hải,25-34,Vũng Tàu,"dessert, lunch",balanced,270.0,Khó,"Chả cá Lã Vọng, Bánh da lợn",3,4.33
+CUS00701,Vũ Bích Mai,25-34,Hải Phòng,"dessert, lunch",brain-boost,233.0,Dễ,Kem chuối,3,4.1
+CUS00702,Vũ Quang Phát,45-54,TP.HCM,"dessert, snack",balanced,184.0,Dễ,,5,3.9
+CUS00703,Đỗ Thanh Trang,35-44,Nha Trang,"dessert, snack",balanced,223.0,Trung bình,"Bánh da lợn, Bánh mì que",3,2.83
+CUS00704,Trần Văn Khánh,35-44,Huế,"dessert, lunch",balanced,192.0,Dễ,"Salad rau củ, Bánh da lợn, Bánh flan caramel",6,2.78
+CUS00705,Ngô Thuỳ Ngọc,55-64,Buôn Ma Thuột,dessert,weight-loss,192.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng",4,3.78
+CUS00706,Đặng Mai Yến,55-64,Đà Nẵng,"snack, dinner",balanced,368.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng, Nem chua rán",4,3.25
+CUS00707,Hồ Tuấn Toàn,65+,Huế,"dessert, snack",balanced,182.0,Trung bình,"Kem chuối, Bánh trôi nước",4,1.75
+CUS00708,Dương Mai Phương,55-64,Hà Nội,"dessert, snack",balanced,212.0,Trung bình,Bánh da lợn,4,2.4
+CUS00709,Bùi Thị Thủy,55-64,Đà Nẵng,dessert,balanced,223.0,Khó,"Bánh trôi nước, Bánh chuối nướng",3,4.17
+CUS00710,Đặng Cẩm Ngọc,25-34,Đà Lạt,"dessert, snack",balanced,162.0,Dễ,Salad rau củ,5,2.88
+CUS00711,Phan Tuấn Sơn,45-54,Hà Nội,"lunch, snack",balanced,222.0,Dễ,"Chả cá Lã Vọng, Salad rau củ",4,3.1
+CUS00712,Đặng Mai Hà,18-24,Vũng Tàu,"dessert, snack",balanced,280.0,Trung bình,Bánh khọt,3,3.13
+CUS00713,Bùi Đức Hùng,25-34,Vũng Tàu,dessert,brain-boost,202.0,Dễ,"Bánh chuối nướng, Kem chuối",5,3.4
+CUS00714,Lê Xuân Thắng,55-64,Vũng Tàu,"dessert, dinner",weight-loss,287.0,Dễ,"Bánh trôi nước, Chè bưởi, Sữa chua dâu tây",6,2.57
+CUS00715,Vũ Trọng Nam,35-44,Hà Nội,"dessert, snack",balanced,206.0,Trung bình,"Bánh trôi nước, Chè bưởi",5,2.3
+CUS00716,Lê Minh Tuấn,45-54,Nha Trang,"dessert, lunch",weight-loss,190.0,Dễ,"Salad rau củ, Bánh chuối nướng, Bánh flan caramel",6,3.08
+CUS00717,Ngô Hồng Hà,35-44,Hạ Long,"dessert, lunch",weight-loss,180.0,Dễ,"Bánh da lợn, Bánh chuối nướng, Chè đậu xanh",6,3.35
+CUS00718,Phạm Phương Phương,25-34,Hạ Long,"dessert, lunch",balanced,292.0,Khó,Chả cá Lã Vọng,4,2.9
+CUS00719,Bùi Thanh Lan,45-54,Vũng Tàu,"dessert, snack",brain-boost,166.0,Dễ,Nem chua rán,5,3.24
+CUS00720,Lý Hữu Phát,65+,Cần Thơ,"dessert, dinner",balanced,282.0,Dễ,"Bánh chuối nướng, Bánh mì que, Cơm tấm sườn nướng",4,2.25
+CUS00721,Huỳnh Minh Dũng,35-44,Hạ Long,"dessert, snack",balanced,180.0,Trung bình,"Nem chua rán, Bánh trôi nước",5,3.66
+CUS00722,Phan Đức Bình,45-54,Huế,"dessert, lunch",brain-boost,260.0,Dễ,Bánh flan caramel,4,3.7
+CUS00723,Đỗ Hữu Khánh,18-24,TP.HCM,"dessert, lunch",brain-boost,187.0,Dễ,"Bánh flan caramel, Kem chuối",6,3.67
+CUS00724,Đặng Bích Trang,55-64,Cần Thơ,"dessert, dinner",balanced,320.0,Trung bình,"Chè đậu xanh, Bánh da lợn, Cơm tấm sườn nướng",4,2.95
+CUS00725,Huỳnh Thị Quỳnh,25-34,Huế,"snack, lunch",balanced,227.0,Dễ,"Sữa chua dâu tây, Bánh mì que",3,3.7
+CUS00726,Đỗ Ngọc Vân,45-54,TP.HCM,"dessert, lunch",brain-boost,378.0,Trung bình,Chả cá Lã Vọng,4,2.25
+CUS00727,Huỳnh Thị Trang,25-34,Huế,"dessert, lunch",balanced,278.0,Trung bình,Salad rau củ,4,2.9
+CUS00728,Trần Ngọc Hà,65+,Buôn Ma Thuột,"dessert, dinner",balanced,325.0,Dễ,"Bánh da lợn, Bánh chuối nướng",4,2.0
+CUS00729,Đặng Thuỳ Dung,45-54,Vũng Tàu,"dessert, dinner",balanced,257.0,Trung bình,"Bánh flan caramel, Nem chua rán, Chè bưởi",6,3.48
+CUS00730,Lý Diệu Hạnh,45-54,Hạ Long,"dessert, lunch",weight-loss,230.0,Dễ,Chả cá Lã Vọng,4,3.62
+CUS00731,Nguyễn Trọng Tuấn,18-24,Hạ Long,"dessert, lunch",balanced,327.0,Khó,,3,2.73
+CUS00732,Nguyễn Thuỳ Hạnh,65+,Hạ Long,dessert,balanced,190.0,Khó,"Sữa chua dâu tây, Bánh da lợn",3,2.77
+CUS00733,Dương Đức Quân,18-24,Hải Phòng,"dessert, snack",balanced,214.0,Trung bình,"Bánh flan caramel, Bánh trôi nước",5,3.54
+CUS00734,Bùi Mai Linh,25-34,Đà Nẵng,"dessert, snack",balanced,300.0,Trung bình,"Bánh da lợn, Bánh chuối nướng",5,2.72
+CUS00735,Huỳnh Minh Toàn,25-34,Nha Trang,"dinner, lunch",brain-boost,430.0,Trung bình,Bánh chuối nướng,3,3.87
+CUS00736,Vũ Tuấn Phát,25-34,Hải Phòng,"lunch, dessert",brain-boost,273.0,Khó,Chả cá Lã Vọng,3,2.4
+CUS00737,Lý Quang Toàn,65+,Huế,dessert,brain-boost,193.0,Dễ,Kem chuối,3,2.1
+CUS00738,Lý Phương Trang,45-54,Buôn Ma Thuột,"dessert, lunch",weight-loss,164.0,Dễ,"Bánh da lợn, Kem chuối, Chè bưởi",5,2.32
+CUS00739,Võ Cẩm Chi,55-64,Cần Thơ,"dessert, snack",balanced,174.0,Dễ,Bánh chuối nướng,5,3.7
+CUS00740,Võ Minh Tuấn,45-54,Hải Phòng,"dessert, lunch",brain-boost,297.0,Dễ,"Chè bưởi, Kem chuối, Cơm tấm sườn nướng",6,3.62
+CUS00741,Lê Minh Hải,35-44,Hà Nội,"dessert, snack",balanced,207.0,Trung bình,"Bánh flan caramel, Kem chuối",3,2.7
+CUS00742,Phạm Hồng Phương,55-64,Đà Lạt,"snack, dinner",balanced,255.0,Dễ,Chè bưởi,4,3.0
+CUS00743,Ngô Quang Long,45-54,Cần Thơ,"dessert, snack",balanced,206.0,Dễ,Chè đậu xanh,5,3.24
+CUS00744,Võ Tuấn Thịnh,18-24,Nha Trang,"dessert, lunch",brain-boost,184.0,Dễ,"Kem chuối, Salad rau củ",5,2.66
+CUS00745,Huỳnh Diệu Linh,65+,Hạ Long,"snack, dessert",balanced,268.0,Trung bình,Cơm tấm sườn nướng,5,3.02
+CUS00746,Lê Văn Thịnh,65+,Vũng Tàu,"dessert, snack",weight-loss,230.0,Dễ,"Salad rau củ, Chè bưởi, Bánh khọt",6,2.85
+CUS00747,Đỗ Văn Phát,55-64,Cần Thơ,dessert,weight-loss,162.0,Dễ,"Kem chuối, Bánh chuối nướng, Chè bưởi",4,2.0
+CUS00748,Đỗ Hồng Hà,35-44,Đà Nẵng,dessert,weight-loss,172.0,Dễ,"Chè đậu xanh, Bánh chuối nướng",6,3.25
+CUS00749,Đặng Diệu Thảo,35-44,Nha Trang,dessert,brain-boost,210.0,Dễ,Bánh da lợn,3,2.47
+CUS00750,Bùi Quang Hải,18-24,TP.HCM,"dessert, snack",balanced,270.0,Dễ,Bánh flan caramel,5,1.64
+CUS00751,Hồ Mai Phương,45-54,Đà Lạt,"dessert, snack",balanced,215.0,Trung bình,"Nem chua rán, Bánh da lợn, Bánh mì que",6,2.93
+CUS00752,Đỗ Trọng Cường,65+,Đà Nẵng,dessert,weight-loss,192.0,Dễ,"Bánh da lợn, Kem chuối, Bánh chuối nướng",5,2.3
+CUS00753,Bùi Minh Tú,45-54,Vũng Tàu,"dessert, lunch",brain-boost,230.0,Dễ,"Sữa chua dâu tây, Chả cá Lã Vọng",5,4.22
+CUS00754,Đỗ Cẩm Hà,45-54,Buôn Ma Thuột,"dessert, snack",weight-loss,157.0,Dễ,"Bánh khọt, Chè đậu xanh, Bánh trôi nước",6,2.78
+CUS00755,Võ Trọng Phát,55-64,Hà Nội,"dessert, snack",balanced,217.0,Trung bình,Bánh flan caramel,3,4.8
+CUS00756,Vũ Đức Dũng,45-54,Hải Phòng,"dessert, dinner",balanced,287.0,Trung bình,"Chè đậu xanh, Bánh da lợn, Bánh flan caramel",6,3.0
+CUS00757,Lý Bích Dung,35-44,Vũng Tàu,"dessert, snack",balanced,178.0,Dễ,,4,3.37
+CUS00758,Trần Phương Ngọc,35-44,Cần Thơ,"snack, dinner",balanced,272.0,Trung bình,Bánh khọt,4,3.05
+CUS00759,Đặng Trọng Hùng,65+,Hạ Long,"dessert, snack",balanced,172.0,Dễ,"Bánh trôi nước, Bánh da lợn",5,2.84
+CUS00760,Bùi Hữu Hải,45-54,Nha Trang,"dessert, snack",weight-loss,180.0,Dễ,"Bánh khọt, Chè đậu xanh, Bánh chuối nướng",5,3.12
+CUS00761,Phan Hồng Thủy,35-44,Buôn Ma Thuột,"dessert, dinner",weight-loss,268.0,Dễ,"Bánh mì que, Chè bưởi",5,3.34
+CUS00762,Hoàng Trọng Phát,55-64,Đà Nẵng,"dessert, dinner",weight-loss,292.0,Dễ,"Bánh da lợn, Cơm tấm sườn nướng",4,2.55
+CUS00763,Ngô Đức Long,18-24,Buôn Ma Thuột,"dessert, snack",brain-boost,158.0,Dễ,"Kem chuối, Chè bưởi, Bánh chuối nướng",5,2.5
+CUS00764,Bùi Thanh Khánh,18-24,Đà Lạt,"snack, lunch",balanced,196.0,Dễ,"Bánh mì que, Chả cá Lã Vọng",5,2.24
+CUS00765,Hoàng Gia Sơn,25-34,Hà Nội,dessert,balanced,222.0,Trung bình,Bánh da lợn,4,3.35
+CUS00766,Phạm Quang Anh,25-34,TP.HCM,"snack, dessert",balanced,215.0,Dễ,Chả cá Lã Vọng,4,2.85
+CUS00767,Phạm Diệu Hoa,55-64,Vũng Tàu,"dessert, snack",balanced,180.0,Dễ,"Bánh da lợn, Chè bưởi, Salad rau củ",5,3.7
+CUS00768,Phan Văn Tuấn,65+,Hạ Long,"snack, dessert",balanced,292.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng",4,3.48
+CUS00769,Lê Minh Long,18-24,Nha Trang,"dessert, dinner",weight-loss,228.0,Dễ,"Sữa chua dâu tây, Salad rau củ, Chè đậu xanh",6,3.68
+CUS00770,Võ Thanh Thịnh,35-44,Hải Phòng,"dessert, snack",weight-loss,172.0,Dễ,"Salad rau củ, Bánh khọt",6,2.63
+CUS00771,Huỳnh Bích Yến,45-54,Đà Lạt,"snack, lunch",brain-boost,225.0,Dễ,"Bánh mì que, Chả cá Lã Vọng",4,2.88
+CUS00772,Vũ Phương Quỳnh,55-64,Huế,"dessert, lunch",brain-boost,287.0,Khó,,3,3.17
+CUS00773,Võ Thanh Vinh,55-64,Hà Nội,"dessert, dinner",weight-loss,317.0,Dễ,,3,2.23
+CUS00774,Lê Hồng Yến,35-44,Vũng Tàu,"dessert, snack",balanced,330.0,Trung bình,"Bánh flan caramel, Bánh khọt, Cơm tấm sườn nướng",6,3.92
+CUS00775,Ngô Ngọc Anh,45-54,Buôn Ma Thuột,"dessert, dinner",balanced,340.0,Trung bình,"Chè đậu xanh, Bánh flan caramel",4,3.0
+CUS00776,Huỳnh Cẩm Trang,35-44,Vũng Tàu,"dessert, snack",balanced,223.0,Trung bình,"Bánh mì que, Nem chua rán",6,3.58
+CUS00777,Võ Bích Mai,45-54,Buôn Ma Thuột,"dessert, snack",balanced,180.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",3,3.1
+CUS00778,Đặng Thị Thảo,55-64,Nha Trang,"dessert, snack",weight-loss,210.0,Dễ,"Sữa chua dâu tây, Chả cá Lã Vọng",5,3.3
+CUS00779,Hồ Cẩm Linh,25-34,Hà Nội,"dessert, snack",weight-loss,172.0,Dễ,"Bánh khọt, Chè đậu xanh, Chè bưởi",6,2.75
+CUS00780,Bùi Gia Quân,35-44,Huế,"dessert, lunch",balanced,235.0,Trung bình,"Chả cá Lã Vọng, Bánh da lợn",6,3.27
+CUS00781,Huỳnh Cẩm Chi,35-44,Đà Lạt,"dessert, snack",balanced,290.0,Dễ,"Bánh da lợn, Bánh mì que",4,3.12
+CUS00782,Võ Cẩm Hoa,65+,Đà Lạt,"dessert, lunch",balanced,246.0,Khó,"Bánh trôi nước, Bánh da lợn, Bánh flan caramel",5,3.44
+CUS00783,Dương Quang Bình,65+,Hà Nội,"dessert, snack",balanced,278.0,Trung bình,Nem chua rán,5,3.9
+CUS00784,Đỗ Quang Hùng,18-24,Đà Lạt,"dessert, snack",balanced,204.0,Trung bình,"Chè bưởi, Bánh flan caramel, Nem chua rán",5,3.34
+CUS00785,Đặng Tuấn Kiên,65+,Cần Thơ,"dessert, snack",balanced,300.0,Trung bình,"Cơm tấm sườn nướng, Bánh trôi nước, Bánh da lợn",5,2.68
+CUS00786,Huỳnh Gia Anh,18-24,Đà Nẵng,"dessert, dinner",balanced,278.0,Trung bình,"Chè bưởi, Bánh da lợn, Bánh flan caramel",6,3.05
+CUS00787,Vũ Mai Ngọc,55-64,Nha Trang,"dessert, snack",weight-loss,165.0,Dễ,Bánh mì que,4,4.08
+CUS00788,Ngô Gia Quân,35-44,Vũng Tàu,"snack, lunch",balanced,242.0,Dễ,"Sữa chua dâu tây, Cơm tấm sườn nướng, Salad rau củ",5,2.64
+CUS00789,Phan Tuấn Long,55-64,TP.HCM,"dessert, snack",weight-loss,160.0,Dễ,"Nem chua rán, Sữa chua dâu tây",3,2.7
+CUS00790,Vũ Xuân Vinh,65+,Hạ Long,"dessert, dinner",balanced,354.0,Trung bình,,5,3.26
+CUS00791,Phan Mai Thủy,65+,Hạ Long,"dessert, lunch",balanced,300.0,Trung bình,,3,3.43
+CUS00792,Dương Diệu Hà,65+,Hải Phòng,"dessert, snack",balanced,182.0,Dễ,Bánh da lợn,5,3.12
+CUS00793,Phạm Diệu Anh,45-54,Hải Phòng,"dessert, dinner",weight-loss,270.0,Dễ,"Sữa chua dâu tây, Chè bưởi, Kem chuối",4,2.95
+CUS00794,Trần Phương Ngọc,45-54,Buôn Ma Thuột,"dessert, snack",balanced,252.0,Khó,"Bánh da lợn, Bánh khọt",4,2.7
+CUS00795,Bùi Ngọc Lan,55-64,Buôn Ma Thuột,"dessert, dinner",balanced,370.0,Trung bình,Bánh flan caramel,3,3.87
+CUS00796,Lý Ngọc Phương,55-64,Hà Nội,"lunch, dessert",weight-loss,207.0,Dễ,Sữa chua dâu tây,3,2.8
+CUS00797,Đỗ Quang Tuấn,25-34,TP.HCM,"dessert, snack",brain-boost,200.0,Dễ,Bánh khọt,3,3.6
+CUS00798,Hồ Diệu Dung,18-24,Hạ Long,"dessert, snack",balanced,190.0,Dễ,Nem chua rán,5,2.02
+CUS00799,Huỳnh Phương Yến,35-44,Hải Phòng,"dessert, lunch",balanced,308.0,Dễ,"Salad rau củ, Bánh chuối nướng",4,1.65
+CUS00800,Huỳnh Văn Tú,25-34,Vũng Tàu,"dessert, snack",balanced,176.0,Dễ,"Bánh khọt, Nem chua rán, Chè bưởi",5,3.62
+CUS00801,Nguyễn Cẩm Linh,65+,Đà Lạt,"dessert, lunch",weight-loss,176.0,Dễ,"Salad rau củ, Chè bưởi, Chè đậu xanh",5,2.58
+CUS00802,Hồ Ngọc Dung,65+,Đà Lạt,dessert,balanced,200.0,Trung bình,Bánh da lợn,3,2.47
+CUS00803,Dương Văn Minh,18-24,Hải Phòng,"snack, dessert",brain-boost,260.0,Dễ,Chả cá Lã Vọng,3,2.73
+CUS00804,Lê Gia Cường,55-64,TP.HCM,"snack, dessert",balanced,287.0,Dễ,"Chè đậu xanh, Cơm tấm sườn nướng, Bánh mì que",6,2.13
+CUS00805,Võ Đức Minh,65+,Buôn Ma Thuột,"dessert, snack",weight-loss,155.0,Dễ,"Salad rau củ, Bánh chuối nướng",6,3.05
+CUS00806,Võ Thuỳ Lan,25-34,Đà Nẵng,"dessert, dinner",balanced,312.0,Trung bình,,5,2.76
+CUS00807,Bùi Thuỳ Hoa,45-54,Vũng Tàu,"snack, dessert",balanced,292.0,Trung bình,"Nem chua rán, Cơm tấm sườn nướng",4,2.85
+CUS00808,Võ Quang Kiên,35-44,Hà Nội,"dessert, lunch",weight-loss,218.0,Dễ,Bánh trôi nước,6,3.88
+CUS00809,Huỳnh Diệu Hạnh,35-44,Đà Lạt,"lunch, dessert",brain-boost,220.0,Dễ,Salad rau củ,3,3.57
+CUS00810,Huỳnh Minh Thịnh,25-34,TP.HCM,"lunch, dessert",weight-loss,190.0,Dễ,"Bánh khọt, Kem chuối",6,2.43
+CUS00811,Bùi Xuân Minh,35-44,Hạ Long,"dessert, snack",brain-boost,240.0,Dễ,"Chè đậu xanh, Bánh chuối nướng",4,2.35
+CUS00812,Võ Phương Hoa,35-44,Đà Nẵng,"snack, dessert",balanced,217.0,Trung bình,"Nem chua rán, Bánh da lợn",3,2.97
+CUS00813,Hồ Bích Bích,45-54,Nha Trang,"dessert, snack",brain-boost,173.0,Dễ,Bánh chuối nướng,3,3.23
+CUS00814,Huỳnh Mai Hoa,35-44,Đà Nẵng,"dessert, snack",balanced,175.0,Dễ,"Bánh da lợn, Chè đậu xanh",6,2.95
+CUS00815,Phạm Gia Hùng,35-44,Hải Phòng,"dessert, snack",weight-loss,170.0,Dễ,Bánh khọt,5,3.18
+CUS00816,Phan Mai Chi,18-24,Buôn Ma Thuột,"dessert, snack",balanced,198.0,Dễ,"Chè đậu xanh, Bánh flan caramel, Kem chuối",6,3.83
+CUS00817,Vũ Bích Yến,35-44,Hà Nội,"lunch, dessert",weight-loss,240.0,Dễ,"Chả cá Lã Vọng, Salad rau củ",4,2.3
+CUS00818,Đỗ Thuỳ Anh,45-54,Hà Nội,"dessert, lunch",weight-loss,162.0,Dễ,"Bánh trôi nước, Salad rau củ, Bánh chuối nướng",4,2.52
+CUS00819,Ngô Mai Anh,35-44,Đà Nẵng,"dessert, snack",weight-loss,178.0,Dễ,Chè bưởi,5,3.2
+CUS00820,Phan Thanh Anh,65+,Buôn Ma Thuột,"dessert, snack",balanced,268.0,Trung bình,"Cơm tấm sườn nướng, Nem chua rán",6,2.92
+CUS00821,Trần Tuấn Sơn,35-44,Đà Lạt,"dessert, dinner",weight-loss,275.0,Dễ,"Nem chua rán, Chè bưởi",4,3.18
+CUS00822,Lê Bích Vân,35-44,Cần Thơ,"dessert, lunch",weight-loss,167.0,Dễ,Nem chua rán,6,2.92
+CUS00823,Phạm Phương Thảo,25-34,Đà Nẵng,"dessert, snack",balanced,226.0,Trung bình,"Bánh chuối nướng, Bánh khọt, Kem chuối",5,3.7
+CUS00824,Lý Hữu Dũng,18-24,Cần Thơ,"dessert, snack",balanced,258.0,Trung bình,Chả cá Lã Vọng,4,3.38
+CUS00825,Hoàng Phương Anh,65+,Buôn Ma Thuột,"dessert, lunch",weight-loss,258.0,Dễ,Cơm tấm sườn nướng,4,2.85
+CUS00826,Đặng Mai Thủy,45-54,Hải Phòng,"lunch, dessert",balanced,216.0,Trung bình,"Nem chua rán, Bánh flan caramel, Sữa chua dâu tây",5,4.02
+CUS00827,Vũ Ngọc Yến,65+,Đà Lạt,"dessert, lunch",weight-loss,263.0,Khó,,3,2.6
+CUS00828,Trần Thanh Anh,35-44,Hải Phòng,"dessert, lunch",brain-boost,218.0,Dễ,,5,3.46
+CUS00829,Phan Thanh Anh,65+,Đà Lạt,"dessert, snack",balanced,233.0,Trung bình,Bánh trôi nước,3,3.53
+CUS00830,Huỳnh Đức Dũng,65+,Hà Nội,"lunch, snack",balanced,302.0,Dễ,Bánh mì que,5,2.48
+CUS00831,Hồ Quang Toàn,65+,Hạ Long,"dessert, snack",balanced,260.0,Dễ,,6,3.3
+CUS00832,Lê Minh Bình,55-64,TP.HCM,"dessert, dinner",balanced,306.0,Trung bình,"Cơm tấm sườn nướng, Bánh flan caramel, Kem chuối",5,1.6
+CUS00833,Lê Tuấn Thắng,25-34,Buôn Ma Thuột,"dessert, snack",balanced,197.0,Dễ,"Bánh khọt, Bánh da lợn",3,3.43
+CUS00834,Dương Văn Cường,25-34,Đà Lạt,"dessert, lunch",weight-loss,242.0,Dễ,"Bánh khọt, Cơm tấm sườn nướng, Sữa chua dâu tây",6,2.37
+CUS00835,Phan Mai Thảo,25-34,Đà Nẵng,"dessert, lunch",weight-loss,267.0,Dễ,"Chả cá Lã Vọng, Bánh trôi nước",3,3.5
+CUS00836,Lê Hồng Quỳnh,45-54,Buôn Ma Thuột,"snack, lunch",balanced,225.0,Trung bình,Salad rau củ,4,3.25
+CUS00837,Võ Hữu Dũng,55-64,Đà Lạt,"dessert, snack",balanced,190.0,Dễ,"Chè bưởi, Bánh flan caramel",3,2.3
+CUS00838,Đặng Thị Phương,45-54,Đà Nẵng,"dinner, dessert",balanced,313.0,Dễ,"Cơm tấm sườn nướng, Bánh mì que",3,2.37
+CUS00839,Hoàng Bích Yến,65+,Cần Thơ,"dessert, snack",balanced,168.0,Dễ,"Salad rau củ, Bánh flan caramel",5,2.84
+CUS00840,Ngô Quang Toàn,18-24,Đà Lạt,"dessert, snack",balanced,265.0,Trung bình,"Bánh trôi nước, Cơm tấm sườn nướng",6,3.07
+CUS00841,Hoàng Cẩm Phương,25-34,Huế,"dessert, lunch",balanced,196.0,Dễ,"Bánh flan caramel, Salad rau củ",5,2.86
+CUS00842,Nguyễn Văn Hải,35-44,Huế,"lunch, dessert",weight-loss,182.0,Dễ,"Salad rau củ, Sữa chua dâu tây, Bánh mì que",5,3.4
+CUS00843,Đỗ Mai Yến,18-24,Nha Trang,"dessert, dinner",balanced,330.0,Trung bình,Cơm tấm sườn nướng,4,2.82
+CUS00844,Đỗ Trọng Phát,45-54,Nha Trang,"dessert, lunch",balanced,275.0,Khó,"Bánh da lợn, Bánh flan caramel",4,2.7
+CUS00845,Huỳnh Đức Toàn,65+,Đà Lạt,"dessert, dinner",balanced,363.0,Trung bình,"Kem chuối, Bánh flan caramel, Cơm tấm sườn nướng",3,2.7
+CUS00846,Phạm Văn Sơn,55-64,Nha Trang,"dinner, snack",balanced,373.0,Trung bình,"Cơm tấm sườn nướng, Bánh da lợn",3,2.0
+CUS00847,Hồ Thanh Ngọc,35-44,Buôn Ma Thuột,"snack, dessert",balanced,224.0,Dễ,"Bánh mì que, Chả cá Lã Vọng",5,3.3
+CUS00848,Dương Mai Mai,35-44,Buôn Ma Thuột,"dessert, snack",balanced,170.0,Dễ,Bánh da lợn,3,3.73
+CUS00849,Lý Thị Vân,25-34,Hà Nội,"dessert, dinner",balanced,383.0,Trung bình,"Cơm tấm sườn nướng, Bánh flan caramel",3,1.87
+CUS00850,Phạm Quang Dũng,35-44,Huế,"snack, dessert",balanced,175.0,Dễ,Sữa chua dâu tây,4,2.08
+CUS00851,Nguyễn Ngọc Vân,55-64,Huế,"dessert, snack",balanced,207.0,Khó,,3,3.6
+CUS00852,Hồ Thanh Hương,55-64,Nha Trang,dessert,weight-loss,177.0,Dễ,"Bánh trôi nước, Chè đậu xanh",3,3.0
+CUS00853,Ngô Thuỳ Phương,35-44,Cần Thơ,"dessert, snack",balanced,198.0,Trung bình,Bánh flan caramel,4,2.78
+CUS00854,Hoàng Tuấn Sơn,35-44,Hạ Long,"snack, dinner",balanced,318.0,Trung bình,"Bánh khọt, Nem chua rán",4,3.25
+CUS00855,Dương Ngọc Quỳnh,25-34,Cần Thơ,"dessert, lunch",balanced,228.0,Dễ,"Chả cá Lã Vọng, Bánh mì que",4,3.15
+CUS00856,Hồ Bích Bích,35-44,Đà Lạt,"dessert, lunch",brain-boost,240.0,Dễ,"Chả cá Lã Vọng, Bánh chuối nướng",6,3.27
+CUS00857,Nguyễn Cẩm Bích,55-64,Cần Thơ,"dessert, snack",balanced,172.0,Dễ,"Chè đậu xanh, Bánh khọt, Bánh trôi nước",5,3.42
+CUS00858,Huỳnh Xuân Dũng,35-44,Đà Lạt,"dessert, lunch",balanced,170.0,Dễ,Salad rau củ,4,2.88
+CUS00859,Nguyễn Minh Dũng,55-64,Hạ Long,"snack, lunch",balanced,295.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng, Nem chua rán",6,2.63
+CUS00860,Huỳnh Ngọc Vân,45-54,Hạ Long,"dinner, snack",balanced,258.0,Trung bình,"Salad rau củ, Cơm tấm sườn nướng, Sữa chua dâu tây",4,3.05
+CUS00861,Dương Thuỳ Ngọc,35-44,Huế,"dessert, lunch",brain-boost,235.0,Dễ,"Chè đậu xanh, Kem chuối, Bánh chuối nướng",6,3.8
+CUS00862,Lê Xuân Kiên,18-24,Buôn Ma Thuột,"dessert, snack",balanced,225.0,Trung bình,"Bánh khọt, Bánh da lợn, Bánh chuối nướng",6,3.23
+CUS00863,Ngô Phương Hương,55-64,Hải Phòng,"lunch, dessert",brain-boost,225.0,Dễ,,4,2.68
+CUS00864,Phan Văn Thịnh,65+,Huế,"dessert, snack",balanced,287.0,Trung bình,Cơm tấm sườn nướng,6,2.77
+CUS00865,Nguyễn Thị Hoa,25-34,Hà Nội,"dessert, lunch",weight-loss,142.0,Dễ,,4,3.68
+CUS00866,Nguyễn Hữu Vinh,45-54,Đà Lạt,"dessert, snack",balanced,188.0,Dễ,"Nem chua rán, Chè đậu xanh, Bánh da lợn",4,3.38
+CUS00867,Lê Phương Phương,25-34,Đà Lạt,"dessert, lunch",brain-boost,297.0,Khó,,3,3.33
+CUS00868,Trần Tuấn Long,45-54,Hạ Long,"dessert, snack",brain-boost,150.0,Dễ,"Salad rau củ, Bánh chuối nướng",4,3.22
+CUS00869,Vũ Thị Quỳnh,45-54,Cần Thơ,"dessert, snack",balanced,198.0,Dễ,Bánh da lợn,4,2.98
+CUS00870,Lý Hữu Tú,55-64,Vũng Tàu,"dessert, snack",balanced,275.0,Trung bình,,6,2.57
+CUS00871,Hoàng Cẩm Anh,25-34,Buôn Ma Thuột,"dessert, lunch",weight-loss,290.0,Dễ,Salad rau củ,4,3.42
+CUS00872,Bùi Quang Cường,18-24,Vũng Tàu,"dessert, snack",brain-boost,298.0,Dễ,"Bánh khọt, Kem chuối, Cơm tấm sườn nướng",6,3.28
+CUS00873,Trần Thuỳ Lan,18-24,Vũng Tàu,dessert,weight-loss,190.0,Dễ,"Chè bưởi, Kem chuối",6,2.97
+CUS00874,Nguyễn Đức Quân,25-34,Cần Thơ,"dessert, dinner",balanced,302.0,Dễ,"Bánh da lợn, Cơm tấm sườn nướng",4,2.2
+CUS00875,Võ Hồng Linh,35-44,Hải Phòng,"snack, dessert",balanced,313.0,Dễ,,3,4.0
+CUS00876,Đặng Thị Hạnh,35-44,TP.HCM,"dessert, dinner",brain-boost,286.0,Dễ,"Bánh chuối nướng, Cơm tấm sườn nướng",5,2.86
+CUS00877,Lý Quang Dũng,55-64,Nha Trang,"dessert, snack",balanced,230.0,Trung bình,"Bánh da lợn, Bánh chuối nướng, Bánh khọt",5,3.44
+CUS00878,Vũ Cẩm Yến,55-64,Đà Nẵng,"dessert, lunch",balanced,257.0,Dễ,"Bánh khọt, Kem chuối, Bánh da lợn",6,2.77
+CUS00879,Ngô Văn Bình,45-54,Cần Thơ,"snack, lunch",balanced,140.0,Dễ,"Salad rau củ, Bánh mì que, Bánh khọt",4,2.55
+CUS00880,Huỳnh Quang Nam,25-34,Hà Nội,"snack, lunch",balanced,150.0,Dễ,Bánh trôi nước,4,3.18
+CUS00881,Trần Hồng Trang,65+,Nha Trang,"dessert, snack",balanced,184.0,Dễ,"Chè đậu xanh, Nem chua rán, Bánh chuối nướng",5,3.42
+CUS00882,Phan Diệu Mai,35-44,Đà Nẵng,"dessert, dinner",weight-loss,276.0,Dễ,"Cơm tấm sườn nướng, Nem chua rán",5,3.38
+CUS00883,Đỗ Thanh Vân,18-24,TP.HCM,"dessert, lunch",balanced,327.0,Trung bình,Chả cá Lã Vọng,6,2.93
+CUS00884,Nguyễn Bích Anh,65+,Đà Lạt,"dessert, dinner",balanced,296.0,Dễ,,5,1.94
+CUS00885,Lê Thanh Thảo,65+,Đà Lạt,"dessert, snack",balanced,202.0,Dễ,"Bánh khọt, Salad rau củ",6,2.5
+CUS00886,Nguyễn Diệu Phương,65+,TP.HCM,"dessert, snack",balanced,190.0,Dễ,Bánh chuối nướng,4,1.98
+CUS00887,Đỗ Quang Quân,25-34,Hạ Long,"dessert, snack",balanced,237.0,Trung bình,Nem chua rán,3,2.57
+CUS00888,Lê Bích Yến,65+,Vũng Tàu,"dessert, lunch",brain-boost,240.0,Dễ,,3,2.4
+CUS00889,Võ Hữu Tú,18-24,Đà Lạt,"snack, dessert",balanced,243.0,Trung bình,"Cơm tấm sườn nướng, Bánh khọt",6,3.12
+CUS00890,Phạm Bích Ngọc,55-64,Hải Phòng,"dessert, dinner",balanced,265.0,Dễ,Bánh mì que,6,2.6
+CUS00891,Lê Cẩm Hoa,55-64,Đà Nẵng,"snack, dessert",balanced,157.0,Dễ,"Chè bưởi, Nem chua rán",3,4.1
+CUS00892,Đỗ Thị Quỳnh,45-54,Huế,"dessert, snack",balanced,262.0,Dễ,"Bánh da lợn, Chè đậu xanh",6,3.25
+CUS00893,Lý Đức Cường,25-34,Hà Nội,"dessert, lunch",balanced,182.0,Dễ,Bánh da lợn,4,2.58
+CUS00894,Huỳnh Tuấn Hải,18-24,Hải Phòng,"dessert, snack",weight-loss,148.0,Dễ,"Bánh mì que, Sữa chua dâu tây",4,3.62
+CUS00895,Đặng Thị Vân,35-44,Hải Phòng,"dessert, snack",balanced,198.0,Dễ,"Kem chuối, Bánh da lợn, Bánh khọt",6,2.05
+CUS00896,Vũ Hồng Quỳnh,55-64,Hà Nội,"dessert, snack",balanced,307.0,Dễ,"Chả cá Lã Vọng, Nem chua rán, Bánh da lợn",6,3.13
+CUS00897,Trần Diệu Anh,25-34,Đà Nẵng,"snack, lunch",balanced,200.0,Dễ,"Bánh mì que, Bánh khọt, Kem chuối",6,3.22
+CUS00898,Đỗ Tuấn Nam,18-24,Đà Lạt,dessert,balanced,212.0,Dễ,"Bánh flan caramel, Kem chuối",5,3.8
+CUS00899,Đặng Bích Mai,55-64,Hạ Long,"dessert, dinner",balanced,264.0,Dễ,Chè bưởi,5,2.68
+CUS00900,Lê Bích Chi,55-64,Đà Lạt,"dessert, snack",weight-loss,158.0,Dễ,Nem chua rán,4,2.7
+CUS00901,Vũ Thanh Linh,35-44,Hải Phòng,"dessert, snack",weight-loss,158.0,Dễ,Chè bưởi,6,2.85
+CUS00902,Hồ Diệu Ngọc,45-54,Huế,"dessert, snack",balanced,185.0,Dễ,Salad rau củ,4,1.83
+CUS00903,Lê Gia Hùng,35-44,Nha Trang,"dessert, lunch",weight-loss,160.0,Dễ,"Bánh da lợn, Chè bưởi",3,3.13
+CUS00904,Lê Đức Kiên,55-64,Vũng Tàu,"dessert, lunch",balanced,237.0,Trung bình,"Bánh trôi nước, Sữa chua dâu tây, Chả cá Lã Vọng",6,2.28
+CUS00905,Đặng Ngọc Hương,25-34,Buôn Ma Thuột,"dessert, dinner",balanced,280.0,Trung bình,"Chè đậu xanh, Bánh trôi nước, Cơm tấm sườn nướng",5,4.04
+CUS00906,Phạm Minh Toàn,35-44,Đà Lạt,"dessert, lunch",brain-boost,208.0,Dễ,"Bánh chuối nướng, Salad rau củ, Sữa chua dâu tây",5,3.08
+CUS00907,Nguyễn Gia Hùng,18-24,Huế,"dessert, snack",balanced,202.0,Dễ,Bánh chuối nướng,4,3.37
+CUS00908,Dương Bích Hương,45-54,Nha Trang,"dessert, snack",weight-loss,170.0,Dễ,"Nem chua rán, Chè bưởi",3,3.57
+CUS00909,Huỳnh Bích Lan,35-44,Nha Trang,"dessert, snack",weight-loss,166.0,Dễ,"Chè bưởi, Sữa chua dâu tây, Bánh chuối nướng",5,2.94
+CUS00910,Hoàng Cẩm Vân,55-64,Hạ Long,"dessert, snack",balanced,208.0,Trung bình,"Bánh chuối nướng, Nem chua rán, Bánh da lợn",6,2.12
+CUS00911,Ngô Xuân Quân,35-44,Huế,"lunch, snack",brain-boost,237.0,Dễ,"Chả cá Lã Vọng, Bánh mì que",3,3.83
+CUS00912,Trần Xuân Vinh,35-44,Đà Lạt,"dessert, lunch",balanced,238.0,Trung bình,"Bánh trôi nước, Chè bưởi",4,3.98
+CUS00913,Huỳnh Thanh Ngọc,25-34,Nha Trang,dessert,brain-boost,202.0,Dễ,"Kem chuối, Chè đậu xanh",4,2.9
+CUS00914,Đặng Tuấn Bình,45-54,Nha Trang,"dessert, snack",weight-loss,218.0,Dễ,,4,4.12
+CUS00915,Nguyễn Tuấn Bình,35-44,Buôn Ma Thuột,"dessert, snack",balanced,190.0,Dễ,Chè bưởi,3,2.73
+CUS00916,Lê Văn Quân,35-44,Buôn Ma Thuột,"dessert, snack",balanced,202.0,Trung bình,"Bánh khọt, Chè đậu xanh",6,2.42
+CUS00917,Bùi Thuỳ Thủy,65+,Hải Phòng,"dessert, snack",balanced,258.0,Dễ,"Sữa chua dâu tây, Chè đậu xanh",6,3.22
+CUS00918,Bùi Thanh Lan,55-64,Vũng Tàu,snack,balanced,180.0,Trung bình,Bánh mì que,3,2.37
+CUS00919,Phạm Minh Tú,25-34,Đà Nẵng,"dessert, lunch",balanced,182.0,Dễ,"Salad rau củ, Sữa chua dâu tây",4,3.6
+CUS00920,Đặng Tuấn Vinh,45-54,TP.HCM,"dessert, lunch",weight-loss,160.0,Dễ,,3,3.27
+CUS00921,Huỳnh Hữu Cường,55-64,Vũng Tàu,"snack, dessert",weight-loss,147.0,Dễ,Nem chua rán,3,2.47
+CUS00922,Dương Minh Dũng,35-44,Nha Trang,"dessert, lunch",brain-boost,242.0,Dễ,"Salad rau củ, Chả cá Lã Vọng, Bánh da lợn",4,2.53
+CUS00923,Hồ Tuấn Khánh,35-44,Cần Thơ,"snack, dessert",balanced,278.0,Dễ,"Cơm tấm sườn nướng, Kem chuối",5,3.88
+CUS00924,Đỗ Diệu Bích,18-24,Huế,"snack, dessert",balanced,195.0,Dễ,"Bánh khọt, Bánh chuối nướng, Bánh mì que",4,2.68
+CUS00925,Võ Diệu Yến,18-24,Buôn Ma Thuột,"dessert, dinner",weight-loss,257.0,Dễ,"Chè bưởi, Bánh chuối nướng, Cơm tấm sườn nướng",6,2.57
+CUS00926,Phạm Trọng Dũng,35-44,Huế,"dessert, lunch",weight-loss,170.0,Dễ,"Chè bưởi, Nem chua rán",5,1.78
+CUS00927,Trần Quang Long,45-54,Cần Thơ,"snack, lunch",brain-boost,250.0,Dễ,"Bánh mì que, Chả cá Lã Vọng, Bánh khọt",4,2.55
+CUS00928,Bùi Thuỳ Hạnh,35-44,Huế,"dessert, snack",balanced,203.0,Dễ,,3,3.0
+CUS00929,Phan Mai Phương,55-64,Huế,dessert,balanced,177.0,Dễ,"Kem chuối, Bánh da lợn, Sữa chua dâu tây",3,2.2
+CUS00930,Nguyễn Thị Thảo,18-24,Đà Nẵng,"dessert, snack",balanced,203.0,Dễ,"Chè bưởi, Bánh da lợn, Chè đậu xanh",6,3.18
+CUS00931,Hồ Trọng Kiên,45-54,Hà Nội,"dessert, snack",balanced,182.0,Dễ,,4,2.42
+CUS00932,Trần Tuấn Cường,65+,Nha Trang,"dessert, snack",balanced,312.0,Trung bình,"Nem chua rán, Bánh flan caramel",5,2.82
+CUS00933,Phạm Thanh Hải,55-64,Huế,"snack, dessert",balanced,190.0,Trung bình,"Kem chuối, Bánh khọt",4,3.3
+CUS00934,Ngô Hồng Hà,25-34,Vũng Tàu,"dessert, dinner",balanced,278.0,Dễ,"Chè bưởi, Bánh da lợn",5,2.84
+CUS00935,Võ Đức Toàn,35-44,Hà Nội,"dessert, snack",weight-loss,165.0,Dễ,"Kem chuối, Bánh trôi nước, Nem chua rán",6,2.85
+CUS00936,Vũ Tuấn Hải,55-64,Đà Lạt,"dessert, lunch",brain-boost,260.0,Trung bình,Kem chuối,3,3.7
+CUS00937,Trần Ngọc Anh,35-44,Hạ Long,"snack, dessert",brain-boost,253.0,Trung bình,"Kem chuối, Nem chua rán",3,1.53
+CUS00938,Đỗ Đức Kiên,18-24,Hải Phòng,"dessert, dinner",weight-loss,317.0,Dễ,"Cơm tấm sườn nướng, Sữa chua dâu tây",3,2.77
+CUS00939,Võ Thị Thảo,25-34,Đà Lạt,"lunch, dessert",brain-boost,302.0,Dễ,"Cơm tấm sườn nướng, Bánh chuối nướng",5,2.78
+CUS00940,Vũ Thuỳ Yến,45-54,Hải Phòng,"dessert, snack",balanced,168.0,Dễ,"Bánh mì que, Bánh da lợn",4,3.53
+CUS00941,Lý Bích Quỳnh,65+,Buôn Ma Thuột,"dessert, dinner",balanced,304.0,Dễ,Bánh da lợn,5,3.64
+CUS00942,Phạm Diệu Thủy,55-64,Hải Phòng,"snack, dessert",weight-loss,153.0,Dễ,"Sữa chua dâu tây, Nem chua rán",6,2.48
+CUS00943,Bùi Văn Toàn,35-44,Hà Nội,"snack, dessert",balanced,278.0,Trung bình,"Cơm tấm sườn nướng, Bánh trôi nước, Bánh khọt",5,2.92
+CUS00944,Đỗ Hồng Nhung,25-34,Hải Phòng,"dessert, snack",balanced,237.0,Trung bình,,3,3.73
+CUS00945,Hoàng Tuấn Vinh,55-64,Buôn Ma Thuột,"dessert, dinner",balanced,282.0,Dễ,"Cơm tấm sườn nướng, Bánh chuối nướng, Sữa chua dâu tây",4,3.72
+CUS00946,Dương Ngọc Thủy,55-64,Đà Lạt,"dessert, lunch",balanced,177.0,Dễ,,3,2.2
+CUS00947,Dương Thuỳ Trang,65+,Nha Trang,"dessert, snack",balanced,182.0,Trung bình,"Chè bưởi, Bánh khọt, Nem chua rán",5,2.12
+CUS00948,Võ Thuỳ Lan,18-24,Vũng Tàu,"dessert, snack",balanced,252.0,Trung bình,Bánh mì que,6,2.75
+CUS00949,Lý Minh Sơn,45-54,Đà Nẵng,"snack, dessert",balanced,270.0,Trung bình,"Cơm tấm sườn nướng, Bánh da lợn",6,2.9
+CUS00950,Huỳnh Trọng Hùng,25-34,Vũng Tàu,"lunch, dessert",weight-loss,207.0,Dễ,,3,1.73
+CUS00951,Hoàng Diệu Phương,65+,Đà Lạt,"dessert, snack",balanced,215.0,Trung bình,Bánh khọt,4,2.85
+CUS00952,Ngô Mai Lan,25-34,Hải Phòng,"dessert, lunch",weight-loss,148.0,Dễ,Salad rau củ,4,4.03
+CUS00953,Trần Phương Lan,55-64,Buôn Ma Thuột,"lunch, dessert",weight-loss,283.0,Dễ,Sữa chua dâu tây,3,4.27
+CUS00954,Trần Thuỳ Lan,18-24,Vũng Tàu,"dessert, snack",balanced,185.0,Dễ,Chè bưởi,6,3.03
+CUS00955,Nguyễn Thị Bích,18-24,Huế,"snack, dessert",balanced,247.0,Dễ,Chả cá Lã Vọng,3,2.5
+CUS00956,Trần Gia Dũng,35-44,TP.HCM,"lunch, dessert",balanced,233.0,Trung bình,,3,2.8
+CUS00957,Trần Hồng Bích,25-34,Đà Nẵng,"snack, dessert",balanced,170.0,Trung bình,"Bánh khọt, Sữa chua dâu tây, Kem chuối",4,2.3
+CUS00958,Phan Minh Cường,35-44,TP.HCM,"dessert, lunch",balanced,207.0,Dễ,"Bánh trôi nước, Chả cá Lã Vọng, Chè bưởi",6,3.32
+CUS00959,Đặng Mai Mai,18-24,Cần Thơ,dessert,brain-boost,195.0,Dễ,Kem chuối,4,3.45
+CUS00960,Ngô Thị Hà,18-24,Vũng Tàu,"dessert, snack",balanced,170.0,Dễ,"Bánh da lợn, Sữa chua dâu tây, Bánh mì que",3,4.23
+CUS00961,Võ Tuấn Hùng,45-54,Nha Trang,"dessert, lunch",brain-boost,273.0,Khó,Bánh da lợn,3,2.5
+CUS00962,Dương Tuấn Dũng,35-44,TP.HCM,"dessert, lunch",weight-loss,135.0,Dễ,"Kem chuối, Chè đậu xanh",4,2.6
+CUS00963,Bùi Gia Vinh,65+,Đà Lạt,dessert,weight-loss,165.0,Dễ,"Sữa chua dâu tây, Bánh trôi nước",4,3.38
+CUS00964,Hoàng Phương Lan,65+,Buôn Ma Thuột,"snack, dessert",balanced,272.0,Trung bình,,5,3.54
+CUS00965,Phạm Thanh Trang,35-44,Nha Trang,"dessert, dinner",balanced,260.0,Trung bình,"Bánh flan caramel, Chè bưởi, Cơm tấm sườn nướng",6,2.62
+CUS00966,Ngô Văn Vinh,65+,Vũng Tàu,"dessert, lunch",weight-loss,230.0,Khó,"Sữa chua dâu tây, Chả cá Lã Vọng, Salad rau củ",5,2.52
+CUS00967,Đặng Quang Anh,65+,Vũng Tàu,"dessert, snack",balanced,170.0,Dễ,Kem chuối,4,3.18
+CUS00968,Ngô Thuỳ Dung,55-64,Hạ Long,"dessert, snack",weight-loss,160.0,Dễ,"Bánh mì que, Chè đậu xanh",6,3.13
+CUS00969,Hồ Thuỳ Lan,55-64,Hải Phòng,"dessert, lunch",balanced,185.0,Dễ,"Bánh khọt, Bánh flan caramel",4,3.8
+CUS00970,Vũ Ngọc Hà,65+,Hạ Long,"dessert, snack",brain-boost,173.0,Dễ,"Chè đậu xanh, Nem chua rán",3,3.2
+CUS00971,Nguyễn Thanh Vân,55-64,TP.HCM,"dinner, lunch",balanced,423.0,Trung bình,"Bánh trôi nước, Chả cá Lã Vọng",3,2.87
+CUS00972,Đặng Thị Anh,35-44,Hà Nội,"dessert, snack",balanced,343.0,Trung bình,Bánh khọt,3,2.8
+CUS00973,Hoàng Ngọc Lan,25-34,Đà Lạt,"dessert, snack",weight-loss,215.0,Dễ,Chè đậu xanh,4,2.1
+CUS00974,Đỗ Tuấn Phát,45-54,Đà Lạt,"dessert, snack",balanced,227.0,Trung bình,"Bánh da lợn, Kem chuối, Chả cá Lã Vọng",6,2.68
+CUS00975,Lý Thanh Anh,25-34,Vũng Tàu,"dessert, snack",balanced,212.0,Trung bình,"Bánh khọt, Bánh flan caramel, Bánh da lợn",6,3.4
+CUS00976,Bùi Văn Minh,65+,Buôn Ma Thuột,"dessert, lunch",balanced,203.0,Trung bình,Bánh da lợn,3,2.93
+CUS00977,Hồ Xuân Thịnh,18-24,Cần Thơ,"dessert, snack",balanced,170.0,Dễ,Bánh da lợn,5,2.18
+CUS00978,Võ Hồng Quỳnh,35-44,Đà Lạt,"dessert, lunch",balanced,164.0,Dễ,"Bánh chuối nướng, Chè đậu xanh, Salad rau củ",5,3.52
+CUS00979,Đỗ Diệu Dung,18-24,Hà Nội,"dessert, snack",balanced,220.0,Dễ,"Chả cá Lã Vọng, Bánh chuối nướng",5,3.24
+CUS00980,Bùi Thanh Anh,45-54,Cần Thơ,"dessert, snack",balanced,204.0,Trung bình,"Nem chua rán, Chè bưởi",5,2.78
+CUS00981,Lý Hữu Tú,18-24,Nha Trang,"dessert, snack",balanced,180.0,Dễ,"Bánh da lợn, Bánh flan caramel, Chè bưởi",6,3.52
+CUS00982,Hồ Thị Vân,35-44,Vũng Tàu,"dessert, lunch",weight-loss,148.0,Dễ,"Sữa chua dâu tây, Bánh chuối nướng",6,3.5
+CUS00983,Vũ Thanh Long,45-54,Buôn Ma Thuột,dessert,brain-boost,188.0,Dễ,"Bánh da lợn, Bánh chuối nướng",4,3.2
+CUS00984,Đỗ Phương Vân,55-64,Hà Nội,"snack, dessert",balanced,170.0,Dễ,,3,2.8
+CUS00985,Phan Quang Khánh,25-34,Buôn Ma Thuột,"dessert, snack",balanced,174.0,Dễ,"Bánh da lợn, Salad rau củ, Chè đậu xanh",5,2.4
+CUS00986,Bùi Phương Dung,18-24,Hà Nội,"dessert, snack",weight-loss,147.0,Dễ,,3,3.23
+CUS00987,Lê Ngọc Vân,35-44,Vũng Tàu,"snack, lunch",weight-loss,147.0,Dễ,Chè đậu xanh,3,3.13
+CUS00988,Dương Đức Nam,45-54,Đà Nẵng,"dessert, lunch",balanced,230.0,Trung bình,"Kem chuối, Chả cá Lã Vọng, Bánh khọt",5,3.84
+CUS00989,Bùi Quang Sơn,55-64,Hà Nội,"dessert, dinner",balanced,310.0,Dễ,Kem chuối,4,2.7
+CUS00990,Đặng Xuân Phát,45-54,Hải Phòng,"dessert, lunch",brain-boost,245.0,Dễ,Bánh flan caramel,4,3.12
+CUS00991,Huỳnh Cẩm Lan,55-64,Buôn Ma Thuột,"snack, dessert",balanced,173.0,Dễ,Bánh khọt,3,3.9
+CUS00992,Hoàng Tuấn Thắng,25-34,Đà Lạt,"dessert, snack",balanced,222.0,Trung bình,Nem chua rán,4,4.18
+CUS00993,Ngô Thanh Linh,35-44,Huế,"dessert, dinner",weight-loss,310.0,Dễ,Nem chua rán,5,3.0
+CUS00994,Ngô Bích Dung,55-64,Cần Thơ,"snack, lunch",balanced,218.0,Trung bình,"Chả cá Lã Vọng, Salad rau củ, Bánh da lợn",6,2.55
+CUS00995,Vũ Gia Tú,35-44,Nha Trang,"dessert, dinner",balanced,305.0,Trung bình,"Bánh trôi nước, Chả cá Lã Vọng, Cơm tấm sườn nướng",6,2.83
+CUS00996,Hoàng Cẩm Quỳnh,18-24,Đà Nẵng,"dessert, snack",balanced,163.0,Dễ,,3,2.63
+CUS00997,Hoàng Văn Dũng,25-34,Nha Trang,dessert,weight-loss,157.0,Dễ,Bánh trôi nước,3,3.17
+CUS00998,Ngô Diệu Linh,35-44,Nha Trang,"dessert, snack",balanced,280.0,Trung bình,"Nem chua rán, Chè bưởi, Bánh flan caramel",6,2.77
+CUS00999,Hồ Ngọc Hương,45-54,Vũng Tàu,"dessert, snack",balanced,213.0,Dễ,Bánh mì que,3,2.43
+CUS01000,Đỗ Xuân Thắng,55-64,Vũng Tàu,"dessert, snack",balanced,178.0,Trung bình,"Bánh trôi nước, Nem chua rán",5,3.38
+CUS01001,Đỗ Văn Phát,35-44,Nha Trang,"dessert, snack",balanced,193.0,Dễ,"Bánh mì que, Sữa chua dâu tây",6,2.85
+CUS01002,Hồ Quang Vinh,45-54,Hải Phòng,"dessert, dinner",weight-loss,295.0,Dễ,,4,3.5
+CUS01003,Huỳnh Hữu Hùng,55-64,Nha Trang,"dessert, lunch",brain-boost,298.0,Dễ,"Chả cá Lã Vọng, Bánh mì que",5,1.96
+CUS01004,Hoàng Thị Thủy,45-54,Đà Nẵng,dessert,balanced,200.0,Dễ,Chè bưởi,4,2.18
+CUS01005,Trần Đức Khánh,55-64,Hạ Long,"dessert, lunch",weight-loss,202.0,Dễ,"Chả cá Lã Vọng, Chè bưởi, Bánh flan caramel",6,3.72
+CUS01006,Ngô Minh Hải,35-44,Hạ Long,"dessert, snack",balanced,164.0,Dễ,"Kem chuối, Sữa chua dâu tây, Bánh chuối nướng",5,3.5
+CUS01007,Dương Xuân Phát,18-24,Buôn Ma Thuột,"dessert, dinner",balanced,308.0,Trung bình,"Bánh trôi nước, Bánh da lợn, Cơm tấm sườn nướng",5,1.64
+CUS01008,Trần Gia Toàn,55-64,Cần Thơ,"dessert, lunch",brain-boost,164.0,Dễ,"Bánh chuối nướng, Salad rau củ",5,3.08
+CUS01009,Hoàng Xuân Kiên,45-54,Vũng Tàu,"dessert, snack",balanced,252.0,Dễ,"Sữa chua dâu tây, Kem chuối",6,1.88
+CUS01010,Lê Phương Yến,55-64,Huế,"dessert, snack",weight-loss,173.0,Dễ,Bánh khọt,3,1.97
+CUS01011,Lý Xuân Anh,45-54,Hạ Long,"dessert, snack",brain-boost,223.0,Dễ,Kem chuối,6,3.02
+CUS01012,Nguyễn Thuỳ Dung,18-24,Vũng Tàu,"dessert, lunch",weight-loss,190.0,Dễ,"Bánh khọt, Salad rau củ",5,2.6
+CUS01013,Trần Gia Kiên,18-24,Vũng Tàu,"dessert, snack",brain-boost,160.0,Dễ,,3,2.73
+CUS01014,Võ Thanh Quân,35-44,Nha Trang,"dessert, dinner",balanced,383.0,Trung bình,Bánh flan caramel,3,2.93
+CUS01015,Phạm Quang Tuấn,55-64,TP.HCM,"dessert, dinner",brain-boost,320.0,Dễ,"Kem chuối, Chè bưởi",3,2.8
+CUS01016,Đỗ Tuấn Long,18-24,Nha Trang,"dessert, dinner",balanced,318.0,Dễ,,4,2.65
+CUS01017,Trần Quang Phát,65+,Cần Thơ,"dinner, snack",balanced,275.0,Trung bình,"Cơm tấm sườn nướng, Bánh khọt",4,2.28
+CUS01018,Lê Hữu Hùng,18-24,Hải Phòng,"dessert, lunch",weight-loss,165.0,Dễ,"Chè đậu xanh, Salad rau củ, Chè bưởi",6,2.6
+CUS01019,Đỗ Hồng Nhung,25-34,Hà Nội,"snack, dessert",balanced,330.0,Trung bình,,3,2.93
+CUS01020,Huỳnh Hữu Khánh,55-64,Vũng Tàu,"dessert, lunch",brain-boost,214.0,Dễ,"Kem chuối, Bánh khọt, Chả cá Lã Vọng",5,2.98
+CUS01021,Phan Ngọc Hà,65+,Hải Phòng,"dessert, snack",balanced,188.0,Dễ,"Bánh chuối nướng, Bánh flan caramel, Sữa chua dâu tây",5,3.16
+CUS01022,Vũ Diệu Bích,45-54,Buôn Ma Thuột,"dessert, dinner",balanced,318.0,Trung bình,"Chè đậu xanh, Chả cá Lã Vọng",5,4.06
+CUS01023,Phạm Hữu Nam,18-24,Hải Phòng,"snack, dessert",balanced,200.0,Trung bình,Bánh trôi nước,3,1.77
+CUS01024,Ngô Thuỳ Thủy,45-54,Đà Nẵng,"snack, lunch",balanced,228.0,Trung bình,,5,2.86
+CUS01025,Hồ Thanh Mai,45-54,Cần Thơ,"dessert, snack",balanced,227.0,Trung bình,"Bánh chuối nướng, Nem chua rán",3,3.3
+CUS01026,Võ Trọng Khánh,45-54,Hà Nội,"dessert, lunch",brain-boost,306.0,Dễ,"Chả cá Lã Vọng, Chè đậu xanh",5,2.98
+CUS01027,Phan Thuỳ Hạnh,18-24,Buôn Ma Thuột,"dessert, snack",balanced,175.0,Dễ,"Chè đậu xanh, Nem chua rán",4,2.55
+CUS01028,Trần Thanh Chi,65+,Cần Thơ,"dessert, lunch",weight-loss,283.0,Dễ,"Chè đậu xanh, Bánh chuối nướng",6,2.35
+CUS01029,Bùi Gia Anh,25-34,Nha Trang,dessert,balanced,208.0,Dễ,,6,2.63
+CUS01030,Đặng Văn Hải,25-34,Nha Trang,"lunch, dessert",weight-loss,150.0,Dễ,Bánh khọt,3,2.6
+CUS01031,Trần Trọng Cường,25-34,Cần Thơ,"dessert, snack",balanced,257.0,Dễ,"Bánh chuối nướng, Bánh khọt",6,3.4
+CUS01032,Trần Diệu Ngọc,45-54,Hạ Long,"dessert, snack",balanced,238.0,Khó,"Bánh da lợn, Chả cá Lã Vọng, Sữa chua dâu tây",6,3.0
+CUS01033,Đỗ Trọng Cường,45-54,Cần Thơ,"lunch, dessert",balanced,337.0,Trung bình,Cơm tấm sườn nướng,3,2.53
+CUS01034,Bùi Hồng Phương,65+,Cần Thơ,"dessert, lunch",weight-loss,195.0,Dễ,"Chả cá Lã Vọng, Kem chuối, Bánh mì que",6,3.18
+CUS01035,Lý Bích Hạnh,18-24,Huế,"dessert, lunch",weight-loss,142.0,Dễ,"Chè bưởi, Bánh mì que",4,3.02
+CUS01036,Trần Thuỳ Mai,18-24,Vũng Tàu,"dessert, snack",balanced,157.0,Dễ,Bánh da lợn,3,4.27
+CUS01037,Phạm Diệu Hương,35-44,Vũng Tàu,"dessert, dinner",balanced,288.0,Trung bình,Kem chuối,5,3.44
+CUS01038,Lê Gia Khánh,55-64,Đà Nẵng,"dessert, snack",balanced,148.0,Dễ,"Kem chuối, Nem chua rán",5,3.18
+CUS01039,Hoàng Trọng Long,65+,Hà Nội,"snack, dessert",balanced,245.0,Trung bình,"Chè đậu xanh, Bánh trôi nước, Cơm tấm sườn nướng",6,3.02
+CUS01040,Lê Thanh Tuấn,25-34,TP.HCM,"dessert, snack",balanced,227.0,Trung bình,"Nem chua rán, Chả cá Lã Vọng",6,3.68
+CUS01041,Phạm Quang Phát,45-54,TP.HCM,"dessert, snack",balanced,337.0,Trung bình,Bánh da lợn,6,3.22
+CUS01042,Bùi Hồng Hương,18-24,Hà Nội,"dessert, lunch",balanced,290.0,Khó,Bánh trôi nước,3,2.1
+CUS01043,Trần Bích Trang,18-24,Buôn Ma Thuột,"lunch, dessert",weight-loss,265.0,Dễ,"Bánh mì que, Salad rau củ",6,3.0
+CUS01044,Bùi Thanh Yến,25-34,Huế,dessert,balanced,200.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",3,2.87
+CUS01045,Lý Quang Phát,18-24,Nha Trang,"dessert, dinner",weight-loss,330.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",5,3.42
+CUS01046,Hồ Văn Kiên,25-34,Vũng Tàu,"snack, dessert",balanced,315.0,Trung bình,Bánh mì que,4,2.38
+CUS01047,Võ Trọng Toàn,35-44,Vũng Tàu,"dessert, lunch",balanced,188.0,Dễ,"Bánh flan caramel, Bánh da lợn",5,2.98
+CUS01048,Dương Diệu Vân,18-24,TP.HCM,"snack, dessert",brain-boost,253.0,Trung bình,"Chả cá Lã Vọng, Kem chuối",3,3.73
+CUS01049,Trần Đức Hải,55-64,Hạ Long,"snack, dessert",balanced,160.0,Dễ,,3,2.53
+CUS01050,Vũ Đức Hải,25-34,Nha Trang,"dessert, lunch",weight-loss,230.0,Dễ,"Chả cá Lã Vọng, Bánh trôi nước",4,3.05
+CUS01051,Huỳnh Cẩm Lan,18-24,Nha Trang,"dessert, snack",balanced,202.0,Dễ,Bánh mì que,6,2.85
+CUS01052,Dương Thanh Thủy,18-24,Vũng Tàu,"dessert, snack",balanced,260.0,Trung bình,"Sữa chua dâu tây, Bánh khọt, Chè bưởi",6,3.22
+CUS01053,Lê Minh Toàn,18-24,Hải Phòng,"dessert, lunch",brain-boost,260.0,Trung bình,"Chả cá Lã Vọng, Nem chua rán",4,2.28
+CUS01054,Phan Thị Linh,65+,Hải Phòng,"dessert, snack",balanced,278.0,Trung bình,"Bánh chuối nướng, Bánh khọt",5,2.52
+CUS01055,Bùi Thanh Vinh,25-34,Buôn Ma Thuột,"dessert, snack",balanced,310.0,Trung bình,"Kem chuối, Bánh da lợn",4,3.4
+CUS01056,Phan Thị Mai,35-44,Huế,"dessert, snack",balanced,186.0,Dễ,"Bánh trôi nước, Bánh mì que",5,2.44
+CUS01057,Lý Tuấn Phát,45-54,Đà Nẵng,"snack, dessert",balanced,268.0,Trung bình,Sữa chua dâu tây,5,3.12
+CUS01058,Vũ Quang Khánh,25-34,Cần Thơ,"dessert, dinner",balanced,267.0,Dễ,"Kem chuối, Bánh da lợn, Salad rau củ",6,2.77
+CUS01059,Phạm Gia Dũng,55-64,Hải Phòng,"dessert, snack",balanced,227.0,Trung bình,Bánh khọt,3,3.23
+CUS01060,Lý Thanh Yến,25-34,Hà Nội,"dessert, lunch",weight-loss,240.0,Dễ,"Sữa chua dâu tây, Chả cá Lã Vọng",5,3.1
+CUS01061,Hoàng Hữu Kiên,55-64,Huế,dessert,balanced,197.0,Dễ,Bánh da lợn,3,3.27
+CUS01062,Dương Thanh Hương,18-24,Hà Nội,"dessert, dinner",balanced,310.0,Trung bình,Bánh khọt,5,2.24
+CUS01063,Vũ Trọng Tuấn,55-64,Đà Lạt,"dessert, lunch",weight-loss,132.0,Dễ,,4,2.6
+CUS01064,Nguyễn Trọng Hải,18-24,TP.HCM,"dinner, dessert",brain-boost,430.0,Trung bình,"Bánh chuối nướng, Cơm tấm sườn nướng",3,2.57
+CUS01065,Hồ Phương Hương,45-54,TP.HCM,"snack, dessert",balanced,208.0,Trung bình,Chè bưởi,4,3.03
+CUS01066,Nguyễn Minh Phát,65+,Cần Thơ,"dessert, snack",balanced,250.0,Trung bình,Bánh khọt,4,2.98
+CUS01067,Nguyễn Ngọc Dung,25-34,Đà Lạt,"dessert, lunch",brain-boost,287.0,Trung bình,"Kem chuối, Bánh flan caramel",3,2.57
+CUS01068,Huỳnh Hữu Quân,25-34,Hải Phòng,"dessert, snack",weight-loss,265.0,Dễ,"Sữa chua dâu tây, Cơm tấm sườn nướng",4,3.15
+CUS01069,Lê Gia Cường,45-54,Vũng Tàu,"dessert, snack",balanced,308.0,Trung bình,"Bánh da lợn, Bánh chuối nướng, Cơm tấm sườn nướng",5,3.54
+CUS01070,Phạm Xuân Cường,65+,TP.HCM,"dessert, lunch",balanced,228.0,Dễ,"Chả cá Lã Vọng, Bánh trôi nước",4,2.35
+CUS01071,Vũ Thanh Hùng,18-24,Vũng Tàu,"dessert, dinner",weight-loss,278.0,Dễ,"Sữa chua dâu tây, Kem chuối, Chè đậu xanh",4,2.9
+CUS01072,Bùi Trọng Hùng,25-34,Đà Lạt,"snack, lunch",balanced,295.0,Trung bình,Cơm tấm sườn nướng,6,3.3
+CUS01073,Ngô Thanh Linh,55-64,Đà Nẵng,"snack, dessert",balanced,166.0,Dễ,Bánh mì que,5,3.16
+CUS01074,Vũ Hồng Lan,25-34,Huế,"dessert, snack",balanced,158.0,Dễ,Salad rau củ,5,3.22
+CUS01075,Lý Đức Toàn,65+,Vũng Tàu,"dessert, lunch",balanced,225.0,Dễ,Salad rau củ,6,2.75
+CUS01076,Đặng Hồng Anh,18-24,TP.HCM,"snack, dessert",balanced,330.0,Trung bình,Cơm tấm sườn nướng,3,3.87
+CUS01077,Hồ Thanh Thủy,65+,Đà Lạt,"dessert, dinner",weight-loss,275.0,Dễ,"Sữa chua dâu tây, Cơm tấm sườn nướng, Chè đậu xanh",4,2.7
+CUS01078,Nguyễn Thuỳ Thủy,18-24,Buôn Ma Thuột,"lunch, dinner",weight-loss,283.0,Dễ,,3,3.7
+CUS01079,Ngô Văn Sơn,65+,Nha Trang,"dessert, dinner",balanced,293.0,Dễ,"Bánh chuối nướng, Chả cá Lã Vọng, Bánh trôi nước",6,2.62
+CUS01080,Đặng Tuấn Kiên,18-24,Buôn Ma Thuột,"dessert, lunch",weight-loss,160.0,Dễ,,3,3.93
+CUS01081,Lê Phương Yến,55-64,Hà Nội,"dessert, lunch",brain-boost,260.0,Khó,Chè bưởi,4,2.48
+CUS01082,Trần Ngọc Mai,25-34,Hạ Long,"dessert, dinner",balanced,368.0,Trung bình,"Chả cá Lã Vọng, Sữa chua dâu tây",4,3.15
+CUS01083,Đỗ Gia Long,25-34,Hà Nội,"dessert, lunch",weight-loss,237.0,Dễ,Bánh mì que,3,2.8
+CUS01084,Hoàng Gia Phát,18-24,Hạ Long,"dessert, snack",brain-boost,170.0,Dễ,"Bánh chuối nướng, Nem chua rán",4,3.12
+CUS01085,Lý Trọng Thịnh,25-34,Hạ Long,"dessert, dinner",balanced,288.0,Dễ,"Chè đậu xanh, Bánh trôi nước",5,2.38
+CUS01086,Hoàng Thuỳ Trang,35-44,Đà Lạt,"dessert, snack",balanced,183.0,Dễ,"Kem chuối, Bánh chuối nướng, Bánh mì que",6,2.58
+CUS01087,Bùi Phương Thủy,35-44,Hạ Long,"dessert, lunch",brain-boost,185.0,Dễ,"Bánh chuối nướng, Kem chuối",4,2.8
+CUS01088,Lê Tuấn Thịnh,25-34,Hải Phòng,"snack, dessert",balanced,160.0,Dễ,Kem chuối,3,3.17
+CUS01089,Lê Thanh Thịnh,65+,TP.HCM,"dessert, lunch",weight-loss,210.0,Dễ,"Chè đậu xanh, Salad rau củ",5,3.48
+CUS01090,Lê Hồng Hoa,65+,TP.HCM,"dessert, snack",brain-boost,167.0,Dễ,Kem chuối,3,3.13
+CUS01091,Phạm Mai Yến,35-44,Hạ Long,"snack, lunch",balanced,165.0,Dễ,"Bánh chuối nướng, Bánh mì que",4,2.8
+CUS01092,Bùi Trọng Nam,45-54,Hà Nội,"dessert, snack",balanced,315.0,Trung bình,,4,2.8
+CUS01093,Võ Tuấn Anh,35-44,Vũng Tàu,"dessert, snack",balanced,208.0,Trung bình,"Nem chua rán, Bánh flan caramel, Bánh khọt",6,3.13
+CUS01094,Phan Văn Sơn,25-34,Đà Lạt,"dessert, snack",balanced,315.0,Trung bình,"Nem chua rán, Chè bưởi, Cơm tấm sườn nướng",4,2.5
+CUS01095,Bùi Thị Hương,65+,Buôn Ma Thuột,"dessert, snack",weight-loss,152.0,Dễ,"Chè bưởi, Sữa chua dâu tây, Bánh mì que",4,2.6
+CUS01096,Lý Ngọc Hoa,25-34,Nha Trang,"lunch, dessert",brain-boost,228.0,Dễ,"Bánh flan caramel, Bánh mì que, Bánh chuối nướng",5,3.2
+CUS01097,Lý Thanh Kiên,35-44,Hạ Long,"dessert, snack",brain-boost,220.0,Dễ,"Kem chuối, Bánh mì que, Bánh trôi nước",6,3.18
+CUS01098,Nguyễn Minh Hải,55-64,Đà Lạt,"snack, dessert",balanced,210.0,Trung bình,,4,3.2
+CUS01099,Dương Hồng Quỳnh,18-24,Vũng Tàu,dessert,balanced,200.0,Trung bình,,3,4.0
+CUS01100,Phan Thuỳ Hà,35-44,Hà Nội,"dessert, lunch",weight-loss,227.0,Dễ,"Bánh da lợn, Salad rau củ, Chè đậu xanh",6,2.52
+CUS01101,Võ Cẩm Vân,25-34,TP.HCM,"snack, dessert",balanced,174.0,Dễ,Bánh mì que,5,3.34
+CUS01102,Lý Hồng Linh,18-24,Cần Thơ,"snack, dessert",balanced,157.0,Dễ,Salad rau củ,3,3.33
+CUS01103,Vũ Mai Lan,45-54,Hạ Long,dessert,weight-loss,203.0,Dễ,Bánh flan caramel,3,2.87
+CUS01104,Phan Đức Dũng,18-24,Đà Lạt,"dessert, dinner",brain-boost,312.0,Dễ,Cơm tấm sườn nướng,4,3.0
+CUS01105,Hồ Hồng Phương,18-24,Hà Nội,"dessert, lunch",weight-loss,218.0,Dễ,"Salad rau củ, Bánh flan caramel",5,2.82
+CUS01106,Võ Quang Quân,45-54,Buôn Ma Thuột,"dessert, dinner",balanced,368.0,Khó,Chả cá Lã Vọng,4,3.7
+CUS01107,Hoàng Gia Tuấn,55-64,Vũng Tàu,"snack, dinner",balanced,303.0,Dễ,Bánh mì que,3,2.23
+CUS01108,Huỳnh Bích Yến,35-44,Hà Nội,dessert,brain-boost,178.0,Dễ,Bánh chuối nướng,4,2.82
+CUS01109,Hồ Hữu Nam,25-34,Buôn Ma Thuột,"snack, dessert",balanced,334.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng",5,3.36
+CUS01110,Hồ Gia Dũng,35-44,Buôn Ma Thuột,"dessert, lunch",balanced,230.0,Dễ,"Bánh chuối nướng, Chả cá Lã Vọng, Bánh flan caramel",6,2.83
+CUS01111,Huỳnh Minh Anh,18-24,Hải Phòng,"dessert, dinner",balanced,267.0,Trung bình,"Sữa chua dâu tây, Bánh trôi nước, Bánh khọt",6,3.05
+CUS01112,Lý Hồng Dung,35-44,TP.HCM,"snack, dessert",balanced,190.0,Trung bình,"Bánh trôi nước, Bánh khọt",4,2.9
+CUS01113,Bùi Thị Trang,25-34,Hà Nội,dessert,weight-loss,173.0,Dễ,"Sữa chua dâu tây, Chè đậu xanh",3,3.2
+CUS01114,Đặng Ngọc Dung,55-64,Buôn Ma Thuột,dessert,balanced,228.0,Trung bình,"Chè đậu xanh, Bánh trôi nước, Bánh da lợn",4,3.4
+CUS01115,Đặng Thuỳ Dung,25-34,Hạ Long,dessert,brain-boost,210.0,Dễ,Bánh da lợn,3,1.57
+CUS01116,Đặng Hồng Yến,25-34,Hải Phòng,"dessert, snack",balanced,213.0,Trung bình,"Bánh flan caramel, Chè đậu xanh",3,2.97
+CUS01117,Vũ Minh Vinh,35-44,Cần Thơ,"dessert, dinner",weight-loss,230.0,Dễ,Cơm tấm sườn nướng,6,3.93
+CUS01118,Lê Ngọc Mai,25-34,Nha Trang,"dessert, lunch",brain-boost,247.0,Dễ,"Bánh chuối nướng, Salad rau củ, Sữa chua dâu tây",6,2.67
+CUS01119,Trần Xuân Thịnh,18-24,Hạ Long,"dessert, lunch",balanced,188.0,Trung bình,Bánh khọt,4,2.85
+CUS01120,Bùi Phương Mai,55-64,Cần Thơ,"dessert, lunch",weight-loss,140.0,Dễ,Sữa chua dâu tây,3,1.63
+CUS01121,Đỗ Mai Vân,35-44,Nha Trang,"dessert, dinner",balanced,266.0,Trung bình,"Bánh trôi nước, Sữa chua dâu tây",5,2.82
+CUS01122,Trần Phương Vân,45-54,Đà Lạt,"dessert, dinner",weight-loss,262.0,Dễ,,4,2.65
+CUS01123,Nguyễn Thuỳ Hà,45-54,Đà Nẵng,dessert,balanced,203.0,Dễ,Sữa chua dâu tây,6,3.27
+CUS01124,Trần Cẩm Lan,18-24,Cần Thơ,"dessert, snack",balanced,245.0,Dễ,"Bánh da lợn, Nem chua rán, Chè bưởi",6,3.1
+CUS01125,Huỳnh Thanh Tuấn,65+,Đà Lạt,"dinner, snack",balanced,330.0,Trung bình,,3,2.27
+CUS01126,Đặng Thị Thảo,55-64,Hạ Long,"snack, dessert",balanced,157.0,Dễ,,3,2.53
+CUS01127,Hoàng Diệu Hà,45-54,Cần Thơ,"dessert, snack",weight-loss,168.0,Dễ,"Chè đậu xanh, Sữa chua dâu tây, Bánh da lợn",5,2.66
+CUS01128,Đặng Ngọc Yến,65+,Buôn Ma Thuột,"dessert, dinner",brain-boost,272.0,Dễ,"Nem chua rán, Chè bưởi",5,4.14
+CUS01129,Đỗ Gia Cường,45-54,Huế,dessert,weight-loss,193.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",3,2.37
+CUS01130,Đỗ Đức Phát,18-24,Nha Trang,"dessert, snack",balanced,262.0,Trung bình,"Bánh trôi nước, Kem chuối",5,2.8
+CUS01131,Võ Gia Bình,25-34,Đà Lạt,dessert,weight-loss,197.0,Dễ,Bánh chuối nướng,3,1.87
+CUS01132,Vũ Thanh Hùng,18-24,Hải Phòng,"snack, dessert",balanced,190.0,Dễ,Nem chua rán,3,4.3
+CUS01133,Võ Bích Lan,45-54,Huế,"snack, dessert",balanced,173.0,Trung bình,,3,2.37
+CUS01134,Hồ Trọng Nam,25-34,Cần Thơ,dessert,brain-boost,207.0,Dễ,Sữa chua dâu tây,3,3.1
+CUS01135,Hồ Diệu Thảo,18-24,Huế,dessert,weight-loss,200.0,Dễ,Bánh trôi nước,3,2.87
+CUS01136,Nguyễn Bích Hoa,25-34,TP.HCM,"dessert, snack",weight-loss,178.0,Dễ,"Nem chua rán, Chè bưởi, Bánh trôi nước",4,1.58
+CUS01137,Phan Mai Linh,45-54,Đà Nẵng,"snack, dessert",balanced,186.0,Trung bình,"Bánh trôi nước, Salad rau củ, Nem chua rán",5,3.82
+CUS01138,Huỳnh Trọng Anh,25-34,Hạ Long,"dessert, lunch",balanced,180.0,Dễ,"Bánh flan caramel, Salad rau củ, Bánh khọt",6,3.15
+CUS01139,Bùi Gia Tú,25-34,Hà Nội,"dessert, dinner",balanced,288.0,Trung bình,,4,4.03
+CUS01140,Ngô Ngọc Yến,55-64,Đà Nẵng,dessert,balanced,190.0,Khó,Bánh trôi nước,3,2.2
+CUS01141,Phạm Bích Ngọc,55-64,Đà Lạt,"dessert, snack",balanced,192.0,Dễ,"Bánh chuối nướng, Bánh trôi nước",6,2.88
+CUS01142,Nguyễn Hữu Cường,35-44,Buôn Ma Thuột,"snack, lunch",balanced,150.0,Trung bình,Bánh trôi nước,4,2.98
+CUS01143,Dương Minh Quân,65+,Hà Nội,"dessert, dinner",balanced,318.0,Dễ,"Bánh da lợn, Bánh chuối nướng, Chè bưởi",4,2.38
+CUS01144,Đỗ Hữu Bình,65+,Vũng Tàu,"dessert, dinner",weight-loss,278.0,Dễ,"Bánh chuối nướng, Cơm tấm sườn nướng",5,2.26
+CUS01145,Đỗ Gia Long,18-24,Buôn Ma Thuột,"snack, dessert",balanced,165.0,Dễ,Nem chua rán,4,3.85
+CUS01146,Bùi Mai Linh,45-54,Đà Nẵng,"dessert, lunch",weight-loss,172.0,Dễ,Salad rau củ,4,2.38
+CUS01147,Phan Văn Khánh,35-44,Đà Lạt,"dessert, snack",weight-loss,190.0,Dễ,"Chè đậu xanh, Bánh chuối nướng",6,3.1
+CUS01148,Đặng Gia Tú,65+,Huế,"dessert, snack",balanced,215.0,Trung bình,"Bánh flan caramel, Nem chua rán",4,3.08
+CUS01149,Lê Diệu Hương,35-44,Hạ Long,"dessert, snack",balanced,163.0,Dễ,,6,3.28
+CUS01150,Hồ Văn Dũng,55-64,Đà Lạt,"lunch, snack",balanced,183.0,Dễ,Bánh khọt,3,1.33
+CUS01151,Hoàng Minh Phát,55-64,Huế,"dessert, lunch",weight-loss,170.0,Dễ,"Salad rau củ, Chè bưởi",3,2.43
+CUS01152,Võ Xuân Long,55-64,TP.HCM,dessert,balanced,200.0,Dễ,"Bánh chuối nướng, Chè đậu xanh, Bánh trôi nước",5,3.72
+CUS01153,Hồ Thanh Tú,45-54,Hạ Long,dessert,weight-loss,153.0,Dễ,Kem chuối,3,3.7
+CUS01154,Dương Xuân Khánh,25-34,Cần Thơ,dessert,balanced,237.0,Khó,"Chè đậu xanh, Bánh da lợn",3,2.37
+CUS01155,Lý Bích Linh,65+,Đà Nẵng,"dessert, lunch",weight-loss,174.0,Dễ,"Bánh khọt, Bánh trôi nước, Bánh chuối nướng",5,2.16
+CUS01156,Lý Cẩm Vân,25-34,Đà Lạt,"dessert, snack",balanced,180.0,Trung bình,"Bánh khọt, Bánh trôi nước",3,3.97
+CUS01157,Phan Hồng Hoa,65+,Đà Lạt,"dessert, snack",balanced,253.0,Dễ,"Bánh chuối nướng, Salad rau củ, Bánh trôi nước",6,2.82
+CUS01158,Võ Đức Hải,45-54,Đà Lạt,"dessert, lunch",brain-boost,228.0,Dễ,"Kem chuối, Chả cá Lã Vọng, Bánh chuối nướng",5,3.3
+CUS01159,Hoàng Phương Yến,18-24,Huế,dessert,weight-loss,167.0,Dễ,,3,3.63
+CUS01160,Đỗ Trọng Anh,35-44,Vũng Tàu,"lunch, dessert",balanced,300.0,Trung bình,Cơm tấm sườn nướng,4,3.1
+CUS01161,Hoàng Minh Dũng,55-64,Hà Nội,"dessert, snack",balanced,167.0,Dễ,Bánh mì que,6,3.53
+CUS01162,Võ Phương Hạnh,25-34,TP.HCM,"dessert, lunch",weight-loss,218.0,Dễ,"Chả cá Lã Vọng, Chè bưởi",5,1.92
+CUS01163,Lê Đức Tuấn,55-64,Huế,"dessert, snack",weight-loss,174.0,Dễ,Bánh flan caramel,5,3.2
+CUS01164,Lê Phương Thảo,65+,Nha Trang,dessert,weight-loss,193.0,Dễ,Bánh flan caramel,3,2.93
+CUS01165,Đặng Thị Thảo,45-54,Cần Thơ,"dessert, lunch",balanced,188.0,Trung bình,"Bánh trôi nước, Bánh da lợn",4,3.53
+CUS01166,Hồ Diệu Hương,65+,Hà Nội,"dinner, snack",balanced,352.0,Trung bình,"Cơm tấm sườn nướng, Nem chua rán",4,4.1
+CUS01167,Dương Ngọc Vân,25-34,Huế,"dessert, lunch",weight-loss,202.0,Dễ,"Chả cá Lã Vọng, Chè đậu xanh",6,2.83
+CUS01168,Dương Hồng Mai,65+,Đà Nẵng,"dessert, snack",balanced,270.0,Dễ,"Nem chua rán, Cơm tấm sườn nướng",5,2.04
+CUS01169,Võ Hữu Khánh,25-34,Hạ Long,"snack, dessert",balanced,284.0,Trung bình,"Bánh khọt, Cơm tấm sườn nướng, Nem chua rán",5,4.16
+CUS01170,Lý Thị Ngọc,18-24,TP.HCM,"dessert, snack",weight-loss,247.0,Dễ,,3,3.17
+CUS01171,Trần Trọng Vinh,18-24,Vũng Tàu,"dessert, lunch",weight-loss,222.0,Dễ,"Salad rau củ, Chả cá Lã Vọng, Chè bưởi",6,2.72
+CUS01172,Huỳnh Quang Sơn,55-64,Cần Thơ,"dessert, snack",balanced,240.0,Dễ,Sữa chua dâu tây,4,3.8
+CUS01173,Dương Hữu Bình,35-44,Hạ Long,"dinner, snack",balanced,278.0,Trung bình,"Kem chuối, Bánh khọt, Salad rau củ",4,4.05
+CUS01174,Nguyễn Cẩm Hương,45-54,Đà Nẵng,"dessert, snack",weight-loss,152.0,Dễ,"Chè đậu xanh, Bánh mì que",5,3.02
+CUS01175,Lê Thị Hương,25-34,Hải Phòng,"dessert, snack",balanced,188.0,Dễ,"Bánh mì que, Chè bưởi",5,2.42
+CUS01176,Dương Hồng Dung,65+,Hải Phòng,"dessert, lunch",weight-loss,235.0,Dễ,Bánh da lợn,4,3.38
+CUS01177,Võ Trọng Dũng,35-44,Hải Phòng,"snack, dessert",weight-loss,150.0,Dễ,"Salad rau củ, Chè bưởi",3,3.57
+CUS01178,Lê Gia Hải,45-54,Nha Trang,"dessert, snack",balanced,357.0,Trung bình,Cơm tấm sườn nướng,3,3.17
+CUS01179,Phan Minh Vinh,35-44,Hà Nội,dessert,weight-loss,152.0,Dễ,Chè bưởi,4,3.18
+CUS01180,Đặng Tuấn Thắng,55-64,Đà Lạt,"dessert, lunch",weight-loss,138.0,Dễ,Bánh trôi nước,4,2.82
+CUS01181,Phan Quang Minh,25-34,Hà Nội,"dessert, lunch",balanced,228.0,Dễ,Chè đậu xanh,6,3.12
+CUS01182,Huỳnh Diệu Yến,35-44,Vũng Tàu,"dessert, lunch",brain-boost,250.0,Dễ,"Chả cá Lã Vọng, Kem chuối",4,2.32
+CUS01183,Lê Thuỳ Hà,45-54,Đà Nẵng,"snack, dessert",balanced,172.0,Dễ,"Bánh da lợn, Nem chua rán",4,2.3
+CUS01184,Lê Thuỳ Dung,25-34,Đà Lạt,"dessert, snack",balanced,205.0,Trung bình,Bánh khọt,6,2.52
+CUS01185,Trần Thuỳ Yến,25-34,Nha Trang,"snack, dessert",balanced,302.0,Dễ,"Cơm tấm sườn nướng, Bánh khọt, Bánh mì que",6,3.62
+CUS01186,Hồ Minh Minh,35-44,Đà Nẵng,"snack, dessert",balanced,313.0,Dễ,Chè bưởi,3,3.87
+CUS01187,Phan Mai Chi,25-34,Hải Phòng,"dinner, dessert",balanced,308.0,Trung bình,,4,3.8
+CUS01188,Ngô Quang Hùng,25-34,Nha Trang,"snack, lunch",balanced,260.0,Khó,"Bánh khọt, Bánh mì que, Chả cá Lã Vọng",3,2.9
+CUS01189,Dương Trọng Tú,35-44,Đà Lạt,"dessert, dinner",balanced,295.0,Dễ,"Bánh flan caramel, Kem chuối, Chả cá Lã Vọng",6,2.63
+CUS01190,Hoàng Trọng Dũng,55-64,Buôn Ma Thuột,"dessert, dinner",balanced,340.0,Dễ,Cơm tấm sườn nướng,3,2.03
+CUS01191,Đỗ Bích Lan,18-24,Huế,"dessert, lunch",weight-loss,137.0,Dễ,"Salad rau củ, Chè bưởi",3,3.2
+CUS01192,Trần Thuỳ Quỳnh,25-34,TP.HCM,"dessert, lunch",balanced,282.0,Khó,"Chả cá Lã Vọng, Bánh flan caramel, Bánh da lợn",4,2.58
+CUS01193,Phạm Gia Anh,18-24,Hải Phòng,dessert,balanced,233.0,Trung bình,,3,3.47
+CUS01194,Đỗ Mai Quỳnh,35-44,Đà Lạt,"dessert, snack",balanced,228.0,Dễ,"Bánh chuối nướng, Kem chuối, Bánh da lợn",6,4.02
+CUS01195,Đặng Diệu Thủy,55-64,Buôn Ma Thuột,"dinner, lunch",balanced,282.0,Trung bình,Chè đậu xanh,4,3.25
+CUS01196,Đỗ Thuỳ Hà,35-44,Huế,"dessert, snack",weight-loss,148.0,Dễ,"Salad rau củ, Kem chuối, Chè đậu xanh",6,3.32
+CUS01197,Võ Hồng Ngọc,35-44,TP.HCM,"snack, dessert",balanced,190.0,Trung bình,,3,3.03
+CUS01198,Lý Minh Dũng,45-54,Buôn Ma Thuột,"snack, dessert",balanced,250.0,Trung bình,"Salad rau củ, Bánh mì que, Bánh trôi nước",5,3.56
+CUS01199,Lý Thanh Toàn,65+,Huế,"dessert, snack",balanced,193.0,Dễ,"Bánh mì que, Bánh flan caramel, Bánh da lợn",6,3.65
+CUS01200,Phan Ngọc Nhung,65+,Đà Lạt,"dessert, dinner",balanced,302.0,Trung bình,"Nem chua rán, Bánh flan caramel, Bánh chuối nướng",5,3.22
+CUS01201,Lê Diệu Thảo,65+,Vũng Tàu,"snack, dessert",balanced,190.0,Dễ,"Sữa chua dâu tây, Bánh khọt, Bánh flan caramel",4,3.02
+CUS01202,Dương Mai Dung,25-34,Cần Thơ,"dessert, snack",weight-loss,125.0,Dễ,"Kem chuối, Sữa chua dâu tây",4,3.85
+CUS01203,Lê Trọng Tuấn,35-44,Cần Thơ,"dessert, snack",balanced,198.0,Dễ,"Sữa chua dâu tây, Bánh da lợn, Bánh khọt",5,2.76
+CUS01204,Trần Minh Kiên,35-44,Cần Thơ,dessert,balanced,198.0,Dễ,,4,2.7
+CUS01205,Phan Gia Khánh,18-24,Hà Nội,"dinner, lunch",balanced,290.0,Dễ,"Bánh mì que, Cơm tấm sườn nướng",3,2.17
+CUS01206,Trần Ngọc Bích,65+,Hà Nội,"dessert, lunch",weight-loss,228.0,Dễ,"Bánh chuối nướng, Bánh flan caramel",6,2.92
+CUS01207,Nguyễn Thanh Cường,65+,Hạ Long,dessert,weight-loss,208.0,Dễ,,4,3.78
+CUS01208,Lý Thị Chi,45-54,Huế,"dessert, lunch",balanced,155.0,Dễ,Bánh trôi nước,4,3.55
+CUS01209,Huỳnh Gia Sơn,45-54,Huế,"dessert, lunch",balanced,168.0,Dễ,"Bánh mì que, Bánh trôi nước",4,2.53
+CUS01210,Phan Trọng Phát,18-24,Huế,"dessert, snack",weight-loss,142.0,Dễ,"Chè bưởi, Bánh mì que",4,2.42
+CUS01211,Vũ Bích Trang,25-34,Hải Phòng,"dessert, lunch",weight-loss,218.0,Dễ,Sữa chua dâu tây,4,3.05
+CUS01212,Nguyễn Đức Minh,65+,Vũng Tàu,"dessert, lunch",balanced,318.0,Khó,"Chè bưởi, Bánh flan caramel, Cơm tấm sườn nướng",6,3.18
+CUS01213,Dương Gia Hải,35-44,Hải Phòng,dessert,weight-loss,188.0,Dễ,"Chè đậu xanh, Bánh trôi nước",5,3.3
+CUS01214,Đỗ Thanh Yến,35-44,Hà Nội,"dessert, snack",weight-loss,150.0,Dễ,,4,2.17
+CUS01215,Ngô Hồng Trang,35-44,Hạ Long,"lunch, snack",weight-loss,225.0,Dễ,Chả cá Lã Vọng,4,3.6
+CUS01216,Đỗ Cẩm Hoa,35-44,TP.HCM,"dessert, snack",balanced,197.0,Khó,,3,2.43
+CUS01217,Bùi Phương Chi,45-54,Đà Lạt,"dessert, snack",balanced,280.0,Trung bình,"Cơm tấm sườn nướng, Kem chuối, Bánh da lợn",6,2.42
+CUS01218,Phan Thuỳ Phương,18-24,Hạ Long,"dessert, snack",balanced,210.0,Trung bình,Bánh chuối nướng,4,3.58
+CUS01219,Đỗ Thuỳ Hà,18-24,Huế,"dessert, snack",balanced,267.0,Trung bình,"Nem chua rán, Bánh trôi nước, Cơm tấm sườn nướng",6,3.32
+CUS01220,Hoàng Hữu Anh,55-64,Đà Nẵng,"dessert, snack",balanced,200.0,Trung bình,"Nem chua rán, Bánh trôi nước",3,1.97
+CUS01221,Huỳnh Văn Thắng,45-54,Đà Lạt,"dessert, snack",balanced,208.0,Dễ,"Bánh da lợn, Nem chua rán",4,3.3
+CUS01222,Vũ Mai Vân,35-44,Hạ Long,"dessert, lunch",brain-boost,228.0,Dễ,,4,3.55
+CUS01223,Lê Đức Vinh,35-44,Hạ Long,"snack, dessert",balanced,330.0,Trung bình,"Cơm tấm sườn nướng, Sữa chua dâu tây",3,4.43
+CUS01224,Phan Thanh Phát,25-34,Hạ Long,"dessert, lunch",brain-boost,260.0,Khó,"Kem chuối, Bánh trôi nước",3,3.87
+CUS01225,Huỳnh Mai Hạnh,65+,Hải Phòng,"snack, dessert",balanced,160.0,Dễ,Bánh trôi nước,4,3.05
+CUS01226,Trần Hữu Thịnh,35-44,Đà Lạt,"lunch, snack",balanced,302.0,Dễ,"Bánh mì que, Chả cá Lã Vọng, Bánh chuối nướng",5,3.1
+CUS01227,Huỳnh Xuân Vinh,55-64,Buôn Ma Thuột,"snack, dessert",balanced,170.0,Dễ,"Bánh khọt, Bánh mì que",3,2.57
+CUS01228,Võ Trọng Tuấn,55-64,Cần Thơ,"dessert, snack",balanced,257.0,Trung bình,"Chè bưởi, Sữa chua dâu tây, Nem chua rán",6,2.93
+CUS01229,Dương Phương Ngọc,18-24,Hà Nội,dessert,weight-loss,187.0,Dễ,"Sữa chua dâu tây, Bánh flan caramel",3,2.13
+CUS01230,Trần Minh Sơn,35-44,Đà Lạt,"dessert, dinner",balanced,310.0,Dễ,Kem chuối,4,2.92
+CUS01231,Ngô Xuân Cường,18-24,Huế,"dessert, lunch",balanced,288.0,Dễ,Bánh trôi nước,4,2.82
+CUS01232,Hồ Tuấn Long,55-64,Huế,"dessert, snack",balanced,200.0,Trung bình,,3,3.6
+CUS01233,Huỳnh Trọng Quân,55-64,TP.HCM,"dessert, lunch",balanced,162.0,Dễ,"Sữa chua dâu tây, Bánh trôi nước, Bánh da lợn",4,2.28
+CUS01234,Võ Thuỳ Lan,45-54,Vũng Tàu,"dessert, lunch",balanced,307.0,Dễ,"Kem chuối, Chả cá Lã Vọng, Chè đậu xanh",6,3.92
+CUS01235,Hồ Ngọc Hoa,18-24,Vũng Tàu,"dessert, snack",balanced,212.0,Dễ,"Chè đậu xanh, Nem chua rán, Chè bưởi",6,2.3
+CUS01236,Đặng Thuỳ Chi,65+,TP.HCM,"dessert, lunch",brain-boost,280.0,Trung bình,,3,2.0
+CUS01237,Đỗ Văn Vinh,25-34,TP.HCM,"dessert, snack",balanced,183.0,Khó,,3,2.8
+CUS01238,Đặng Hồng Mai,45-54,Vũng Tàu,"dessert, snack",balanced,208.0,Trung bình,,6,3.17
+CUS01239,Hồ Mai Phương,25-34,Cần Thơ,"dessert, lunch",weight-loss,158.0,Dễ,"Bánh flan caramel, Sữa chua dâu tây",4,3.52
+CUS01240,Trần Trọng Nam,65+,TP.HCM,"dessert, lunch",weight-loss,180.0,Dễ,Bánh flan caramel,4,2.9
+CUS01241,Đặng Minh Cường,45-54,Đà Lạt,"dessert, dinner",balanced,305.0,Dễ,Chè bưởi,4,4.0
+CUS01242,Bùi Thuỳ Lan,55-64,Nha Trang,"lunch, dessert",brain-boost,263.0,Khó,Bánh khọt,3,2.27
+CUS01243,Trần Thanh Hoa,18-24,Đà Nẵng,"dessert, snack",balanced,192.0,Dễ,"Bánh chuối nướng, Sữa chua dâu tây",6,3.23
+CUS01244,Bùi Hữu Thắng,25-34,Hà Nội,"dessert, lunch",brain-boost,200.0,Dễ,"Salad rau củ, Bánh trôi nước, Bánh chuối nướng",6,2.57
+CUS01245,Trần Thanh Toàn,25-34,Hải Phòng,"dessert, snack",balanced,233.0,Dễ,"Chè đậu xanh, Chè bưởi",6,2.82
+CUS01246,Bùi Gia Quân,18-24,Hạ Long,"dessert, snack",balanced,180.0,Dễ,"Nem chua rán, Bánh chuối nướng, Bánh khọt",5,2.52
+CUS01247,Hồ Thanh Long,45-54,Nha Trang,"dessert, lunch",weight-loss,168.0,Dễ,"Bánh chuối nướng, Bánh khọt",4,2.5
+CUS01248,Phạm Ngọc Hương,35-44,Đà Nẵng,"dessert, lunch",weight-loss,247.0,Dễ,Chả cá Lã Vọng,3,3.2
+CUS01249,Ngô Ngọc Thủy,18-24,Đà Nẵng,"dessert, dinner",balanced,252.0,Trung bình,"Cơm tấm sườn nướng, Nem chua rán",6,2.35
+CUS01250,Đỗ Thuỳ Hà,55-64,Hà Nội,"dessert, snack",balanced,170.0,Dễ,Bánh chuối nướng,4,2.72
+CUS01251,Phan Tuấn Thắng,65+,Đà Nẵng,"dessert, snack",balanced,194.0,Dễ,"Bánh mì que, Bánh trôi nước",5,2.34
+CUS01252,Võ Gia Thắng,65+,Huế,"snack, dessert",balanced,250.0,Trung bình,"Chè đậu xanh, Nem chua rán",4,2.12
+CUS01253,Phạm Ngọc Trang,18-24,Buôn Ma Thuột,"dessert, lunch",balanced,344.0,Khó,Bánh chuối nướng,5,2.42
+CUS01254,Phan Thị Lan,35-44,Hà Nội,"dessert, snack",balanced,180.0,Trung bình,Bánh khọt,3,3.57
+CUS01255,Đặng Bích Dung,35-44,Đà Nẵng,"dessert, snack",balanced,192.0,Dễ,"Bánh trôi nước, Bánh mì que, Bánh chuối nướng",5,3.4
+CUS01256,Dương Gia Kiên,45-54,Hải Phòng,"snack, dessert",balanced,187.0,Trung bình,"Nem chua rán, Kem chuối, Bánh khọt",3,4.03
+CUS01257,Nguyễn Quang Hùng,65+,Hạ Long,"dessert, snack",balanced,220.0,Dễ,"Chè đậu xanh, Chả cá Lã Vọng, Bánh flan caramel",6,3.05
+CUS01258,Lê Bích Mai,35-44,Hạ Long,"dessert, dinner",weight-loss,350.0,Dễ,Chè đậu xanh,3,1.87
+CUS01259,Vũ Cẩm Hoa,25-34,Vũng Tàu,"lunch, dessert",brain-boost,215.0,Dễ,Chả cá Lã Vọng,4,2.75
+CUS01260,Huỳnh Phương Phương,45-54,Cần Thơ,"dessert, lunch",brain-boost,242.0,Dễ,Chả cá Lã Vọng,5,3.18
+CUS01261,Võ Mai Mai,45-54,Cần Thơ,"dessert, dinner",balanced,343.0,Trung bình,,3,2.27
+CUS01262,Lý Hồng Phương,65+,Hà Nội,"dessert, snack",balanced,240.0,Trung bình,Bánh flan caramel,3,2.53
+CUS01263,Lê Hồng Hạnh,18-24,Hà Nội,"dessert, snack",balanced,318.0,Trung bình,"Chè bưởi, Bánh da lợn",4,3.08
+CUS01264,Lê Cẩm Hương,45-54,Hải Phòng,"dessert, snack",balanced,197.0,Dễ,"Bánh khọt, Nem chua rán",6,2.63
+CUS01265,Ngô Hữu Dũng,55-64,Hà Nội,"dessert, snack",balanced,178.0,Dễ,"Bánh mì que, Bánh da lợn, Bánh trôi nước",4,3.08
+CUS01266,Phạm Quang Dũng,18-24,Cần Thơ,"snack, dessert",balanced,242.0,Trung bình,"Bánh da lợn, Nem chua rán",5,3.02
+CUS01267,Đỗ Văn Tuấn,35-44,TP.HCM,"dessert, snack",balanced,198.0,Trung bình,"Bánh khọt, Bánh mì que",5,2.88
+CUS01268,Lê Hữu Thịnh,65+,Đà Nẵng,"dessert, snack",balanced,180.0,Dễ,"Sữa chua dâu tây, Bánh mì que, Kem chuối",5,3.42
+CUS01269,Trần Quang Sơn,45-54,Nha Trang,"dessert, snack",brain-boost,255.0,Dễ,Bánh khọt,4,3.22
+CUS01270,Bùi Mai Dung,65+,Hà Nội,"snack, dessert",balanced,248.0,Dễ,,5,2.42
+CUS01271,Lê Xuân Tú,45-54,Cần Thơ,"dessert, lunch",weight-loss,252.0,Dễ,"Salad rau củ, Cơm tấm sườn nướng",4,3.42
+CUS01272,Đặng Văn Tú,35-44,Buôn Ma Thuột,"snack, lunch",weight-loss,127.0,Dễ,,3,3.5
+CUS01273,Bùi Hồng Ngọc,35-44,TP.HCM,"dessert, lunch",brain-boost,252.0,Khó,Kem chuối,4,2.8
+CUS01274,Huỳnh Trọng Long,45-54,Hạ Long,"dessert, snack",balanced,204.0,Trung bình,Nem chua rán,5,2.06
+CUS01275,Lý Mai Nhung,65+,Nha Trang,"dessert, snack",balanced,272.0,Dễ,"Kem chuối, Sữa chua dâu tây, Nem chua rán",5,3.1
+CUS01276,Huỳnh Gia Khánh,35-44,Cần Thơ,"snack, dessert",balanced,193.0,Trung bình,"Bánh khọt, Nem chua rán",3,3.7
+CUS01277,Ngô Ngọc Linh,45-54,Buôn Ma Thuột,"dessert, snack",balanced,182.0,Trung bình,"Bánh khọt, Bánh trôi nước",4,3.45
+CUS01278,Lê Thị Hà,25-34,Đà Nẵng,"dessert, snack",balanced,182.0,Dễ,"Bánh da lợn, Nem chua rán, Sữa chua dâu tây",6,3.0
+CUS01279,Lê Đức Minh,55-64,Hải Phòng,"dessert, snack",balanced,180.0,Trung bình,,3,4.3
+CUS01280,Đặng Trọng Cường,25-34,Hạ Long,"snack, lunch",balanced,255.0,Trung bình,Chả cá Lã Vọng,4,3.48
+CUS01281,Dương Ngọc Ngọc,45-54,Đà Nẵng,"dessert, dinner",weight-loss,307.0,Dễ,,3,3.33
+CUS01282,Võ Mai Dung,18-24,Nha Trang,"dinner, snack",balanced,362.0,Trung bình,Bánh trôi nước,4,2.58
+CUS01283,Vũ Mai Quỳnh,45-54,Hải Phòng,"dessert, snack",balanced,202.0,Trung bình,"Bánh mì que, Bánh da lợn, Bánh flan caramel",5,2.04
+CUS01284,Huỳnh Cẩm Mai,18-24,TP.HCM,"dessert, snack",balanced,172.0,Dễ,,6,2.7
+CUS01285,Dương Quang Dũng,65+,Đà Lạt,"snack, lunch",balanced,280.0,Trung bình,"Bánh khọt, Chả cá Lã Vọng, Bánh trôi nước",3,3.93
+CUS01286,Vũ Hữu Tú,18-24,Nha Trang,"lunch, snack",brain-boost,260.0,Khó,"Nem chua rán, Chả cá Lã Vọng",3,3.13
+CUS01287,Bùi Trọng Minh,35-44,Đà Nẵng,"dessert, snack",balanced,188.0,Trung bình,Bánh khọt,5,4.4
+CUS01288,Phạm Thanh Minh,18-24,Nha Trang,"snack, dessert",balanced,170.0,Dễ,"Bánh mì que, Salad rau củ, Bánh khọt",6,3.43
+CUS01289,Võ Thanh Linh,35-44,Vũng Tàu,"dessert, snack",balanced,310.0,Dễ,,5,2.12
+CUS01290,Lý Thuỳ Yến,55-64,Đà Lạt,"dessert, lunch",weight-loss,158.0,Dễ,"Bánh chuối nướng, Chè đậu xanh",4,2.68
+CUS01291,Huỳnh Đức Hải,45-54,Hạ Long,"dessert, snack",balanced,190.0,Dễ,"Bánh khọt, Bánh chuối nướng",6,3.38
+CUS01292,Bùi Tuấn Thắng,55-64,Cần Thơ,"dessert, lunch",weight-loss,177.0,Dễ,"Salad rau củ, Bánh da lợn, Nem chua rán",6,3.58
+CUS01293,Lê Gia Long,45-54,Đà Lạt,"dessert, snack",balanced,153.0,Dễ,"Kem chuối, Sữa chua dâu tây",3,1.67
+CUS01294,Võ Bích Hương,65+,Hạ Long,dessert,balanced,232.0,Dễ,"Bánh da lợn, Chè đậu xanh, Bánh flan caramel",4,2.2
+CUS01295,Dương Văn Quân,18-24,Nha Trang,"dessert, lunch",brain-boost,273.0,Dễ,Chả cá Lã Vọng,3,2.53
+CUS01296,Ngô Văn Anh,35-44,Hà Nội,"lunch, dessert",brain-boost,227.0,Dễ,"Chả cá Lã Vọng, Bánh mì que",3,3.2
+CUS01297,Lý Thuỳ Nhung,45-54,Buôn Ma Thuột,"snack, dessert",balanced,194.0,Trung bình,"Bánh flan caramel, Bánh mì que",5,1.94
+CUS01298,Dương Ngọc Lan,55-64,Nha Trang,"dessert, lunch",weight-loss,147.0,Dễ,"Bánh trôi nước, Chè đậu xanh",6,3.57
+CUS01299,Lê Ngọc Linh,18-24,Cần Thơ,"dessert, snack",balanced,208.0,Dễ,"Bánh da lợn, Bánh flan caramel",4,3.4
+CUS01300,Lê Trọng Tuấn,55-64,Hà Nội,"dessert, snack",weight-loss,253.0,Dễ,"Bánh khọt, Sữa chua dâu tây",3,3.1

@@ -1,0 +1,1417 @@
+{
+  "Tôm kho tàu": {
+    "name": "Tôm kho tàu",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản": {
+    "name": "Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Heo nướng bắp cải chua": {
+    "name": "Heo nướng bắp cải chua",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc": {
+    "name": "Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Điều khoảnsử dụng": {
+    "name": "Điều khoảnsử dụng",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Gỏi cuốn tôm thịt (L1)": {
+    "name": "Gỏi cuốn tôm thịt (L1)",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "contains_seafood"
+    ]
+  },
+  "Thịt chiên xốt nước tương": {
+    "name": "Thịt chiên xốt nước tương",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Chả giò bắc thảo (L1)": {
+    "name": "Chả giò bắc thảo (L1)",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Mì vịt tiềm chay": {
+    "name": "Mì vịt tiềm chay",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Cá cuộn Bacon hương thảo": {
+    "name": "Cá cuộn Bacon hương thảo",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Lẩu nấm": {
+    "name": "Lẩu nấm",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Mực nướng sa tế": {
+    "name": "Mực nướng sa tế",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Món Chiên": {
+    "name": "Món Chiên",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Mì Quảng": {
+    "name": "Mì Quảng",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": true,
+    "is_sweet": false,
+    "dietary_tags": [
+      "spicy"
+    ]
+  },
+  "Gà nướng bưởi xốt giấm": {
+    "name": "Gà nướng bưởi xốt giấm",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Tôm hấp rau củ": {
+    "name": "Tôm hấp rau củ",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Gà om bia": {
+    "name": "Gà om bia",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Cá diêu hồng xiên que chiên lá chanh": {
+    "name": "Cá diêu hồng xiên que chiên lá chanh",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh canh cua": {
+    "name": "Bánh canh cua",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Thịt kho": {
+    "name": "Thịt kho",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Há cảo tam sắc": {
+    "name": "Há cảo tam sắc",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cơm tấm sườn nướng": {
+    "name": "Cơm tấm sườn nướng",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bò cuộn ba rọi xông khói": {
+    "name": "Bò cuộn ba rọi xông khói",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Chả cá Lã Vọng": {
+    "name": "Chả cá Lã Vọng",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "contains_seafood"
+    ]
+  },
+  "Mực xào chua cay": {
+    "name": "Mực xào chua cay",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": true,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood",
+      "spicy"
+    ]
+  },
+  "Chè đậu xanh": {
+    "name": "Chè đậu xanh",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": true,
+    "dietary_tags": [
+      "sweet"
+    ]
+  },
+  "Cá kho chuối xanh": {
+    "name": "Cá kho chuối xanh",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bắp hạt chiên giòn": {
+    "name": "Bắp hạt chiên giòn",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Miến trộn bò bằm": {
+    "name": "Miến trộn bò bằm",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Nem chua rán": {
+    "name": "Nem chua rán",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!": {
+    "name": "Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bánh khoái": {
+    "name": "Bánh khoái",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Nghêu xào mayonnaise hung quế": {
+    "name": "Nghêu xào mayonnaise hung quế",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Gà nướng nồi đất": {
+    "name": "Gà nướng nồi đất",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bắp hạt xào gà giòn Mayonnaise": {
+    "name": "Bắp hạt xào gà giòn Mayonnaise",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bánh mì thịt bò xốt tương (L3)": {
+    "name": "Bánh mì thịt bò xốt tương (L3)",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Canh khổ qua – Gian khổ đi qua, cả nhà may mắn": {
+    "name": "Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bò xào cà ri tam sắc (L1)": {
+    "name": "Bò xào cà ri tam sắc (L1)",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Món ngon từ cá": {
+    "name": "Món ngon từ cá",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Tôm xào bông cải": {
+    "name": "Tôm xào bông cải",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Tôm nướng bánh hỏi": {
+    "name": "Tôm nướng bánh hỏi",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Gà kho chao Mayonnaise": {
+    "name": "Gà kho chao Mayonnaise",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Chè bưởi": {
+    "name": "Chè bưởi",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": true,
+    "dietary_tags": [
+      "sweet"
+    ]
+  },
+  "Các món ăn kèm, món phụ": {
+    "name": "Các món ăn kèm, món phụ",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh chuối nướng": {
+    "name": "Bánh chuối nướng",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cua rang sốt tắc": {
+    "name": "Cua rang sốt tắc",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": true,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood",
+      "spicy"
+    ]
+  },
+  "Thịt nướng BBQ": {
+    "name": "Thịt nướng BBQ",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Gà trộn gừng chua ngọt": {
+    "name": "Gà trộn gừng chua ngọt",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Món ăn cho cha": {
+    "name": "Món ăn cho cha",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Tôm trộn bông cải": {
+    "name": "Tôm trộn bông cải",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Gà rim ngũ vị": {
+    "name": "Gà rim ngũ vị",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Sữa chua dâu tây": {
+    "name": "Sữa chua dâu tây",
+    "is_vegetarian": true,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": true,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_dairy"
+    ]
+  },
+  "Heo kho tàu": {
+    "name": "Heo kho tàu",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Tôm rim thịt ba chỉ": {
+    "name": "Tôm rim thịt ba chỉ",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "contains_seafood"
+    ]
+  },
+  "Món Xào": {
+    "name": "Món Xào",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bún bò Huế Chay": {
+    "name": "Bún bò Huế Chay",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": true,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "spicy"
+    ]
+  },
+  "Bò chiên một nắng": {
+    "name": "Bò chiên một nắng",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bánh xèo Nhật Bản": {
+    "name": "Bánh xèo Nhật Bản",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Tôm chiên cánh bướm": {
+    "name": "Tôm chiên cánh bướm",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Xôi gà đậu xanh": {
+    "name": "Xôi gà đậu xanh",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Chương trìnhmón ngon mỗi ngày": {
+    "name": "Chương trìnhmón ngon mỗi ngày",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Bánh mì que": {
+    "name": "Bánh mì que",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cá xào cần tỏi": {
+    "name": "Cá xào cần tỏi",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood",
+      "contains_pungent"
+    ]
+  },
+  "Bánh cuốn chay": {
+    "name": "Bánh cuốn chay",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Gà luộc xôi gấc": {
+    "name": "Gà luộc xôi gấc",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Canh chua cá lóc": {
+    "name": "Canh chua cá lóc",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh flan caramel": {
+    "name": "Bánh flan caramel",
+    "is_vegetarian": true,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": true,
+    "is_spicy": false,
+    "is_sweet": true,
+    "dietary_tags": [
+      "contains_eggs",
+      "sweet"
+    ]
+  },
+  "Bánh trôi nước": {
+    "name": "Bánh trôi nước",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cơm chiên cá mặn": {
+    "name": "Cơm chiên cá mặn",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh khọt lá cẩm nhân nấm hạt sen": {
+    "name": "Bánh khọt lá cẩm nhân nấm hạt sen",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bún riêu cua": {
+    "name": "Bún riêu cua",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh chiên hải sản": {
+    "name": "Bánh chiên hải sản",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh khọt": {
+    "name": "Bánh khọt",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Salad rau củ": {
+    "name": "Salad rau củ",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bắp Bò Nhúng Mắm Ruốc": {
+    "name": "Bắp Bò Nhúng Mắm Ruốc",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "contains_seafood"
+    ]
+  },
+  "Mực trộn khổ qua chua ngọt": {
+    "name": "Mực trộn khổ qua chua ngọt",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh da lợn": {
+    "name": "Bánh da lợn",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Bánh nướng Halloween": {
+    "name": "Bánh nướng Halloween",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cá chiên bông điên điển": {
+    "name": "Cá chiên bông điên điển",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Cơm tấm sườn cây": {
+    "name": "Cơm tấm sườn cây",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Gà chiên bắp phô mai": {
+    "name": "Gà chiên bắp phô mai",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": true,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat",
+      "contains_dairy"
+    ]
+  },
+  "Gỏi cuốn Mayonnaise": {
+    "name": "Gỏi cuốn Mayonnaise",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Cá hấp củ sen": {
+    "name": "Cá hấp củ sen",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Miến gà trộn": {
+    "name": "Miến gà trộn",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Cá rim giấm mè": {
+    "name": "Cá rim giấm mè",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Mực kho củ cải": {
+    "name": "Mực kho củ cải",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Kem chuối": {
+    "name": "Kem chuối",
+    "is_vegetarian": true,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": true,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": true,
+    "dietary_tags": [
+      "contains_dairy",
+      "sweet"
+    ]
+  },
+  "Cá hồi nướng bơ tỏi": {
+    "name": "Cá hồi nướng bơ tỏi",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": true,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood",
+      "contains_dairy",
+      "contains_pungent"
+    ]
+  },
+  "Tôm rang me": {
+    "name": "Tôm rang me",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Thịt bò xào súp lơ": {
+    "name": "Thịt bò xào súp lơ",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_meat"
+    ]
+  },
+  "Smoothie xanh detox": {
+    "name": "Smoothie xanh detox",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Gà nướng mật ong": {
+    "name": "Gà nướng mật ong",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": true,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": true,
+    "dietary_tags": [
+      "contains_meat",
+      "sweet"
+    ]
+  },
+  "Cháo yến mạch hạt chia": {
+    "name": "Cháo yến mạch hạt chia",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Canh rau dền nấu tôm": {
+    "name": "Canh rau dền nấu tôm",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Canh chua cá bông lau": {
+    "name": "Canh chua cá bông lau",
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_buddhist_vegetarian": false,
+    "contains_meat": false,
+    "contains_seafood": true,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": [
+      "contains_seafood"
+    ]
+  },
+  "Bánh mì sandwich healthy": {
+    "name": "Bánh mì sandwich healthy",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  },
+  "Salad rau củ quả": {
+    "name": "Salad rau củ quả",
+    "is_vegetarian": true,
+    "is_vegan": true,
+    "is_buddhist_vegetarian": true,
+    "contains_meat": false,
+    "contains_seafood": false,
+    "contains_dairy": false,
+    "contains_eggs": false,
+    "is_spicy": false,
+    "is_sweet": false,
+    "dietary_tags": []
+  }
+}

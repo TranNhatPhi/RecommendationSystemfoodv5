@@ -1,0 +1,35 @@
+{
+  "report_date": "2025-06-29T09:47:19.444181",
+  "total_customers": 1312,
+  "total_interactions": 14311,
+  "unique_recipes": 97,
+  "customers_with_restrictions": 388,
+  "invalid_restrictions": 0,
+  "vegetarian_conflicts": 0,
+  "invalid_food_entries": 0,
+  "data_quality": "EXCELLENT",
+  "restrictions_stats": {
+    "no_seafood": 67,
+    "low_sodium": 55,
+    "vegetarian": 55,
+    "vegan": 64,
+    "diabetic": 55,
+    "no_pork": 57,
+    "buddhist_vegetarian": 44,
+    "no_spicy": 60,
+    "light_meals": 68,
+    "no_beef": 55
+  },
+  "regional_stats": {
+    "southern": 537,
+    "northern": 425,
+    "central": 285,
+    "all_regions": 65
+  },
+  "health_goals_stats": {
+    "weight_loss": 550,
+    "healthy_eating": 483,
+    "muscle_gain": 456,
+    "maintain_weight": 494
+  }
+}
