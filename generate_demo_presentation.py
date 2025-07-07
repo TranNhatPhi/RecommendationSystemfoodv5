@@ -31,10 +31,12 @@ try:
     UNICODE_FONT_AVAILABLE = True
 except:
     try:
-        pdfmetrics.registerFont(TTFont('ArialUnicode', 'C:/Windows/Fonts/arial.ttf'))
+        pdfmetrics.registerFont(
+            TTFont('ArialUnicode', 'C:/Windows/Fonts/arial.ttf'))
         UNICODE_FONT_AVAILABLE = True
     except:
         UNICODE_FONT_AVAILABLE = False
+
 
 class FoodRecommendationDemoReport:
     def __init__(self):
@@ -42,13 +44,13 @@ class FoodRecommendationDemoReport:
         self.story = []
         self.styles = getSampleStyleSheet()
         self.setup_custom_styles()
-        
+
     def setup_custom_styles(self):
         """Thiết lập các style tùy chỉnh cho báo cáo"""
         # Base font
         base_font = 'ArialUnicode' if UNICODE_FONT_AVAILABLE else 'Helvetica'
         base_font_bold = 'ArialUnicode' if UNICODE_FONT_AVAILABLE else 'Helvetica-Bold'
-        
+
         # Title style
         self.styles.add(ParagraphStyle(
             name='CustomTitle',
@@ -61,7 +63,7 @@ class FoodRecommendationDemoReport:
             fontName=base_font_bold,
             leading=32
         ))
-        
+
         # Heading style
         self.styles.add(ParagraphStyle(
             name='CustomHeading',
@@ -77,7 +79,7 @@ class FoodRecommendationDemoReport:
             borderPadding=10,
             backColor=colors.lightcyan
         ))
-        
+
         # Subheading style
         self.styles.add(ParagraphStyle(
             name='CustomSubHeading',
@@ -93,7 +95,7 @@ class FoodRecommendationDemoReport:
             borderColor=colors.blue,
             borderPadding=5
         ))
-        
+
         # Feature style
         self.styles.add(ParagraphStyle(
             name='FeatureStyle',
@@ -106,7 +108,7 @@ class FoodRecommendationDemoReport:
             leading=16,
             rightIndent=20
         ))
-        
+
         # Highlight style
         self.styles.add(ParagraphStyle(
             name='HighlightStyle',
@@ -121,7 +123,7 @@ class FoodRecommendationDemoReport:
             borderPadding=8,
             leading=16
         ))
-        
+
         # Info box style
         self.styles.add(ParagraphStyle(
             name='InfoBoxStyle',
@@ -138,7 +140,7 @@ class FoodRecommendationDemoReport:
             borderPadding=10,
             leading=14
         ))
-        
+
         # Code/Technical style
         self.styles.add(ParagraphStyle(
             name='TechnicalStyle',
@@ -161,7 +163,7 @@ class FoodRecommendationDemoReport:
         title_text = "🍽️ HỆ THỐNG GỢI Ý MÓN ĂN THÔNG MINH"
         title = Paragraph(title_text, self.styles['CustomTitle'])
         self.story.append(title)
-        
+
         # English subtitle
         subtitle_text = "INTELLIGENT FOOD RECOMMENDATION SYSTEM"
         subtitle = Paragraph(subtitle_text, ParagraphStyle(
@@ -175,7 +177,7 @@ class FoodRecommendationDemoReport:
         ))
         self.story.append(subtitle)
         self.story.append(Spacer(1, 0.3*inch))
-        
+
         # Demo report title
         demo_title = Paragraph(
             "<b>📋 BÁO CÁO DEMO & TÍNH NĂNG HOÀN CHỈNH</b><br/>Comprehensive Demo & Features Report",
@@ -194,7 +196,7 @@ class FoodRecommendationDemoReport:
         )
         self.story.append(demo_title)
         self.story.append(Spacer(1, 0.4*inch))
-        
+
         # Project information table
         project_data = [
             ['📊 Thông Tin Dự Án', ''],
@@ -206,7 +208,7 @@ class FoodRecommendationDemoReport:
             ['Tác giả:', 'Development Team'],
             ['Mục đích:', 'Demo cho khách hàng & thầy giáo']
         ]
-        
+
         project_table = Table(project_data, colWidths=[3*inch, 3.5*inch])
         project_table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.darkblue),
@@ -224,10 +226,10 @@ class FoodRecommendationDemoReport:
             ('TOPPADDING', (0, 0), (-1, -1), 8),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
         ]))
-        
+
         self.story.append(project_table)
         self.story.append(Spacer(1, 0.4*inch))
-        
+
         # Key highlights box
         highlights_text = """
         <b>🎯 ĐIỂM NỔI BẬT CHÍNH:</b><br/><br/>
@@ -240,39 +242,42 @@ class FoodRecommendationDemoReport:
         ✅ <b>15+ API endpoints</b> đầy đủ tính năng<br/>
         ✅ <b>Production-ready</b> với error handling hoàn chỉnh
         """
-        
-        highlights_box = Paragraph(highlights_text, self.styles['HighlightStyle'])
+
+        highlights_box = Paragraph(
+            highlights_text, self.styles['HighlightStyle'])
         self.story.append(highlights_box)
-        
+
         self.story.append(PageBreak())
 
     def create_system_overview(self):
         """Tạo phần tổng quan hệ thống"""
         title = Paragraph("📋 TỔNG QUAN HỆ THỐNG", self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         # Architecture overview with table
-        arch_title = Paragraph("🏗️ Kiến trúc hệ thống", self.styles['CustomSubHeading'])
+        arch_title = Paragraph("🏗️ Kiến trúc hệ thống",
+                               self.styles['CustomSubHeading'])
         self.story.append(arch_title)
-        
+
         arch_text = """
         Hệ thống được xây dựng theo mô hình <b>Microservices Architecture</b> với các component độc lập, 
         đảm bảo tính mở rộng và bảo trì dễ dàng.
         """
         arch_paragraph = Paragraph(arch_text, self.styles['InfoBoxStyle'])
         self.story.append(arch_paragraph)
-        
+
         # Architecture components table
         arch_data = [
             ['🔧 Component', '📋 Mô tả', '⚡ Công nghệ'],
-            ['Core Recommendation Engine', 'Thuật toán ML chính cho gợi ý', 'CatBoost, Scikit-learn'],
+            ['Core Recommendation Engine',
+                'Thuật toán ML chính cho gợi ý', 'CatBoost, Scikit-learn'],
             ['AI Agent System', 'Chatbot thông minh NLP', 'ChromaDB, Vector Search'],
             ['Web Application', 'Giao diện người dùng', 'Flask, Bootstrap, AJAX'],
             ['API Gateway', 'RESTful API endpoints', 'Flask-RESTful'],
             ['Data Pipeline', 'Xử lý & lưu trữ dữ liệu', 'Pandas, CSV, JSON'],
             ['Monitoring System', 'Theo dõi hiệu năng', 'Custom metrics, Caching']
         ]
-        
+
         arch_table = Table(arch_data, colWidths=[2*inch, 2.5*inch, 2*inch])
         arch_table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.darkgreen),
@@ -290,14 +295,15 @@ class FoodRecommendationDemoReport:
             ('TOPPADDING', (0, 0), (-1, -1), 6),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
         ]))
-        
+
         self.story.append(arch_table)
         self.story.append(Spacer(1, 0.2*inch))
-        
+
         # ML Algorithms section
-        ml_title = Paragraph("🤖 Thuật toán Machine Learning", self.styles['CustomSubHeading'])
+        ml_title = Paragraph("🤖 Thuật toán Machine Learning",
+                             self.styles['CustomSubHeading'])
         self.story.append(ml_title)
-        
+
         ml_data = [
             ['🔬 Thuật toán', '📊 Mục đích', '🎯 Độ chính xác'],
             ['CatBoost Regressor', 'Dự đoán rating chính', '> 85%'],
@@ -306,7 +312,7 @@ class FoodRecommendationDemoReport:
             ['Matrix Factorization', 'Tìm pattern ẩn', '> 78%'],
             ['Hybrid Ensemble', 'Kết hợp multiple algorithms', '> 90%']
         ]
-        
+
         ml_table = Table(ml_data, colWidths=[2.2*inch, 2.5*inch, 1.8*inch])
         ml_table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.darkblue),
@@ -324,14 +330,15 @@ class FoodRecommendationDemoReport:
             ('TOPPADDING', (0, 0), (-1, -1), 6),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
         ]))
-        
+
         self.story.append(ml_table)
         self.story.append(Spacer(1, 0.2*inch))
-        
+
         # Data Pipeline
-        data_title = Paragraph("📊 Quy trình xử lý dữ liệu", self.styles['CustomSubHeading'])
+        data_title = Paragraph("📊 Quy trình xử lý dữ liệu",
+                               self.styles['CustomSubHeading'])
         self.story.append(data_title)
-        
+
         data_content = """
         <b>🔄 Pipeline xử lý dữ liệu tự động:</b><br/><br/>
         <b>1. Data Collection:</b> 1,300+ khách hàng, 1,000+ món ăn, 50,000+ tương tác<br/>
@@ -340,21 +347,23 @@ class FoodRecommendationDemoReport:
         <b>4. Model Training:</b> Train multiple ML models với cross-validation<br/>
         <b>5. Real-time Processing:</b> In-memory caching, instant recommendations
         """
-        
+
         data_paragraph = Paragraph(data_content, self.styles['InfoBoxStyle'])
         self.story.append(data_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_features_showcase(self):
         """Tạo phần showcase các tính năng"""
-        title = Paragraph("🚀 SHOWCASE CÁC TÍNH NĂNG CHÍNH", self.styles['CustomHeading'])
+        title = Paragraph("🚀 SHOWCASE CÁC TÍNH NĂNG CHÍNH",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         # Feature 1: Main Recommendation System
-        feature1_title = Paragraph("1. 🎯 Hệ Thống Gợi Ý Chính (Main Recommendation Engine)", self.styles['CustomSubHeading'])
+        feature1_title = Paragraph(
+            "1. 🎯 Hệ Thống Gợi Ý Chính (Main Recommendation Engine)", self.styles['CustomSubHeading'])
         self.story.append(feature1_title)
-        
+
         feature1_content = """
         <b>🔍 Tính năng:</b><br/>
         • <b>Personalized Recommendations:</b> Gợi ý cá nhân hóa cho từng khách hàng<br/>
@@ -371,15 +380,17 @@ class FoodRecommendationDemoReport:
         
         <b>🎪 URL Demo:</b> http://localhost:5000/ (Trang chính)
         """
-        
-        feature1_paragraph = Paragraph(feature1_content, self.styles['FeatureStyle'])
+
+        feature1_paragraph = Paragraph(
+            feature1_content, self.styles['FeatureStyle'])
         self.story.append(feature1_paragraph)
         self.story.append(Spacer(1, 0.15*inch))
-        
+
         # Feature 2: AI Agent
-        feature2_title = Paragraph("2. 🤖 AI Agent Thông Minh (Enhanced AI Chatbot)", self.styles['CustomSubHeading'])
+        feature2_title = Paragraph(
+            "2. 🤖 AI Agent Thông Minh (Enhanced AI Chatbot)", self.styles['CustomSubHeading'])
         self.story.append(feature2_title)
-        
+
         feature2_content = """
         <b>🔍 Tính năng:</b><br/>
         • <b>Natural Language Chat:</b> Trò chuyện bằng tiếng Việt tự nhiên<br/>
@@ -401,15 +412,17 @@ class FoodRecommendationDemoReport:
         • http://localhost:5000/agent-workflow (Full Workflow)<br/>
         • http://localhost:5000/ai-agent (Landing Page)
         """
-        
-        feature2_paragraph = Paragraph(feature2_content, self.styles['FeatureStyle'])
+
+        feature2_paragraph = Paragraph(
+            feature2_content, self.styles['FeatureStyle'])
         self.story.append(feature2_paragraph)
         self.story.append(Spacer(1, 0.15*inch))
-        
+
         # Feature 3: Hybrid Demo
-        feature3_title = Paragraph("3. ⚡ Hybrid Recommendation Demo (Algorithm Comparison)", self.styles['CustomSubHeading'])
+        feature3_title = Paragraph(
+            "3. ⚡ Hybrid Recommendation Demo (Algorithm Comparison)", self.styles['CustomSubHeading'])
         self.story.append(feature3_title)
-        
+
         feature3_content = """
         <b>🔍 Tính năng:</b><br/>
         • <b>Algorithm Comparison:</b> So sánh 4+ thuật toán ML khác nhau<br/>
@@ -426,21 +439,24 @@ class FoodRecommendationDemoReport:
         
         <b>🎪 URL Demo:</b> http://localhost:5000/hybrid-demo
         """
-        
-        feature3_paragraph = Paragraph(feature3_content, self.styles['FeatureStyle'])
+
+        feature3_paragraph = Paragraph(
+            feature3_content, self.styles['FeatureStyle'])
         self.story.append(feature3_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_advanced_features(self):
         """Tạo phần các tính năng nâng cao"""
-        title = Paragraph("🔥 CÁC TÍNH NĂNG NÂNG CAO", self.styles['CustomHeading'])
+        title = Paragraph("🔥 CÁC TÍNH NĂNG NÂNG CAO",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         # Advanced Feature 1: New User Solution
-        advanced1_title = Paragraph("1. 🆕 Cold Start Solution (Giải pháp cho người dùng mới)", self.styles['CustomSubHeading'])
+        advanced1_title = Paragraph(
+            "1. 🆕 Cold Start Solution (Giải pháp cho người dùng mới)", self.styles['CustomSubHeading'])
         self.story.append(advanced1_title)
-        
+
         advanced1_content = """
         <b>🔍 Tính năng:</b><br/>
         • <b>Popular Recommendations:</b> Gợi ý món ăn phổ biến cho user mới<br/>
@@ -456,15 +472,17 @@ class FoodRecommendationDemoReport:
         
         <b>🎪 URL Demo:</b> http://localhost:5000/demo-new-user
         """
-        
-        advanced1_paragraph = Paragraph(advanced1_content, self.styles['FeatureStyle'])
+
+        advanced1_paragraph = Paragraph(
+            advanced1_content, self.styles['FeatureStyle'])
         self.story.append(advanced1_paragraph)
         self.story.append(Spacer(1, 0.15*inch))
-        
+
         # API Features
-        api_title = Paragraph("2. 🔌 API Ecosystem (15+ RESTful APIs)", self.styles['CustomSubHeading'])
+        api_title = Paragraph(
+            "2. 🔌 API Ecosystem (15+ RESTful APIs)", self.styles['CustomSubHeading'])
         self.story.append(api_title)
-        
+
         api_content = """
         <b>🔍 Các API chính đã implement:</b><br/>
         
@@ -496,17 +514,18 @@ class FoodRecommendationDemoReport:
         ✅ Error handling graceful cho các edge cases<br/>
         ✅ Performance metrics real-time
         """
-        
+
         api_paragraph = Paragraph(api_content, self.styles['FeatureStyle'])
         self.story.append(api_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_ui_showcase(self):
         """Tạo phần showcase giao diện"""
-        title = Paragraph("🎨 GIAO DIỆN NGƯỜI DÙNG (UI/UX SHOWCASE)", self.styles['CustomHeading'])
+        title = Paragraph(
+            "🎨 GIAO DIỆN NGƯỜI DÙNG (UI/UX SHOWCASE)", self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         ui_content = """
         <b>🖥️ Hệ thống có 8+ trang demo với giao diện đẹp mắt:</b><br/>
         
@@ -562,21 +581,23 @@ class FoodRecommendationDemoReport:
         ✅ <b>Performance:</b> Fast loading, smooth transitions<br/>
         ✅ <b>Error Handling:</b> Graceful error messages, fallback UI
         """
-        
+
         ui_paragraph = Paragraph(ui_content, self.styles['FeatureStyle'])
         self.story.append(ui_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_technical_specs(self):
         """Tạo phần thông số kỹ thuật"""
-        title = Paragraph("⚙️ THÔNG SỐ KỸ THUẬT & PERFORMANCE", self.styles['CustomHeading'])
+        title = Paragraph("⚙️ THÔNG SỐ KỸ THUẬT & PERFORMANCE",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         # Technical specifications
-        tech_title = Paragraph("📋 Thông Số Kỹ Thuật", self.styles['CustomSubHeading'])
+        tech_title = Paragraph("📋 Thông Số Kỹ Thuật",
+                               self.styles['CustomSubHeading'])
         self.story.append(tech_title)
-        
+
         tech_content = """
         <b>🛠️ Technology Stack:</b><br/>
         
@@ -606,15 +627,16 @@ class FoodRecommendationDemoReport:
         • <b>Pickle Files</b> - Serialized models<br/>
         • <b>In-memory Caching</b> - Performance optimization
         """
-        
+
         tech_paragraph = Paragraph(tech_content, self.styles['FeatureStyle'])
         self.story.append(tech_paragraph)
         self.story.append(Spacer(1, 0.15*inch))
-        
+
         # Performance metrics
-        perf_title = Paragraph("📊 Performance Metrics", self.styles['CustomSubHeading'])
+        perf_title = Paragraph("📊 Performance Metrics",
+                               self.styles['CustomSubHeading'])
         self.story.append(perf_title)
-        
+
         perf_content = """
         <b>🚀 System Performance:</b><br/>
         
@@ -643,21 +665,23 @@ class FoodRecommendationDemoReport:
         ✅ <b>Resource Management:</b> Efficient memory utilization<br/>
         ✅ <b>Monitoring:</b> Real-time performance tracking
         """
-        
+
         perf_paragraph = Paragraph(perf_content, self.styles['FeatureStyle'])
         self.story.append(perf_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_demo_guide(self):
         """Tạo hướng dẫn demo cho khách hàng"""
-        title = Paragraph("🎪 HƯỚNG DẪN DEMO CHO KHÁCH HÀNG", self.styles['CustomHeading'])
+        title = Paragraph("🎪 HƯỚNG DẪN DEMO CHO KHÁCH HÀNG",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         # Quick start section
-        quickstart_title = Paragraph("🚀 Quick Start Guide", self.styles['CustomSubHeading'])
+        quickstart_title = Paragraph(
+            "🚀 Quick Start Guide", self.styles['CustomSubHeading'])
         self.story.append(quickstart_title)
-        
+
         quickstart_data = [
             ['Bước', 'Hành động', 'Thời gian'],
             ['1', 'Khởi động: python app.py', '30 giây'],
@@ -667,8 +691,9 @@ class FoodRecommendationDemoReport:
             ['5', 'Demo Hybrid Algorithms', '8 phút'],
             ['6', 'Test API Endpoints', '7 phút']
         ]
-        
-        quickstart_table = Table(quickstart_data, colWidths=[0.8*inch, 3*inch, 1.2*inch])
+
+        quickstart_table = Table(quickstart_data, colWidths=[
+                                 0.8*inch, 3*inch, 1.2*inch])
         quickstart_table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.orange),
             ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
@@ -685,14 +710,15 @@ class FoodRecommendationDemoReport:
             ('TOPPADDING', (0, 0), (-1, -1), 6),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
         ]))
-        
+
         self.story.append(quickstart_table)
         self.story.append(Spacer(1, 0.2*inch))
-        
+
         # Demo scenarios
-        scenario_title = Paragraph("🎭 Kịch bản Demo chi tiết", self.styles['CustomSubHeading'])
+        scenario_title = Paragraph(
+            "🎭 Kịch bản Demo chi tiết", self.styles['CustomSubHeading'])
         self.story.append(scenario_title)
-        
+
         # Scenario 1
         scenario1_text = """
         <b>🏠 Scenario 1: Main Recommendation Engine (5 phút)</b><br/>
@@ -707,7 +733,7 @@ class FoodRecommendationDemoReport:
         """
         scenario1 = Paragraph(scenario1_text, self.styles['InfoBoxStyle'])
         self.story.append(scenario1)
-        
+
         # Scenario 2
         scenario2_text = """
         <b>🤖 Scenario 2: AI Agent Demo (10 phút)</b><br/>
@@ -721,7 +747,7 @@ class FoodRecommendationDemoReport:
         """
         scenario2 = Paragraph(scenario2_text, self.styles['InfoBoxStyle'])
         self.story.append(scenario2)
-        
+
         # Scenario 3
         scenario3_text = """
         <b>⚡ Scenario 3: Hybrid Algorithm Comparison (8 phút)</b><br/>
@@ -735,22 +761,27 @@ class FoodRecommendationDemoReport:
         """
         scenario3 = Paragraph(scenario3_text, self.styles['InfoBoxStyle'])
         self.story.append(scenario3)
-        
+
         # Key points to emphasize
-        keypoints_title = Paragraph("🎯 Điểm nhấn quan trọng", self.styles['CustomSubHeading'])
+        keypoints_title = Paragraph(
+            "🎯 Điểm nhấn quan trọng", self.styles['CustomSubHeading'])
         self.story.append(keypoints_title)
-        
+
         keypoints_data = [
             ['🎯 Aspect', '💡 Key Message', '📊 Evidence'],
-            ['Personalization', 'Mỗi user có recommendations khác nhau', 'Demo với nhiều customer IDs'],
+            ['Personalization', 'Mỗi user có recommendations khác nhau',
+                'Demo với nhiều customer IDs'],
             ['Intelligence', 'AI hiểu natural language', 'Chat examples đa dạng'],
-            ['Scalability', 'Handle large dataset', '1300+ customers, 50K+ interactions'],
+            ['Scalability', 'Handle large dataset',
+                '1300+ customers, 50K+ interactions'],
             ['Accuracy', 'High precision recommendations', '>85% model accuracy'],
             ['User Experience', 'Intuitive, fast, responsive', '<200ms response time'],
-            ['Business Value', 'Immediate ROI potential', 'Cross-selling, retention features']
+            ['Business Value', 'Immediate ROI potential',
+                'Cross-selling, retention features']
         ]
-        
-        keypoints_table = Table(keypoints_data, colWidths=[1.5*inch, 2.2*inch, 2.3*inch])
+
+        keypoints_table = Table(keypoints_data, colWidths=[
+                                1.5*inch, 2.2*inch, 2.3*inch])
         keypoints_table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.purple),
             ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
@@ -767,16 +798,17 @@ class FoodRecommendationDemoReport:
             ('TOPPADDING', (0, 0), (-1, -1), 5),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 5),
         ]))
-        
+
         self.story.append(keypoints_table)
-        
+
         self.story.append(PageBreak())
 
     def create_business_value(self):
         """Tạo phần giá trị kinh doanh"""
-        title = Paragraph("💰 GIÁ TRỊ KINH DOANH & ROI", self.styles['CustomHeading'])
+        title = Paragraph("💰 GIÁ TRỊ KINH DOANH & ROI",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         business_content = """
         <b>📈 Lợi ích kinh doanh trực tiếp:</b><br/>
         
@@ -832,17 +864,19 @@ class FoodRecommendationDemoReport:
         • Platform expansion opportunities<br/>
         • Brand recognition as innovation leader
         """
-        
-        business_paragraph = Paragraph(business_content, self.styles['FeatureStyle'])
+
+        business_paragraph = Paragraph(
+            business_content, self.styles['FeatureStyle'])
         self.story.append(business_paragraph)
-        
+
         self.story.append(PageBreak())
 
     def create_conclusion(self):
         """Tạo phần kết luận"""
-        title = Paragraph("🎉 KẾT LUẬN & NEXT STEPS", self.styles['CustomHeading'])
+        title = Paragraph("🎉 KẾT LUẬN & NEXT STEPS",
+                          self.styles['CustomHeading'])
         self.story.append(title)
-        
+
         conclusion_content = """
         <b>✅ TÓM TẮT THÀNH QUẢ:</b><br/>
         
@@ -915,10 +949,11 @@ class FoodRecommendationDemoReport:
         
         <b>Ready for immediate deployment!</b> 🚀
         """
-        
-        conclusion_paragraph = Paragraph(conclusion_content, self.styles['FeatureStyle'])
+
+        conclusion_paragraph = Paragraph(
+            conclusion_content, self.styles['FeatureStyle'])
         self.story.append(conclusion_paragraph)
-        
+
         # Final signature
         self.story.append(Spacer(1, 0.3*inch))
         signature = Paragraph(
@@ -937,7 +972,7 @@ class FoodRecommendationDemoReport:
     def generate_pdf(self, filename="Food_Recommendation_System_Demo_Report_v2.pdf"):
         """Tạo file PDF hoàn chỉnh"""
         print("🔄 Đang tạo báo cáo PDF demo...")
-        
+
         # Setup document với encoding tốt hơn
         self.doc = SimpleDocTemplate(
             filename,
@@ -951,7 +986,7 @@ class FoodRecommendationDemoReport:
             subject="System Demo & Features Report",
             creator="Food Recommendation System Generator"
         )
-        
+
         # Add content
         self.create_cover_page()
         self.create_system_overview()
@@ -962,11 +997,12 @@ class FoodRecommendationDemoReport:
         self.create_demo_guide()
         self.create_business_value()
         self.create_conclusion()
-        
+
         # Build PDF
         self.doc.build(self.story)
         print(f"✅ Báo cáo đã được tạo: {filename}")
         return filename
+
 
 def main():
     """Main function để chạy script"""
@@ -974,7 +1010,7 @@ def main():
         # Tạo báo cáo
         report = FoodRecommendationDemoReport()
         pdf_file = report.generate_pdf()
-        
+
         print(f"""
 🎉 BÁOÁO DEMO ĐÃ HOÀN THÀNH!
 
@@ -994,12 +1030,13 @@ def main():
 📄 Format: Professional PDF không có code
 ⭐ Highlight: 15+ APIs, 8+ UI pages, 5+ ML algorithms
         """)
-        
+
         return pdf_file
-        
+
     except Exception as e:
         print(f"❌ Lỗi tạo báo cáo: {e}")
         return None
+
 
 if __name__ == "__main__":
     main()

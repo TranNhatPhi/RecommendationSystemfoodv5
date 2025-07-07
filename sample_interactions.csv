@@ -1,0 +1,101 @@
+customer_id,recipe_name,recipe_url,interaction_type,rating,interaction_date,comment,user_index,item_index,content_score,cf_score,interaction_type_code,difficulty,difficulty_code,meal_time,meal_time_code
+CUS00001,"Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",https://monngonmoingay.com/mon-kho/,like,3.5,2024-07-20,"Món ăn ổn, có thể cải thiện thêm một chút.",0,54,0.1013399388844841,3.0468699911215835,1,Không rõ,2,unknown,3
+CUS00001,Bắp hạt chiên giòn,https://monngonmoingay.com/bap-hat-chien-gion/,view,1.5,2025-04-01,"Khó thưởng thức, món chưa đạt yêu cầu.",0,15,0.1638217401953125,3.12345499808108,4,Dễ,0,unknown,3
+CUS00001,Bánh canh cua,https://monngonmoingay.com/banh-canh-cua/,save,4.0,2025-02-02,"Hương vị hài hòa, rất đáng thử.",0,0,0.2132216184625789,3.046940170381243,3,Dễ,0,breakfast,0
+CUS00001,Há cảo tam sắc,https://monngonmoingay.com/ha-cao-tam-sac/,save,3.5,2025-02-12,"Món ăn ổn, có thể cải thiện thêm một chút.",0,46,0.2534136207615819,3.2644828036624403,3,Dễ,0,breakfast,0
+CUS00001,Mì vịt tiềm chay,https://monngonmoingay.com/mi-vit-tiem-chay-2/,view,2.0,2024-10-28,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",0,51,0.2106011666504159,2.991572520045381,4,Dễ,0,unknown,3
+CUS00001,Gà om bia,https://monngonmoingay.com/ga-om/,cook,3.0,2025-01-16,"Món ăn ổn, có thể cải thiện thêm một chút.",0,39,0.1886909983082036,3.0756866381212444,0,Dễ,0,dinner,1
+CUS00001,Gà nướng bưởi xốt giấm,https://monngonmoingay.com/ga-nuong/,save,3.5,2025-01-04,"Món ăn ổn, có thể cải thiện thêm một chút.",0,37,0.2138059115983976,3.1965893763401234,3,Dễ,0,dinner,1
+CUS00002,Món ngon từ cá,https://monngonmoingay.com/mon-ngon-tu-ca/,view,2.5,2024-12-10,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",1,55,0.3316241180959913,3.0208085281481125,4,Dễ,0,lunch,2
+CUS00002,Thịt nướng BBQ,https://monngonmoingay.com/thit-nuong/,save,3.5,2025-02-22,"Món ăn ổn, có thể cải thiện thêm một chút.",1,64,0.2701621391387072,3.2745049997762954,3,Dễ,0,unknown,3
+CUS00002,Mực nướng sa tế,https://monngonmoingay.com/muc-nuong/,view,3.0,2025-03-08,"Món ăn ổn, có thể cải thiện thêm một chút.",1,58,0.1851992223938234,3.0863796052537285,4,Dễ,0,unknown,3
+CUS00002,Gà rim ngũ vị,https://monngonmoingay.com/ga-rim/,save,4.0,2025-05-04,"Hương vị hài hòa, rất đáng thử.",1,40,0.2120991607356936,3.0878140834659225,3,Dễ,0,unknown,3
+CUS00002,Heo nướng bắp cải chua,https://monngonmoingay.com/heo-nuong/,view,3.0,2024-12-21,"Món ăn ổn, có thể cải thiện thêm một chút.",1,45,0.2438424055092316,3.049588912349166,4,Dễ,0,dinner,1
+CUS00003,Gà trộn gừng chua ngọt,https://monngonmoingay.com/ga-tron/,save,3.5,2024-08-10,"Món ăn ổn, có thể cải thiện thêm một chút.",2,41,0.2444362092647798,3.137074340041801,3,Dễ,0,dinner,1
+CUS00003,Chương trìnhmón ngon mỗi ngày,https://monngonmoingay.com/lich-phat-song/,rate,3.0,2025-01-14,"Món ăn ổn, có thể cải thiện thêm một chút.",2,20,0.290848859866103,3.074190092803644,2,Khó,1,lunch,2
+CUS00003,Tôm rim thịt ba chỉ,https://monngonmoingay.com/tom-rim/,like,4.0,2024-07-20,"Hương vị hài hòa, rất đáng thử.",2,69,0.2515212482748589,3.2939155484752938,1,Dễ,0,lunch,2
+CUS00003,"Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",https://monngonmoingay.com/canh-kho/,cook,4.5,2024-05-20,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",2,18,0.1760140327290049,2.934363603782059,0,Không rõ,2,unknown,3
+CUS00003,Điều khoảnsử dụng,https://monngonmoingay.com/dieu-khoan-su-dung,like,2.5,2024-06-04,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",2,74,0.3271118235412632,3.1767701037134164,1,Khó,1,dinner,1
+CUS00004,Món Chiên,https://monngonmoingay.com/cac-mon-chien-ngon/,view,2.5,2025-04-14,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",3,52,0.2876601328317339,3.083852924300706,4,Dễ,0,lunch,2
+CUS00004,Gà nướng bưởi xốt giấm,https://monngonmoingay.com/ga-nuong/,save,3.5,2025-01-19,"Món ăn ổn, có thể cải thiện thêm một chút.",3,37,0.1887140804694365,3.186969139267465,3,Dễ,0,dinner,1
+CUS00004,"Món kho ngon lan tỏa yêu thương, giữ lửa hạnh phúc",https://monngonmoingay.com/mon-kho/,save,4.0,2024-06-05,"Hương vị hài hòa, rất đáng thử.",3,54,0.0855276467126564,3.029545658496532,3,Không rõ,2,unknown,3
+CUS00004,Cơm chiên cá mặn,https://monngonmoingay.com/com-chien-ca-man/,view,2.0,2025-03-30,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",3,31,0.2152962514901245,3.1749841275330364,4,Dễ,0,breakfast,0
+CUS00004,Gà luộc xôi gấc,https://monngonmoingay.com/ga-luoc/,rate,3.0,2024-10-08,"Món ăn ổn, có thể cải thiện thêm một chút.",3,36,0.1554693961434023,3.185173426611859,2,Dễ,0,unknown,3
+CUS00004,Bò chiên một nắng,https://monngonmoingay.com/bo-chien/,like,3.5,2024-10-11,"Món ăn ổn, có thể cải thiện thêm một chút.",3,9,0.1782769777206649,3.157133427934507,1,Dễ,0,lunch,2
+CUS00004,Heo kho tàu,https://monngonmoingay.com/heo-kho/,like,3.5,2025-04-11,"Món ăn ổn, có thể cải thiện thêm một chút.",3,44,0.1633079686265779,2.813658895724015,1,Dễ,0,unknown,3
+CUS00004,Chương trìnhmón ngon mỗi ngày,https://monngonmoingay.com/lich-phat-song/,cook,4.0,2024-08-05,"Hương vị hài hòa, rất đáng thử.",3,20,0.2988460166721766,3.0681658366626414,0,Khó,1,lunch,2
+CUS00004,Tôm hấp rau củ,https://monngonmoingay.com/tom-hap/,like,3.5,2025-02-12,"Món ăn ổn, có thể cải thiện thêm một chút.",3,66,0.2025193487824259,3.0350120261098783,1,Dễ,0,dinner,1
+CUS00004,Canh chua cá lóc,https://monngonmoingay.com/canh-chua-ca-loc/,view,2.5,2024-10-27,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",3,17,0.1701833745369724,3.037844391348172,4,Dễ,0,lunch,2
+CUS00004,Bò xào cà ri tam sắc (L1),https://monngonmoingay.com/bo-xao/,like,3.0,2024-08-21,"Món ăn ổn, có thể cải thiện thêm một chút.",3,11,0.2882440471811504,3.189820593789328,1,Dễ,0,unknown,3
+CUS00005,Gà om bia,https://monngonmoingay.com/ga-om/,save,3.0,2024-12-02,"Món ăn ổn, có thể cải thiện thêm một chút.",4,39,0.1669743122174588,3.060209482423552,3,Dễ,0,dinner,1
+CUS00005,Mì Quảng,https://monngonmoingay.com/mi-quang/,rate,4.0,2024-09-06,"Hương vị hài hòa, rất đáng thử.",4,50,0.2399708467526341,3.2878683581224206,2,Dễ,0,breakfast,0
+CUS00005,Chương trìnhmón ngon mỗi ngày,https://monngonmoingay.com/lich-phat-song/,like,2.5,2024-09-06,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",4,20,0.2572631650399146,3.080678762415237,1,Khó,1,lunch,2
+CUS00005,Tôm trộn bông cải,https://monngonmoingay.com/tom-tron/,rate,4.0,2024-05-14,"Hương vị hài hòa, rất đáng thử.",4,70,0.2229824415058756,3.231208844295827,2,Dễ,0,lunch,2
+CUS00005,Heo nướng bắp cải chua,https://monngonmoingay.com/heo-nuong/,like,4.0,2025-02-26,"Hương vị hài hòa, rất đáng thử.",4,45,0.2115146903659988,3.0214351902624537,1,Dễ,0,dinner,1
+CUS00005,Mì vịt tiềm chay,https://monngonmoingay.com/mi-vit-tiem-chay-2/,rate,3.0,2024-12-27,"Món ăn ổn, có thể cải thiện thêm một chút.",4,51,0.2117704491599509,2.9727008035219167,2,Dễ,0,unknown,3
+CUS00005,Há cảo tam sắc,https://monngonmoingay.com/ha-cao-tam-sac/,save,4.0,2024-11-28,"Hương vị hài hòa, rất đáng thử.",4,46,0.2385958194961964,3.25563225590564,3,Dễ,0,breakfast,0
+CUS00005,Bánh chiên hải sản,https://monngonmoingay.com/banh-chien/,like,3.5,2024-11-25,"Món ăn ổn, có thể cải thiện thêm một chút.",4,1,0.2277937245007013,3.09885712442494,1,Dễ,0,unknown,3
+CUS00005,Bánh khọt lá cẩm nhân nấm hạt sen,https://monngonmoingay.com/banh-khot-la-cam-nhan-nam-hat-sen/,save,3.0,2024-09-11,"Món ăn ổn, có thể cải thiện thêm một chút.",4,4,0.1977387625991615,3.158977169581311,3,Dễ,0,unknown,3
+CUS00005,Cá cuộn Bacon hương thảo,https://monngonmoingay.com/ca-cuon/,rate,2.0,2025-02-28,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",4,24,0.1779727300937766,3.0139078655565186,2,Dễ,0,lunch,2
+CUS00006,Mực trộn khổ qua chua ngọt,https://monngonmoingay.com/muc-tron/,rate,4.0,2024-12-28,"Hương vị hài hòa, rất đáng thử.",5,59,0.2284227997637787,3.079465924943577,2,Dễ,0,unknown,3
+CUS00006,Tôm trộn bông cải,https://monngonmoingay.com/tom-tron/,like,3.0,2024-06-16,"Món ăn ổn, có thể cải thiện thêm một chút.",5,70,0.2311861234271341,3.205557913051305,1,Dễ,0,lunch,2
+CUS00006,Heo kho tàu,https://monngonmoingay.com/heo-kho/,view,2.5,2024-06-14,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",5,44,0.1611802982933909,2.7961903347936974,4,Dễ,0,unknown,3
+CUS00006,Gà luộc xôi gấc,https://monngonmoingay.com/ga-luoc/,cook,3.0,2024-05-16,"Món ăn ổn, có thể cải thiện thêm một chút.",5,36,0.1627097921720372,3.2079625816994146,0,Dễ,0,unknown,3
+CUS00006,Cua rang sốt tắc,https://monngonmoingay.com/cua-rang-sot-tac/,cook,4.0,2025-02-27,"Hương vị hài hòa, rất đáng thử.",5,22,0.1518392535674134,3.205098312402761,0,Dễ,0,lunch,2
+CUS00007,Gà om bia,https://monngonmoingay.com/ga-om/,view,1.5,2025-03-10,"Khó thưởng thức, món chưa đạt yêu cầu.",6,39,0.1926022399702341,3.0873166977466098,4,Dễ,0,dinner,1
+CUS00007,Bò cuộn ba rọi xông khói,https://monngonmoingay.com/bo-cuon/,rate,2.0,2025-01-05,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",6,10,0.2373971120504268,3.042433754167926,2,Dễ,0,unknown,3
+CUS00007,Món Chiên,https://monngonmoingay.com/cac-mon-chien-ngon/,cook,4.0,2024-12-13,"Hương vị hài hòa, rất đáng thử.",6,52,0.3028935919676943,3.0757414305342667,0,Dễ,0,lunch,2
+CUS00007,Cua rang sốt tắc,https://monngonmoingay.com/cua-rang-sot-tac/,save,4.5,2025-01-27,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",6,22,0.154270740974047,3.250698113690145,3,Dễ,0,lunch,2
+CUS00007,Tôm hấp rau củ,https://monngonmoingay.com/tom-hap/,save,4.5,2024-08-08,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",6,66,0.2077741743808521,3.030445108286207,3,Dễ,0,dinner,1
+CUS00007,Gà kho chao Mayonnaise,https://monngonmoingay.com/ga-kho/,rate,4.0,2025-02-08,"Hương vị hài hòa, rất đáng thử.",6,35,0.1697221756924993,3.0462907565087534,2,Dễ,0,unknown,3
+CUS00007,Cá chiên bông điên điển,https://monngonmoingay.com/ca-chien/,view,1.5,2024-08-06,"Khó thưởng thức, món chưa đạt yêu cầu.",6,23,0.202293911811479,3.2412179008497057,4,Dễ,0,lunch,2
+CUS00008,Canh chua cá lóc,https://monngonmoingay.com/canh-chua-ca-loc/,view,2.0,2024-11-23,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",7,17,0.1735885142698833,3.041895701273136,4,Dễ,0,lunch,2
+CUS00008,Chương trìnhmón ngon mỗi ngày,https://monngonmoingay.com/lich-phat-song/,view,1.5,2025-02-08,"Khó thưởng thức, món chưa đạt yêu cầu.",7,20,0.263601466160862,3.0813351087605456,4,Khó,1,lunch,2
+CUS00008,Chả giò bắc thảo (L1),https://monngonmoingay.com/cha-gio/,view,2.0,2025-01-05,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",7,21,0.2705452748895121,3.104071161406841,4,Trung bình,3,lunch,2
+CUS00008,Mực nướng sa tế,https://monngonmoingay.com/muc-nuong/,view,2.0,2024-11-12,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",7,58,0.1671139436106216,3.088181019304973,4,Dễ,0,unknown,3
+CUS00008,Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản,https://monngonmoingay.com/mayonnaise-aji-mayo/,view,3.0,2024-06-07,"Món ăn ổn, có thể cải thiện thêm một chút.",7,73,0.256295045154321,2.96836873164235,4,Khó,1,dinner,1
+CUS00009,Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản,https://monngonmoingay.com/mayonnaise-aji-mayo/,save,2.5,2024-10-13,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",8,73,0.2597036700661896,2.9579237228588133,3,Khó,1,dinner,1
+CUS00009,Cua rang sốt tắc,https://monngonmoingay.com/cua-rang-sot-tac/,save,2.5,2025-03-27,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",8,22,0.1637299750481023,3.2192341226741314,3,Dễ,0,lunch,2
+CUS00009,Cá kho chuối xanh,https://monngonmoingay.com/ca-kho/,like,4.0,2025-05-08,"Hương vị hài hòa, rất đáng thử.",8,27,0.192567181030581,3.0578928692342915,1,Dễ,0,unknown,3
+CUS00009,Cá chiên bông điên điển,https://monngonmoingay.com/ca-chien/,view,2.5,2024-08-02,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",8,23,0.2148561711353887,3.220236778216625,4,Dễ,0,lunch,2
+CUS00009,Tôm nướng bánh hỏi,https://monngonmoingay.com/tom-nuong/,cook,4.5,2024-06-08,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",8,68,0.2117182055285501,3.192553271144359,0,Dễ,0,unknown,3
+CUS00009,Tôm hấp rau củ,https://monngonmoingay.com/tom-hap/,save,4.0,2025-01-26,"Hương vị hài hòa, rất đáng thử.",8,66,0.2032757577002891,3.03740147587869,3,Dễ,0,dinner,1
+CUS00009,Điều khoảnsử dụng,https://monngonmoingay.com/dieu-khoan-su-dung,rate,4.0,2024-06-26,"Hương vị hài hòa, rất đáng thử.",8,74,0.2915819791222592,3.1789115685726794,2,Khó,1,dinner,1
+CUS00010,Bánh nướng Halloween,https://monngonmoingay.com/banh-nuong/,like,3.5,2024-07-31,"Món ăn ổn, có thể cải thiện thêm một chút.",9,6,0.1246868978794704,3.03339002877524,1,Dễ,0,unknown,3
+CUS00010,Bánh chiên hải sản,https://monngonmoingay.com/banh-chien/,save,4.0,2025-04-19,"Hương vị hài hòa, rất đáng thử.",9,1,0.2422830527766779,3.051521883687346,3,Dễ,0,unknown,3
+CUS00010,Nghêu xào mayonnaise hung quế,https://monngonmoingay.com/ngheu-xao-mayonnaise-hung-que/,rate,5.0,2024-08-21,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",9,61,0.1858207982795325,3.048628275308775,2,Dễ,0,dinner,1
+CUS00010,Cá chiên bông điên điển,https://monngonmoingay.com/ca-chien/,save,3.5,2024-05-27,"Món ăn ổn, có thể cải thiện thêm một chút.",9,23,0.2364740015492655,3.2252408533906207,3,Dễ,0,lunch,2
+CUS00010,"Bánh xèo Việt Nam ăn nhiều rồi, làm bánh xèo Nhật Bản ăn thử đi cả nhà!",https://monngonmoingay.com/banh-xeo-viet-nam/,cook,3.0,2024-10-30,"Món ăn ổn, có thể cải thiện thêm một chút.",9,8,0.0898505093223007,3.016791348259134,0,Không rõ,2,unknown,3
+CUS00010,Tôm chiên cánh bướm,https://monngonmoingay.com/tom-chien/,rate,5.0,2024-06-25,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",9,65,0.1979751569715227,3.110239990697756,2,Dễ,0,lunch,2
+CUS00011,Gà rim ngũ vị,https://monngonmoingay.com/ga-rim/,save,3.5,2024-09-06,"Món ăn ổn, có thể cải thiện thêm một chút.",10,40,0.1881585940407842,3.059083827499589,3,Dễ,0,unknown,3
+CUS00011,Tôm rim thịt ba chỉ,https://monngonmoingay.com/tom-rim/,cook,4.5,2024-12-20,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",10,69,0.2447052347824409,3.273105978478789,0,Dễ,0,lunch,2
+CUS00011,Tôm hấp rau củ,https://monngonmoingay.com/tom-hap/,rate,4.0,2024-08-15,"Hương vị hài hòa, rất đáng thử.",10,66,0.2235895770616465,3.007674155955297,2,Dễ,0,dinner,1
+CUS00011,Bò cuộn ba rọi xông khói,https://monngonmoingay.com/bo-cuon/,cook,4.0,2025-03-14,"Hương vị hài hòa, rất đáng thử.",10,10,0.2375527272550667,3.023081502457179,0,Dễ,0,unknown,3
+CUS00011,Gà chiên bắp phô mai,https://monngonmoingay.com/ga-chien/,save,4.0,2024-05-12,"Hương vị hài hòa, rất đáng thử.",10,34,0.1711256062212973,3.2604969032295825,3,Dễ,0,unknown,3
+CUS00011,Bánh chiên hải sản,https://monngonmoingay.com/banh-chien/,cook,3.0,2025-02-04,"Món ăn ổn, có thể cải thiện thêm một chút.",10,1,0.2207835494160193,3.100657414703294,0,Dễ,0,unknown,3
+CUS00011,Gà nướng bưởi xốt giấm,https://monngonmoingay.com/ga-nuong/,cook,4.0,2024-11-28,"Hương vị hài hòa, rất đáng thử.",10,37,0.1828546134132644,3.184703793790616,0,Dễ,0,dinner,1
+CUS00011,Tôm xào bông cải,https://monngonmoingay.com/tom-xao/,like,3.0,2024-09-24,"Món ăn ổn, có thể cải thiện thêm một chút.",10,71,0.2647024325830913,2.9044932131635144,1,Dễ,0,lunch,2
+CUS00011,Bánh mì thịt bò xốt tương (L3),https://monngonmoingay.com/banh-mi-thit/,view,1.5,2025-05-11,"Khó thưởng thức, món chưa đạt yêu cầu.",10,5,0.2291880835039214,3.1230818392178383,4,Dễ,0,lunch,2
+CUS00012,Điều khoảnsử dụng,https://monngonmoingay.com/dieu-khoan-su-dung,rate,5.0,2025-02-15,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",11,74,0.2843879555649217,3.182798267620409,2,Khó,1,dinner,1
+CUS00012,Bánh khoái,https://monngonmoingay.com/banh-kho/,view,2.0,2024-08-09,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",11,3,0.2154099082693711,3.000666197525386,4,Dễ,0,unknown,3
+CUS00012,Bò cuộn ba rọi xông khói,https://monngonmoingay.com/bo-cuon/,view,3.0,2024-05-29,"Món ăn ổn, có thể cải thiện thêm một chút.",11,10,0.2385140118689484,3.02276607272154,4,Dễ,0,unknown,3
+CUS00012,Miến gà trộn,https://monngonmoingay.com/mien-ga-tron/,save,4.0,2024-11-08,"Hương vị hài hòa, rất đáng thử.",11,48,0.1754419197430801,3.091260274401236,3,Dễ,0,unknown,3
+CUS00012,Gà kho chao Mayonnaise,https://monngonmoingay.com/ga-kho/,save,3.0,2024-09-14,"Món ăn ổn, có thể cải thiện thêm một chút.",11,35,0.1857972505559635,3.0471537453031,3,Dễ,0,unknown,3
+CUS00013,Gà om bia,https://monngonmoingay.com/ga-om/,cook,3.0,2024-05-13,"Món ăn ổn, có thể cải thiện thêm một chút.",12,39,0.1843374504732702,3.0652600500591323,0,Dễ,0,dinner,1
+CUS00013,Gà nướng nồi đất,https://monngonmoingay.com/ga-nuong-noi-dat-2/,rate,3.0,2024-06-01,"Món ăn ổn, có thể cải thiện thêm một chút.",12,38,0.2160772491158856,3.219546412194869,2,Dễ,0,unknown,3
+CUS00013,Bún bò Huế Chay,https://monngonmoingay.com/bun-bo-hue/,like,2.5,2024-08-12,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",12,12,0.1982267390005564,3.1313844769298456,1,Dễ,0,breakfast,0
+CUS00013,"Canh khổ qua – Gian khổ đi qua, cả nhà may mắn",https://monngonmoingay.com/canh-kho/,like,3.5,2024-08-09,"Món ăn ổn, có thể cải thiện thêm một chút.",12,18,0.1683117140541838,2.951697264244903,1,Không rõ,2,unknown,3
+CUS00013,Bò cuộn ba rọi xông khói,https://monngonmoingay.com/bo-cuon/,like,3.0,2025-05-05,"Món ăn ổn, có thể cải thiện thêm một chút.",12,10,0.2459002609868993,3.0044895432305703,1,Dễ,0,unknown,3
+CUS00013,Miến trộn bò bằm,https://monngonmoingay.com/mien-tron-bo-bam/,like,3.0,2024-12-17,"Món ăn ổn, có thể cải thiện thêm một chút.",12,49,0.1979282553165054,3.002378138184766,1,Dễ,0,breakfast,0
+CUS00013,Lẩu nấm,https://monngonmoingay.com/lau-nam/,save,3.0,2025-03-27,"Món ăn ổn, có thể cải thiện thêm một chút.",12,47,0.1649741021121604,3.27701761330473,3,Dễ,0,unknown,3
+CUS00013,Món Chiên,https://monngonmoingay.com/cac-mon-chien-ngon/,rate,5.0,2025-02-17,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",12,52,0.2780874555927112,3.0628240697605524,2,Dễ,0,lunch,2
+CUS00013,Heo kho tàu,https://monngonmoingay.com/heo-kho/,rate,2.0,2025-02-24,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",12,44,0.1628003200387195,2.836897108418648,2,Dễ,0,unknown,3
+CUS00013,Thịt kho,https://monngonmoingay.com/thit-kho/,save,4.0,2025-04-13,"Hương vị hài hòa, rất đáng thử.",12,63,0.2042900514997363,3.0846502013328343,3,Dễ,0,unknown,3
+CUS00013,Gà rim ngũ vị,https://monngonmoingay.com/ga-rim/,view,2.5,2024-05-25,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",12,40,0.1937047926917764,3.081249941429277,4,Dễ,0,unknown,3
+CUS00013,Cá kho chuối xanh,https://monngonmoingay.com/ca-kho/,rate,2.0,2024-12-15,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",12,27,0.2082278585876893,3.0427894225278,2,Dễ,0,unknown,3
+CUS00013,Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản,https://monngonmoingay.com/mayonnaise-aji-mayo/,cook,5.0,2025-01-10,"Thưởng thức tuyệt vời, món ăn thật sự xuất sắc!",12,73,0.2694826649048286,2.9679352872850178,0,Khó,1,dinner,1
+CUS00013,Bánh chiên hải sản,https://monngonmoingay.com/banh-chien/,cook,4.0,2025-01-31,"Hương vị hài hòa, rất đáng thử.",12,1,0.204476840547604,3.1043160044334,0,Dễ,0,unknown,3
+CUS00014,Xôi gà đậu xanh,https://monngonmoingay.com/xoi-ga-dau-xanh/,view,2.5,2024-11-15,"Không thực sự ấn tượng, cần tinh chỉnh lại hương vị.",13,72,0.1955577483532088,2.912696012024584,4,Dễ,0,breakfast,0
+CUS00014,Chương trìnhmón ngon mỗi ngày,https://monngonmoingay.com/lich-phat-song/,cook,3.0,2025-04-18,"Món ăn ổn, có thể cải thiện thêm một chút.",13,20,0.2698219864695951,3.067752958284744,0,Khó,1,lunch,2
+CUS00014,Gà rim ngũ vị,https://monngonmoingay.com/ga-rim/,cook,4.0,2024-12-25,"Hương vị hài hòa, rất đáng thử.",13,40,0.1948435293856221,3.051217866316408,0,Dễ,0,unknown,3
+CUS00014,Món ăn cho cha,https://monngonmoingay.com/mon-an-cho-cha/,cook,4.0,2025-02-11,"Hương vị hài hòa, rất đáng thử.",13,56,0.2783493574965148,3.058861344512957,0,Khó,1,lunch,2

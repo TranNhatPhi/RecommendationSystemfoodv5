@@ -498,7 +498,6 @@
             const customerInfoDiv = document.getElementById('customerInfo');
 
             const healthGoals = customer.health_goals ? customer.health_goals.split(',') : [];
-            const dietaryRestrictions = customer.dietary_restrictions ? customer.dietary_restrictions.split(',') : [];
             const preferredCuisines = customer.preferred_cuisines ? customer.preferred_cuisines.split(',') : [];
             const preferredMealTimes = customer.preferred_meal_times ? customer.preferred_meal_times.split(',') : [];
 
@@ -573,7 +572,6 @@
                             age: customerData.age,
                             gender: customerData.gender,
                             health_goals: customerData.health_goals ? customerData.health_goals.split(',') : [],
-                            dietary_restrictions: customerData.dietary_restrictions ? customerData.dietary_restrictions.split(',') : [],
                             preferred_cuisines: customerData.preferred_cuisines ? customerData.preferred_cuisines.split(',') : [],
                             preferred_meal_times: customerData.preferred_meal_times ? customerData.preferred_meal_times.split(',') : [],
                             cooking_skill_level: customerData.cooking_skill_level,

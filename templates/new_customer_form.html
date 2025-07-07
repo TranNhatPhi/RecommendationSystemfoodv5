@@ -657,79 +657,7 @@
                         </div>
                     </div>
 
-                    <!-- Dietary Restrictions -->
-                    <div class="form-group">
-                        <label class="form-label">
-                            <i class="fas fa-ban"></i>
-                            Hạn Chế Ăn Uống & Sở Thích
-                            <i class="fas fa-info-circle tooltip-info"
-                                title="Chọn các hạn chế ăn uống để nhận gợi ý phù hợp"></i>
-                        </label>
 
-                        <!-- Vegetarian Options Info -->
-                        <div class="alert alert-info"
-                            style="font-size: 0.9rem; margin-bottom: 15px; border-radius: 12px; border-left: 4px solid #17a2b8;">
-                            <strong>📝 Phân biệt các loại chay:</strong><br>
-                            <small style="line-height: 1.6;">
-                                • <strong>Ăn chay:</strong> Không thịt, cá nhưng có thể ăn trứng, sữa, mật ong<br>
-                                • <strong>Thuần chay:</strong> 100% thực vật, không động vật và sản phẩm từ động vật<br>
-                                • <strong>Chay Phật giáo:</strong> Theo giới luật Phật, không hành tỏi, không rượu bia
-                            </small>
-                        </div>
-
-                        <div class="checkbox-group">
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="vegetarian" id="diet_vegetarian"
-                                    name="dietary_restrictions">
-                                <label for="diet_vegetarian">🥬 Ăn chay (không thịt cá, có trứng/sữa)</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="vegan" id="diet_vegan"
-                                    name="dietary_restrictions">
-                                <label for="diet_vegan">🌱 Thuần chay (100% thực vật, không trứng/sữa)</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="buddhist_vegetarian"
-                                    id="diet_buddhist" name="dietary_restrictions">
-                                <label for="diet_buddhist">🧘‍♀️ Chay Phật giáo (không hành, tỏi, kiêng)</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="no_seafood" id="diet_seafood"
-                                    name="dietary_restrictions">
-                                <label for="diet_seafood">🦐 Không hải sản</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="no_pork" id="diet_pork"
-                                    name="dietary_restrictions">
-                                <label for="diet_pork">🐷 Không thịt heo</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="no_beef" id="diet_beef"
-                                    name="dietary_restrictions">
-                                <label for="diet_beef">🐄 Không thịt bò</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="low_sodium" id="diet_sodium"
-                                    name="dietary_restrictions">
-                                <label for="diet_sodium">🧂 Ít muối/mặn</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="diabetic" id="diet_diabetic"
-                                    name="dietary_restrictions">
-                                <label for="diet_diabetic">🩺 Tiểu đường (ít đường)</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="no_spicy" id="diet_spicy"
-                                    name="dietary_restrictions">
-                                <label for="diet_spicy">🌶️ Không ăn cay</label>
-                            </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="light_meals" id="diet_light"
-                                    name="dietary_restrictions">
-                                <label for="diet_light">🥗 Thích món nhẹ</label>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Preferred Cuisines (Auto-selected Vietnamese) -->
                     <div class="form-group">
@@ -801,11 +729,7 @@
                                     name="preferred_meal_times">
                                 <label for="meal_dinner">🌙 Tối</label>
                             </div>
-                            <div class="checkbox-item">
-                                <input class="form-check-input" type="checkbox" value="snack" id="meal_snack"
-                                    name="preferred_meal_times">
-                                <label for="meal_snack">🍪 Ăn vặt</label>
-                            </div>
+
                         </div>
                     </div>
 
@@ -906,85 +830,12 @@
                         checkbox.checked = !checkbox.checked;
                     }
                     updateCheckboxItemStyle(item, checkbox.checked);
-
-                    // Handle vegetarian options mutual exclusion
-                    if (checkbox.checked) {
-                        handleVegetarianOptions(checkbox);
-                    }
                 });
 
                 checkbox.addEventListener('change', function () {
                     updateCheckboxItemStyle(item, this.checked);
-
-                    // Handle vegetarian options mutual exclusion
-                    if (this.checked) {
-                        handleVegetarianOptions(this);
-                    }
                 });
             });
-        }
-
-        function handleVegetarianOptions(selectedCheckbox) {
-            const vegetarianOptions = ['vegetarian', 'vegan', 'buddhist_vegetarian'];
-
-            if (vegetarianOptions.includes(selectedCheckbox.value)) {
-                // Uncheck other vegetarian options
-                vegetarianOptions.forEach(option => {
-                    if (option !== selectedCheckbox.value) {
-                        let otherId = '';
-                        switch (option) {
-                            case 'vegetarian':
-                                otherId = 'diet_vegetarian';
-                                break;
-                            case 'vegan':
-                                otherId = 'diet_vegan';
-                                break;
-                            case 'buddhist_vegetarian':
-                                otherId = 'diet_buddhist';
-                                break;
-                        }
-
-                        const otherCheckbox = document.getElementById(otherId);
-                        if (otherCheckbox && otherCheckbox !== selectedCheckbox) {
-                            otherCheckbox.checked = false;
-                            updateCheckboxItemStyle(otherCheckbox.closest('.checkbox-item'), false);
-                        }
-                    }
-                });
-
-                // Show info message about vegetarian choice
-                showVegetarianInfo(selectedCheckbox.value);
-            }
-        }
-
-        function showVegetarianInfo(type) {
-            // Remove existing info if any
-            const existingInfo = document.querySelector('.vegetarian-choice-info');
-            if (existingInfo) {
-                existingInfo.remove();
-            }
-
-            let message = '';
-            switch (type) {
-                case 'vegetarian':
-                    message = '✅ Bạn đã chọn "Ăn chay" - Hệ thống sẽ gợi ý món chay có thể dùng trứng, sữa';
-                    break;
-                case 'vegan':
-                    message = '✅ Bạn đã chọn "Thuần chay" - Hệ thống sẽ gợi ý món hoàn toàn từ thực vật';
-                    break;
-                case 'buddhist_vegetarian':
-                    message = '✅ Bạn đã chọn "Chay Phật giáo" - Hệ thống sẽ gợi ý món chay theo giới luật Phật';
-                    break;
-            }
-
-            const infoDiv = document.createElement('div');
-            infoDiv.className = 'alert alert-success vegetarian-choice-info';
-            infoDiv.style.fontSize = '0.9rem';
-            infoDiv.style.marginTop = '10px';
-            infoDiv.innerHTML = `<i class="fas fa-info-circle"></i> ${message}`;
-
-            const dietarySection = document.querySelector('input[name="dietary_restrictions"]').closest('.form-group');
-            dietarySection.appendChild(infoDiv);
         }
 
         function updateCheckboxItemStyle(item, checked) {
@@ -1249,7 +1100,6 @@
 
             // Preferences
             formData.health_goals = getCheckedValues('health_goals');
-            formData.dietary_restrictions = getCheckedValues('dietary_restrictions');
             formData.preferred_cuisines = ['vietnamese']; // Auto-set to Vietnamese
             formData.regional_preferences = getCheckedValues('regional_preferences');
             formData.preferred_meal_times = getCheckedValues('preferred_meal_times');

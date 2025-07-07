@@ -475,9 +475,22 @@
             </div>
 
             <!-- Demo Button -->
-            <button id="runDemoBtn" class="demo-button" disabled>
-                <i class="fas fa-rocket"></i> Chạy Demo Gợi Ý
-            </button>
+            <div class="d-flex gap-2">
+                <button id="runDemoBtn" class="demo-button" disabled style="flex: 1;">
+                    <i class="fas fa-rocket"></i> Chạy Demo Gợi Ý
+                </button>
+                <button id="rerunDemoBtn" class="btn btn-outline-primary" style="display: none; min-width: 150px;"
+                    onclick="runDemo()">
+                    <i class="fas fa-redo"></i> Chạy lại
+                </button>
+            </div>
+
+            <!-- Randomization Info -->
+            <div class="alert alert-info mt-3" style="font-size: 0.9rem;">
+                <i class="fas fa-info-circle"></i>
+                <strong>Tính năng mới:</strong> Mỗi lần chạy demo sẽ cho ra những gợi ý khác nhau để mô phỏng tính đa
+                dạng của hệ thống AI.
+            </div>
         </div>
 
         <!-- Results Section -->
@@ -614,7 +627,9 @@
                     },
                     body: JSON.stringify({
                         customer_id: selectedCustomer,
-                        algorithm_type: selectedAlgorithm
+                        algorithm_type: selectedAlgorithm,
+                        timestamp: Date.now(),  // Add timestamp for randomization
+                        randomize: true         // Enable randomization
                     })
                 });
 
@@ -731,6 +746,9 @@
 
             // Show results
             resultsSection.style.display = 'block';
+
+            // Show rerun button
+            document.getElementById('rerunDemoBtn').style.display = 'block';
 
             // Smooth scroll to results
             resultsSection.scrollIntoView({ behavior: 'smooth' });

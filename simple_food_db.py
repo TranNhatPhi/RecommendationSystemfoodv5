@@ -578,6 +578,39 @@ class SimpleFoodRecommendationDB:
             print(f"❌ Error getting customer interactions: {str(e)}")
             return []
 
+    def get_collection_stats(self):
+        """Get database collection statistics"""
+        try:
+            conn = sqlite3.connect(self.db_path)
+            cursor = conn.cursor()
+
+            # Get recipes count
+            cursor.execute('SELECT COUNT(*) FROM recipes')
+            recipes_count = cursor.fetchone()[0]
+
+            # Get customers count
+            cursor.execute('SELECT COUNT(*) FROM customers')
+            customers_count = cursor.fetchone()[0]
+
+            # Get interactions count
+            cursor.execute('SELECT COUNT(*) FROM interactions')
+            interactions_count = cursor.fetchone()[0]
+
+            conn.close()
+
+            return {
+                "recipes_count": recipes_count,
+                "customers_count": customers_count,
+                "interactions_count": interactions_count
+            }
+
+        except Exception as e:
+            print(f"❌ Error getting collection stats: {str(e)}")
+            return {
+                "recipes_count": 0,
+                "customers_count": 0,
+                "interactions_count": 0
+            }
 
 def main():
     """Main function to populate the simple database with ALL interactions"""

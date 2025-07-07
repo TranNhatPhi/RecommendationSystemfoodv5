@@ -174,12 +174,10 @@ class FoodAIAgent:
             Hãy đưa ra lời tư vấn chi tiết, thực tế và hữu ích dựa trên thông tin ngữ cảnh trên.
             """
 
-            # Call OpenAI API (if available) - Updated for OpenAI v1.0+
+            # Call OpenAI API (if available) - Compatible with OpenAI v0.28.0
             if hasattr(openai, 'api_key') and openai.api_key:
-                from openai import OpenAI
-                client = OpenAI(api_key=openai.api_key)
-
-                response = client.chat.completions.create(
+                # Use legacy OpenAI API format for v0.28.0
+                response = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",
                     messages=[
                         {"role": "system", "content": self.system_prompt},
@@ -189,7 +187,7 @@ class FoodAIAgent:
                     max_tokens=1000,
                     temperature=0.7
                 )
-                return response.choices[0].message.content
+                return response['choices'][0]['message']['content']
             else:
                 # Fallback response when OpenAI API is not available
                 return self.generate_fallback_response(user_query, context_data)

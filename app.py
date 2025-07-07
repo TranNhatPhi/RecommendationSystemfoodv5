@@ -350,6 +350,12 @@ def agent_workflow():
     """AI Agent interface with full workflow details always visible"""
     return render_template('agent.html', customer_ids=customer_ids, customers_info=customers_info)
 
+
+@app.route('/agent-nutrition-test')
+def agent_nutrition_test():
+    """Test page for AI Agent nutrition advice scenarios and GPT API status"""
+    return render_template('agent_nutrition_test.html')
+
 # Route for Hybrid Recommendation Demo
 
 
@@ -439,6 +445,12 @@ def hybrid_demo_api():
         customer_id = data.get('customer_id')
         # all, collaborative, content, matrix_factorization, ensemble
         algorithm_type = data.get('algorithm_type', 'all')
+        timestamp = data.get('timestamp', None)
+        randomize = data.get('randomize', True)
+
+        # Use timestamp to seed random for consistent but varied results
+        if timestamp and randomize:
+            random.seed(timestamp)
 
         if not customer_id:
             return jsonify({'success': False, 'error': 'Missing customer_id'})
@@ -524,7 +536,8 @@ def hybrid_demo_api():
                 pass
 
         # Fallback recommendations using existing system
-        fallback_recs = get_recommendations(customer_id, count=8)
+        fallback_recs = get_recommendations(
+            customer_id, count=8, randomize=True)
 
         # Add algorithm simulation for demo purposes
         algorithm_explanations = {
@@ -536,18 +549,28 @@ def hybrid_demo_api():
 
         formatted_recs = []
         for i, rec in enumerate(fallback_recs):
-            # Simulate different algorithm scores
+            # Simulate different algorithm scores with more variation
+            # Base scores that vary by position
+            base_scores = [0.7, 0.65, 0.6, 0.55]
+            variation = 0.3  # ±30% variation
+
             method_scores = {
-                'collaborative_filtering': random.uniform(0.6, 0.9),
-                'content_based': random.uniform(0.5, 0.8),
-                'matrix_factorization': random.uniform(0.4, 0.85),
-                'deep_learning': random.uniform(0.3, 0.7)
+                'collaborative_filtering': max(0.1, min(0.95, base_scores[0] + random.uniform(-variation, variation))),
+                'content_based': max(0.1, min(0.95, base_scores[1] + random.uniform(-variation, variation))),
+                'matrix_factorization': max(0.1, min(0.95, base_scores[2] + random.uniform(-variation, variation))),
+                'deep_learning': max(0.1, min(0.95, base_scores[3] + random.uniform(-variation, variation)))
             }
+
+            # Add some randomness to confidence as well
+            # Decrease confidence for lower ranked items
+            confidence_base = 0.8 - (i * 0.05)
+            confidence = max(
+                0.5, min(0.95, confidence_base + random.uniform(-0.15, 0.15)))
 
             formatted_recs.append({
                 'recipe_name': rec['recipe_name'],
                 'predicted_rating': rec['predicted_rating'],
-                'confidence': random.uniform(0.7, 0.95),
+                'confidence': confidence,
                 'explanation': algorithm_explanations.get(algorithm_type, 'Kết hợp nhiều thuật toán'),
                 'method_scores': method_scores,
                 'recipe_url': rec.get('recipe_url', '#'),
@@ -663,7 +686,7 @@ def get_popular_recommendations(feature_type=None, count=5):
         return []
 
 
-def get_recommendations(user_id, feature_type=None, count=5):
+def get_recommendations(user_id, feature_type=None, count=5, randomize=False):
     # Cold start solution: If user is new, return popular recommendations
     if user_id not in user_items:
         print(
@@ -674,6 +697,10 @@ def get_recommendations(user_id, feature_type=None, count=5):
         for rec in popular_recs:
             rec['is_popular_recommendation'] = True
             rec['recommendation_reason'] = 'Được nhiều người yêu thích'
+
+        # Randomize popular recommendations if requested
+        if randomize:
+            random.shuffle(popular_recs)
 
         return popular_recs
 
@@ -693,6 +720,11 @@ def get_recommendations(user_id, feature_type=None, count=5):
         content_score = item_features[item_index].get('content_score', 0)
         prediction = cf_score + content_score
 
+        # Add small random factor for variation if randomize is True
+        if randomize:
+            random_factor = random.uniform(0.95, 1.05)  # Small variation ±5%
+            prediction *= random_factor
+
         recommendations.append({
             'item_index': item_index,
             'recipe_name': item_features[item_index]['recipe_name'],
@@ -704,6 +736,26 @@ def get_recommendations(user_id, feature_type=None, count=5):
 
     # Sort by predicted rating
     recommendations.sort(key=lambda x: x['predicted_rating'], reverse=True)
+
+    # If randomizing, take more recommendations and shuffle them for variety
+    if randomize:
+        # Take top recommendations but add some randomness
+        # Take 3x more candidates
+        top_count = min(count * 3, len(recommendations))
+        top_recommendations = recommendations[:top_count]
+
+        # Weighted random selection: higher rated items more likely to be selected
+        selected_recommendations = []
+        remaining_recs = top_recommendations.copy()
+
+        for _ in range(min(count * 2, len(remaining_recs))):  # Select 2x desired count
+            # Create weights based on position (earlier = higher weight)
+            weights = [1.0 / (i + 1) for i in range(len(remaining_recs))]
+            selected_rec = random.choices(remaining_recs, weights=weights)[0]
+            selected_recommendations.append(selected_rec)
+            remaining_recs.remove(selected_rec)
+
+        recommendations = selected_recommendations
 
     # Filter by feature type if specified
     if feature_type == 'breakfast':
@@ -2122,7 +2174,6 @@ def process_ultra_customer_profiling(customer_id, message):
             'retention_probability': random.uniform(0.6, 0.9)
         },
         'personalization_factors': {
-            'dietary_restrictions': profile['restrictions'],
             'cuisine_preferences': profile['preferences'],
             'budget_sensitivity': 0.6 if 'budget' in profile['spending_pattern'] else 0.3,
             'convenience_priority': 0.8 if 'busy' in profile['behavior_cluster'] else 0.4

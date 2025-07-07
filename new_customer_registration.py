@@ -26,38 +26,38 @@ except ImportError:
     print("⚠️ Hybrid system not available")
 
 
-def validate_dietary_restrictions(dietary_restrictions):
-    """Validate dietary restrictions to ensure they match form options"""
-    if not dietary_restrictions:
-        return []
+# def validate_dietary_restrictions(dietary_restrictions):
+#     """Validate dietary restrictions to ensure they match form options"""
+#     if not dietary_restrictions:
+#         return []
 
-    valid_restrictions = [
-        'vegetarian',           # Ăn chay
-        'vegan',               # Thuần chay
-        'buddhist_vegetarian',  # Chay Phật giáo
-        'no_seafood',          # Không hải sản
-        'no_pork',             # Không thịt heo
-        'no_beef',             # Không thịt bò
-        'low_sodium',          # Ít muối/mặn
-        'diabetic',            # Tiểu đường (ít đường)
-        'no_spicy',            # Không ăn cay
-        'light_meals'          # Thích món nhẹ
-    ]
+#     valid_restrictions = [
+#         'vegetarian',           # Ăn chay
+#         'vegan',               # Thuần chay
+#         'buddhist_vegetarian',  # Chay Phật giáo
+#         'no_seafood',          # Không hải sản
+#         'no_pork',             # Không thịt heo
+#         'no_beef',             # Không thịt bò
+#         'low_sodium',          # Ít muối/mặn
+#         'diabetic',            # Tiểu đường (ít đường)
+#         'no_spicy',            # Không ăn cay
+#         'light_meals'          # Thích món nhẹ
+#     ]
 
-    # Ensure only valid restrictions
-    validated = [r for r in dietary_restrictions if r in valid_restrictions]
+#     # Ensure only valid restrictions
+#     validated = [r for r in dietary_restrictions if r in valid_restrictions]
 
-    # Ensure only one vegetarian type is selected
-    veg_options = ['vegetarian', 'vegan', 'buddhist_vegetarian']
-    veg_selected = [r for r in validated if r in veg_options]
+#     # Ensure only one vegetarian type is selected
+#     veg_options = ['vegetarian', 'vegan', 'buddhist_vegetarian']
+#     veg_selected = [r for r in validated if r in veg_options]
 
-    if len(veg_selected) > 1:
-        # Keep only the first vegetarian option
-        first_veg = veg_selected[0]
-        validated = [r for r in validated if r not in veg_options]
-        validated.append(first_veg)
+#     if len(veg_selected) > 1:
+#         # Keep only the first vegetarian option
+#         first_veg = veg_selected[0]
+#         validated = [r for r in validated if r not in veg_options]
+#         validated.append(first_veg)
 
-    return validated
+#     return validated
 
 
 def validate_regional_preferences(regional_preferences):
@@ -176,131 +176,7 @@ def get_initial_recommendations(customer_data, randomize=False):
         # Filter based on preferences
         filtered_df = interactions_df.copy()
 
-        # IMPORTANT: Filter by dietary restrictions first
-        if dietary_restrictions and len(dietary_restrictions) > 0:
-            print(
-                f"🚫 Filtering by dietary restrictions: {dietary_restrictions}")
-
-            # Load food classification database
-            try:
-                import json
-                with open('food_classification.json', 'r', encoding='utf-8') as f:
-                    food_db = json.load(f)
-
-                for restriction in dietary_restrictions:
-                    original_count = len(filtered_df)
-
-                    if restriction == 'vegetarian':
-                        # Chỉ giữ lại món chay
-                        vegetarian_foods = [
-                            name for name, data in food_db.items() if data['is_vegetarian']]
-                        filtered_df = filtered_df[filtered_df['recipe_name'].isin(
-                            vegetarian_foods)]
-
-                    elif restriction == 'vegan':
-                        # Chỉ giữ lại món thuần chay
-                        vegan_foods = [
-                            name for name, data in food_db.items() if data['is_vegan']]
-                        filtered_df = filtered_df[filtered_df['recipe_name'].isin(
-                            vegan_foods)]
-
-                    elif restriction == 'buddhist_vegetarian':
-                        # Chỉ giữ lại món chay Phật giáo
-                        buddhist_foods = [
-                            name for name, data in food_db.items() if data['is_buddhist_vegetarian']]
-                        filtered_df = filtered_df[filtered_df['recipe_name'].isin(
-                            buddhist_foods)]
-
-                    elif restriction == 'no_seafood':
-                        # Loại bỏ món có hải sản
-                        seafood_foods = [
-                            name for name, data in food_db.items() if data['contains_seafood']]
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].isin(
-                            seafood_foods)]
-
-                    elif restriction == 'no_pork':
-                        # Loại bỏ món có thịt heo (sử dụng keyword filtering backup)
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                        ).str.contains('heo|sườn heo|thịt heo', na=False)]
-
-                    elif restriction == 'no_beef':
-                        # Loại bỏ món có thịt bò
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                        ).str.contains('bò|thịt bò', na=False)]
-
-                    elif restriction == 'no_spicy':
-                        # Loại bỏ món cay
-                        spicy_foods = [
-                            name for name, data in food_db.items() if data['is_spicy']]
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].isin(
-                            spicy_foods)]
-                        # Backup keyword filtering
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                        ).str.contains('cay|ớt|bún bò huế|kim chi', na=False)]
-
-                    elif restriction == 'diabetic':
-                        # Loại bỏ món ngọt
-                        sweet_foods = [
-                            name for name, data in food_db.items() if data['is_sweet']]
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].isin(
-                            sweet_foods)]
-                        # Backup keyword filtering
-                        filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                        ).str.contains('bánh ngọt|kẹo|kem|chè|đường', na=False)]
-
-                    filtered_count = len(filtered_df)
-                    removed_count = original_count - filtered_count
-                    print(
-                        f"  🗑️ {restriction}: Removed {removed_count} recipes, {filtered_count} remaining")
-
-            except (FileNotFoundError, json.JSONDecodeError):
-                print(
-                    "⚠️ Food classification database not found, using keyword filtering")
-                # Fallback to keyword filtering
-                exclusion_keywords = {
-                    'vegetarian': ['thịt', 'heo', 'bò', 'gà', 'vịt', 'tôm', 'cua', 'cá', 'sườn', 'chả cá', 'thịt nướng', 'gà luộc'],
-                    'vegan': ['thịt', 'heo', 'bò', 'gà', 'vịt', 'tôm', 'cua', 'cá', 'sườn', 'trứng', 'sữa', 'kem', 'chả cá', 'thịt nướng', 'gà luộc'],
-                    'buddhist_vegetarian': ['thịt', 'heo', 'bò', 'gà', 'vịt', 'tôm', 'cua', 'cá', 'sườn', 'hành', 'tỏi', 'chả cá', 'thịt nướng', 'gà luộc'],
-                    'no_seafood': ['tôm', 'cua', 'cá', 'hải sản', 'chả cá'],
-                    'no_pork': ['heo', 'thịt heo', 'sườn heo'],
-                    'no_beef': ['bò', 'thịt bò'],
-                    'no_spicy': ['cay', 'ớt', 'bún bò huế'],
-                    'diabetic': ['bánh ngọt', 'kẹo', 'kem', 'chè'],
-                    'low_sodium': ['mặn', 'muối']
-                }
-
-                for restriction in dietary_restrictions:
-                    if restriction in exclusion_keywords:
-                        keywords_to_exclude = exclusion_keywords[restriction]
-                        for keyword in keywords_to_exclude:
-                            filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                            ).str.contains(keyword, na=False)]
-
-            print(
-                f"📊 Recipes after dietary filtering: {len(filtered_df)}/{len(interactions_df)}")
-
-            # If no recipes left after filtering, provide general vegetarian recommendations
-            if len(filtered_df) == 0 and any(restriction in ['vegetarian', 'vegan', 'buddhist_vegetarian'] for restriction in dietary_restrictions):
-                print(
-                    "⚠️ No recipes found after filtering, providing general vegetarian options")
-                # Filter for likely vegetarian dishes
-                vegetarian_keywords = [
-                    'chè', 'bánh', 'nấm', 'đậu', 'rau', 'canh', 'súp', 'salad', 'xôi', 'chay']
-                for keyword in vegetarian_keywords:
-                    veg_dishes = interactions_df[interactions_df['recipe_name'].str.lower(
-                    ).str.contains(keyword, na=False)]
-                    if len(veg_dishes) > 0:
-                        filtered_df = pd.concat(
-                            [filtered_df, veg_dishes]).drop_duplicates()
-
-                # Remove obvious meat dishes
-                meat_exclude = ['thịt', 'heo', 'bò',
-                                'gà', 'tôm', 'cua', 'cá', 'sườn']
-                for keyword in meat_exclude:
-                    filtered_df = filtered_df[~filtered_df['recipe_name'].str.lower(
-                    ).str.contains(keyword, na=False)]
-
-        print(f"📊 Recipes after dietary filtering: {len(filtered_df)}/14311")
+        print(f" Total recipes available: {len(filtered_df)}")
 
         # Filter by health goals (more flexible)
         health_filtered_df = filtered_df.copy()
@@ -474,7 +350,6 @@ def add_new_customer_routes(app):
                 'location': str(data.get('location', '')).strip(),
                 'occupation': str(data.get('occupation', '')).strip(),
                 'health_goals': ','.join(validate_health_goals(data.get('health_goals', []))),
-                'dietary_restrictions': ','.join(validate_dietary_restrictions(data.get('dietary_restrictions', []))),
                 'preferred_cuisines': 'vietnamese',  # Always Vietnamese as per form
                 'regional_preferences': ','.join(validate_regional_preferences(data.get('regional_preferences', []))),
                 'preferred_meal_times': ','.join(validate_meal_times(data.get('preferred_meal_times', []))),
@@ -588,7 +463,6 @@ if __name__ == "__main__":
         'age': 25,
         'gender': 'male',
         'health_goals': ['weight_loss'],
-        'dietary_restrictions': [],
         'preferred_meal_times': ['lunch', 'dinner']
     }
 

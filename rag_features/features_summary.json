@@ -1,0 +1,99 @@
+{
+  "created_at": "2025-07-07T16:08:58.684196",
+  "features": {
+    "customer_demographics": {
+      "file": "customer_demographics.csv",
+      "rows": 1323,
+      "columns": [
+        "customer_id",
+        "age",
+        "gender",
+        "age_group",
+        "region",
+        "regional_preferences",
+        "demographic_text"
+      ],
+      "size_mb": 0.18,
+      "text_column": "demographic_text"
+    },
+    "customer_interactions": {
+      "file": "customer_interactions.csv",
+      "rows": 14311,
+      "columns": [
+        "customer_id",
+        "recipe_name",
+        "interaction_type",
+        "rating",
+        "interaction_date",
+        "comment",
+        "interaction_text"
+      ],
+      "size_mb": 3.74,
+      "text_column": "interaction_text"
+    },
+    "customer_profiles": {
+      "file": "customer_profiles.csv",
+      "rows": 1323,
+      "columns": [
+        "customer_id",
+        "full_name",
+        "gender",
+        "age_group",
+        "region",
+        "location",
+        "registration_date",
+        "profile_text"
+      ],
+      "size_mb": 0.24,
+      "text_column": "profile_text"
+    },
+    "nutrition_info": {
+      "file": "nutrition_info.csv",
+      "rows": 97,
+      "columns": [
+        "recipe_name",
+        "nutrition_category",
+        "estimated_calories",
+        "difficulty",
+        "meal_time",
+        "ingredient_count",
+        "nutrition_text"
+      ],
+      "size_mb": 0.02,
+      "text_column": "nutrition_text"
+    },
+    "recipes": {
+      "file": "recipes.csv",
+      "rows": 97,
+      "columns": [
+        "recipe_name",
+        "recipe_url",
+        "difficulty",
+        "meal_time",
+        "nutrition_category",
+        "estimated_calories",
+        "preparation_time_minutes",
+        "ingredient_count",
+        "estimated_price_vnd",
+        "recipe_text"
+      ],
+      "size_mb": 0.03,
+      "text_column": "recipe_text"
+    },
+    "recommendation_scores": {
+      "file": "recommendation_scores.csv",
+      "rows": 14311,
+      "columns": [
+        "customer_id",
+        "recipe_name",
+        "content_score",
+        "cf_score",
+        "enhanced_recommendation_score",
+        "rating",
+        "recommendation_text"
+      ],
+      "size_mb": 3.61,
+      "text_column": "recommendation_text"
+    }
+  }
+}
